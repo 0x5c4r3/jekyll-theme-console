@@ -14,6 +14,4 @@ Here we are.
 <br>
 ruby:
 
-def foo
-  puts 'foo'
-end
+<p style="background-color: #FFFF00">This whole paragraph of text is highlighted in yellow.</p>
