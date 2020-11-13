@@ -3,31 +3,11 @@ title: /
 layout: default
 permalink: /
 ---
+ ___  ___ __ _ _ __ ___  ___ _ __ _____      __
+/ __|/ __/ _` | '__/ _ \/ __| '__/ _ \ \ /\ / /
+\__ \ (_| (_| | | |  __/ (__| | | (_) \ V  V / 
+|___/\___\__,_|_|  \___|\___|_|  \___/ \_/\_/ 
 
-          .                                                      .
-        .n                   .                 .                  n.
-        
-   .   .dP                  dP                   9b                 9b.    .
- 4    qXb         .       dX                     Xb       .        dXp     t
-dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
-9XXb._       _.dXXXXb dXXXXbo.                 .odXXXXb dXXXXb._       _.dXXP
- 9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo.           .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP
-  `9XXXXXXXXXXXXXXXXXXXXX'~   ~`OOO8b   d8OOO'~   ~`XXXXXXXXXXXXXXXXXXXXXP'
-    `9XXXXXXXXXXXP' `9XX'              `98v8P'          `XXP' `9XXXXXXXXXXXP'
-        ~~~~~~~       9X.          .db|db.          .XP       ~~~~~~~
-                        )b.  .dbo.dP'`v'`9b.odb.  .dX(
-                      ,dXXXXXXXXXXXb     dXXXXXXXXXXXb.
-                     dXXXXXXXXXXXP'   .   `9XXXXXXXXXXXb
-                        dXXXXXXXXXXXXb   d|b   dXXXXXXXXXXXXb
-                        9XXb'   `XXXXXb.dX|Xb.dXXXXX'   `dXXP
-                        `'      9XXXXXX(   )XXXXXXP      `'
-                                 XXXX X.`v'.X XXXX
-                                XP^X'`b   d'`X^XX
-                                X. 9  `   '  P )X
-                                `b  `       '  d'
-                                 `             '
-
-<br>
 # << Hi, I am Scarecrow >>
 <br>
 Yeah so, long story short, I was bored of playing games and hacking casual machines, so I came out with this idea: why not wasting time and money on creating a format to share cyber security knowledge and create a web of interested hackers - I know that you are script kiddies, don't lie to me - to share knowledge with?
