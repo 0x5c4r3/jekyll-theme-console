@@ -1,7 +1,7 @@
 ---
-title: /about
+title: /why
 layout: page
-permalink: /about
+permalink: /why
 ---
 <h1 style="color:#e78d32"># << Oh you wonder why? >> </h1>
 <p>
