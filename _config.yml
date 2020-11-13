@@ -3,7 +3,7 @@ header_pages:
   - index.md
   - about.md
   - contact.md
-
+  - why.md
 footer: 'why join navy if you can be a pirate'
 
 style: dark # dark (default) or light
