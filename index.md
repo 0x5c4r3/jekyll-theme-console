@@ -1,9 +1,13 @@
 ---
 title: /
 layout: home
-permalink: /
+permalink: /home
+---
+title: /about
+layout: about
+permalink: /about
 ---
 
-# Lorem ipsum
+# # IAmScareCrow
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Yeah so, I was bored, so I came out with this idea: why not wasting time and money on creating a platform to share knowledge in cyber security and create a web of interested hackers - I know that you are script kiddies, don't lie to me - to share knowledge with?
