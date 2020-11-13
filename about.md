@@ -4,6 +4,13 @@ layout: page
 permalink: /about
 ---
 
-# IAmScareCrow
+# WHOTF am I
 
-Yeah so, I was bored, so I came out with this idea: why not wasting time and money on creating a platform to share knowledge in cyber security and create a web of interested hackers - I know that you are script kiddies, don't lie to me - to share knowledge with?
+I won't give you much info, so don't ask.
+Just so you know, I have a BSc in Computer Science, a MSc in Cyber Securty and I am an Offensive Security Certified Professional.
+
+I hacked over 150 machines in sites like HackTheBox, TryHackMe, RootMe, VulnHub..
+
+<script src="https://www.hackthebox.eu/badge/144238"></script>
+
+Is that enough, dumbass?
