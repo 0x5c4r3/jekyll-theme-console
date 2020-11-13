@@ -4,7 +4,7 @@ layout: page
 permalink: /about
 ---
 
-# << WHOTF am I >>
+<h1 style="color:#e78d32"># << WHOTF am I >></h1>
 <br>
 I won't give you much info, so don't ask.
 Just so you know, I have a BSc in Computer Science, a MSc in Cyber Securty and I am an Offensive Security Certified Professional.
