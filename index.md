@@ -3,13 +3,11 @@ title: /
 layout: default
 permalink: /
 ---
-<br>
+
 <div style="color:#288513;"> # Hi_I_Am_Scarecrow </div>
 
 <html>
 <body>
-
-<h1>Typewriter</h1>
 
 <body onload="typeWriter();">
 
@@ -29,6 +27,5 @@ function typeWriter() {
   }
 }
 </script>
-
 </body>
 </html>
