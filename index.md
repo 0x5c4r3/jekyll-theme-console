@@ -14,4 +14,4 @@ Here we are.
 <br>
 ruby:
 
-<p style="background-color: #FFFF00">This whole paragraph of text is highlighted in yellow.</p>
+<p style="background-color:#FFFF00">This whole paragraph of text is highlighted in yellow.</p>
