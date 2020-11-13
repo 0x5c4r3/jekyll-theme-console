@@ -11,6 +11,6 @@ Just so you know, I have a BSc in Computer Science, a MSc in Cyber Securty and I
 <br>
 I hacked over 150 machines in sites like HackTheBox, TryHackMe, RootMe, VulnHub..
 <br>
-<script style=text-align:center; src="https://www.hackthebox.eu/badge/144238"></script>
+<script src="https://www.hackthebox.eu/badge/144238"></script>
 <br>
 Is that enough, dumbass?
