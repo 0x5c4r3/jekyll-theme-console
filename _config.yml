@@ -1,9 +1,11 @@
 
 header_pages:
   - index.md
+  - blog.md
   - about.md
-  - contact.md
   - why.md
+  - contact.md
+  
 footer: ''
 
 style: dark # dark (default) or light
