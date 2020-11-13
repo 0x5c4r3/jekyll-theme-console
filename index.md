@@ -4,31 +4,21 @@ layout: home
 permalink: /
 ---
 <body>
-<script>
-  var TxtType = function(el, toRotate, period) {
-        this.toRotate = toRotate;
-        this.el = el;
-        this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
-        this.txt = '';
-        this.tick();
-        this.isDeleting = false;
-    };
-</script>
-
-<style>
-  body {
-  background-color:#ce3635;
-  text-align: center;
-  color:#fff;
-  padding-top:10em;
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
 }
-</style>
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
 
-<h1>
-  <a href="" class="typewrite" data-period="2000" data-type='[ "Welcome to the shadow, darling...", "I am Scarecrow, pleasure..", "Wanna hack?", "Hey honey, read the posts below" ]'>
-    <span class="wrap"></span>
-  </a>
-</h1>
+
+<h1 class="line-1 anim-typewriter">Welcome to the shadow, darling...</h1>
 
 </body>
