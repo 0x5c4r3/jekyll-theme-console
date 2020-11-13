@@ -3,6 +3,7 @@ title: /
 layout: home
 permalink: /home
 ---
+---
 title: /about
 layout: about
 permalink: /about
