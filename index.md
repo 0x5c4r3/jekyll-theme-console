@@ -1,7 +1,7 @@
 ---
-title: /home
+title: /
 layout: home
-permalink: /home
+permalink: /
 ---
 
 # Hi, I am Scarecrow.
