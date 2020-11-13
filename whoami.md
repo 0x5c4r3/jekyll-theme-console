@@ -1,7 +1,7 @@
 ---
-title: /about
+title: /whoami
 layout: page
-permalink: /about
+permalink: /whoami
 ---
 
 <h1 style="color:#e78d32"># << whoami >></h1>
