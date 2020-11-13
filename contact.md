@@ -1,7 +1,7 @@
 ---
-title: /contact
-layout: contact
-permalink: /contact
+title: /
+layout: page
+permalink: /
 ---
 
 # IAmScareCrow
