@@ -3,8 +3,8 @@ title: /
 layout: default
 permalink: /
 ---
-          .                                                      .<br>
-        .n                   .                 .                  n.
+          .                                                      .
+        .n                   .                 .                  n.<br>
   .   .dP                  dP                   9b                 9b.    .
  4    qXb         .       dX                     Xb       .        dXp     t
 dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
