@@ -19,6 +19,6 @@ permalink: /
 }
 </style>
 
-<h1 class="line-1 anim-typewriter">Welcome to the shadow, darling...</h1>
+<p class="line-1 anim-typewriter">Welcome to the shadow, darling...</p>
 
 </body>
