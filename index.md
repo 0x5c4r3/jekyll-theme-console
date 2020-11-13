@@ -22,8 +22,6 @@ permalink: /
   color:#fff;
   padding-top:10em;
 }
-
-* { color:#fff; text-decoration: none;}
 </style>
 
 <h1>
