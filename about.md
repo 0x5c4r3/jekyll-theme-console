@@ -1,7 +1,7 @@
 ---
-title: /about
-layout: about
-permalink: /about
+title: /
+layout: home
+permalink: /
 ---
 
 # IAmScareCrow
