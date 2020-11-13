@@ -3,6 +3,7 @@ title: /
 layout: home
 permalink: /
 ---
+<body>
 <script>
   var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -30,3 +31,4 @@ permalink: /
   </a>
 </h1>
 
+</body>
