@@ -1,6 +1,6 @@
 ---
 title: /index.md
-layout: /
+layout: home
 permalink: /index.md
 ---
 
