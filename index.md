@@ -26,7 +26,7 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
                               `b  `       '  d'
                                `             '
 </p>
-<p style="display:inline-block;text-align:center">
+<p style="display:inline;text-align:center">
 <img src="./img/Social_Icons/insta.png" width="7%" height=auto alt="insta">
 <img src="./img/Social_Icons/github.png" width="7%" height=auto alt="github">
 <img src="./img/Social_Icons/twitter.png" width="7%" height=auto alt="twitter">
