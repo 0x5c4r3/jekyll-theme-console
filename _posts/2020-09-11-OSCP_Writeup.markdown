@@ -46,6 +46,6 @@ At that point, reached 75pt I was quite sure to have a possibility.
 
 Once you took every single screenshot and copied the needed code and exploits, the remaining stuff is easy. Also the next day, the report is a pain in the ass but it's quite easy, so CARE YOUUR PSYCHOLOGYCAL STATE, that's the key.
 <br>
-<img src="../../../img/202010161356301000_COVERED.jpg" width=30% height=auto alt="OSCP_CERTIFICATE">
+<img src="../../../img/202010161356301000_COVERED.jpg" width="30%" height=auto alt="OSCP_CERTIFICATE">
 
 </body>
