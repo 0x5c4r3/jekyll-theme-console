@@ -28,4 +28,8 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
 </p>
 <p>
 <img src="./img/Social_Icons/insta.png" width="20%" height=auto alt="insta">
+<img src="./img/Social_Icons/github.png" width="20%" height=auto alt="insta">
+<img src="./img/Social_Icons/twitter.png" width="20%" height=auto alt="insta">
+<img src="./img/Social_Icons/twitch.png" width="20%" height=auto alt="insta">
+<img src="./img/Social_Icons/youtubeORANGE.png" width="20%" height=auto alt="insta">
 </p>
