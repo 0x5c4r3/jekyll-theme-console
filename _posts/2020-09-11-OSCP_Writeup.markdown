@@ -39,13 +39,13 @@ At that point everything is psychological. You need to work on your mind, keepin
 I took a nap from 12 p.m. setting the alarm at 3, but of course I did not sleep, too many thoughts.
 At 1 a.m. I woke up and kept working.
 
-<img src="../../../img/IMG_20200920_045700.jpg" width="100" height="60" alt="FLAGS_OSCP">
+<img src="../../../img/IMG_20200920_045700.jpg" width="600" height="500" alt="FLAGS_OSCP">
 
 I was up to stay awake the whole night to find the last vulnerability. And I got it. At 3:50.
 At that point, reached 75pt I was quite sure to have a possibility.
 
 Once you took every single screenshot and copied the needed code and exploits, the remaining stuff is easy. Also the next day, the report is a pain in the ass but it's quite easy, so CARE YOUUR PSYCHOLOGYCAL STATE, that's the key.
 
-<img src="../../../img/202010161356301000_COVERED.jpg" width="100" height="60" alt="OSCP_CERTIFICATE">
+<img src="../../../img/202010161356301000_COVERED.jpg" width="600" height="500" alt="OSCP_CERTIFICATE">
 
 </body>
