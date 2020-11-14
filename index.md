@@ -12,7 +12,7 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
 9XXb._       _.dXXXXb dXXXXbo.                 .odXXXXb dXXXXb._       _.dXXP
  9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo.           .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP
   `9XXXXXXXXXXXXXXXXXXXXX'~   ~`OOO8b   d8OOO'~   ~`XXXXXXXXXXXXXXXXXXXXXP'
-    `9XXXXXXXXXXXP' `9XX'  <p style="color:#e78d32;display:inline">SCARE</p>    `98v8P'  CROW    `XXP' `9XXXXXXXXXXXP'
+    `9XXXXXXXXXXXP' `9XX'  <p1 style="color:#e78d32;display:inline">SCARE</p1>    `98v8P'  <p1 style="color:#e78d32;display:inline">CROW</p1>    `XXP' `9XXXXXXXXXXXP'
         ~~~~~~~       9X.          .db|db.          .XP       ~~~~~~~
                         )b.  .dbo.dP'`v'`9b.odb.  .dX(
                       ,dXXXXXXXXXXXb     dXXXXXXXXXXXb.
