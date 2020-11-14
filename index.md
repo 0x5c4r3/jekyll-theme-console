@@ -27,5 +27,5 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
                                `             '
 </p>
 <p style="text-align:center">
-<img style="display:inline" src="./img/Social_Icons/insta.png" width="7%" height=auto alt="insta"><img style="display:inline" src="./img/Social_Icons/github.png" width="7%" height=auto alt="github"><img style="display:inline" src="./img/Social_Icons/twitter.png" width="7%" height=auto alt="twitter"><img style="display:inline" src="./img/Social_Icons/twitch.png" width="7%" height=auto alt="twitch"><img style="display:inline" src="./img/Social_Icons/youtube.png" width="7%" height=auto alt="youtube">
+<img style="display:inline" src="./img/Social_Icons/insta.png" width="7%" height=auto alt="insta">|||<img style="display:inline" src="./img/Social_Icons/github.png" width="7%" height=auto alt="github">|||<img style="display:inline" src="./img/Social_Icons/twitter.png" width="7%" height=auto alt="twitter">|||<img style="display:inline" src="./img/Social_Icons/twitch.png" width="7%" height=auto alt="twitch">|||<img style="display:inline" src="./img/Social_Icons/youtube.png" width="7%" height=auto alt="youtube">
 </p>
