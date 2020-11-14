@@ -3,12 +3,6 @@ title: /whoami
 layout: page
 permalink: /whoami
 ---
-<p style="text-align:center">
-        ________     ________
-  . - ~|        |-^-|        |~ - .
-{      |        |   |        |      }
-        `.____.'     `.____.'
-</p>
 <h1 style="color:#e78d32"># << whoami >></h1>
 <br>
 Sometimes it's better to remain in the shadow, so I won't give you much info and you will not ask.<br>
