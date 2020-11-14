@@ -26,3 +26,6 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
                               `b  `       '  d'
                                `             '
 </p>
+<p>
+<img src="/img/icons_social/insta.png" width="20%" height=auto alt="insta">
+</p>
