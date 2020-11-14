@@ -40,9 +40,10 @@ I took a nap from 12 p.m. setting the alarm at 3, but of course I did not sleep,
 At 1 a.m. I woke up and kept working.
 <img src="../img/IMG_20200920_045700.jpg" alt="FLAGS_OSCP">
 I was up to stay awake the whole night to find the last vulnerability. And I got it. At 3:50.
-<img src="../img/202010161356301000_COVERED.jpg" alt="OSCP_CERTIFICATE">
 At that point, reached 75pt I was quite sure to have a possibility.
 
 Once you took every single screenshot and copied the needed code and exploits, the remaining stuff is easy. Also the next day, the report is a pain in the ass but it's quite easy, so CARE YOUUR PSYCHOLOGYCAL STATE, that's the key.
+
+<img src="../img/202010161356301000_COVERED.jpg" alt="OSCP_CERTIFICATE">
 
 </body>
