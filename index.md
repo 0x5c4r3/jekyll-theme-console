@@ -33,7 +33,7 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
 
 <script>
 if( screen.width <= 480 ) {
-    location.href = './blog.md';
+    location.href = './mobile.md';
 }
 </script>
 
