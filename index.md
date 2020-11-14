@@ -26,10 +26,10 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
                               `b  `       '  d'
                                `             '
 </p>
-<p>
+<p style=display:inline-block;>
 <img src="./img/Social_Icons/insta.png" width="7%" height=auto alt="insta">
-<img src="./img/Social_Icons/github.png" width="7%" height=auto alt="insta">
-<img src="./img/Social_Icons/twitter.png" width="7%" height=auto alt="insta">
-<img src="./img/Social_Icons/twitch.png" width="7%" height=auto alt="insta">
-<img src="./img/Social_Icons/youtubeORANGE.png" width="7%" height=auto alt="insta">
+<img src="./img/Social_Icons/github.png" width="7%" height=auto alt="github">
+<img src="./img/Social_Icons/twitter.png" width="7%" height=auto alt="twitter">
+<img src="./img/Social_Icons/twitch.png" width="7%" height=auto alt="twitch">
+<img src="./img/Social_Icons/youtubeORANGE.png" width="7%" height=auto alt="youtube">
 </p>
