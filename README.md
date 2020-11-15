@@ -1,1 +1,1 @@
-# scare.rocks website
+I'm sick of it, dawg.
