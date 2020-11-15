@@ -6,7 +6,7 @@ permalink: /blog
 <p style="text-align:center">
  ._________________.
  | _______________ |
- | I <a style="color:#e78d32">0x5c4r3#</a>    I |
+ | I <p style="color:#e78d32">0x5c4r3#</p>    I |
  | I             I |
  | I             I |
  | I_____________I |
