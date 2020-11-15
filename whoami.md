@@ -11,3 +11,8 @@ Briefly, I have spent my University Carreer studying Cyber Security and I am an 
 I hacked over 150 machines around HackTheBox, TryHackMe, RootMe, VulnHub.. and I constantly study new ways of breaking through defenses, CVEs and zero days.
 <br>
 Fair enough, dumbass?
+
+<h1 style="color:#e78d32"># Wanna reach me out?</h1>
+Send me your virtual hug by email, hun <3
+
+MAIL: scarecrow17@protonmail.com
