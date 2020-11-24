@@ -1,7 +1,7 @@
 
 <h1>OSCP Writeup - Scarecrow's Experience</h1>
 
-<a>
+<p>
              .--.           .---.        .-.
          .---|--|   .-.     | J |  .---. |~|    .--.
       .--|===|Of|---|_|--.__| A |--|:::| |~|-==-|==|---.
@@ -10,5 +10,5 @@
       |  |   |iv|   |_|__|  |   |__|   | | |    |  |___| |
       |~~|===|e |===|~|~~|%%|~~~|--|:::|=|~|----|==|---|=|
       ^--^---'--^---^-^--^--^---'--^---^-^-^-==-^--^---^-'
-</a>
-<p>Watch my OSCP Experience Writeup on youtube, follow the<a href="https://youtu.be/eKivXJpXeBs"> LINK<a></p>
+</p>
+<p>Watch my OSCP Experience Writeup on youtube, follow the<a href="https://youtu.be/eKivXJpXeBs"> LINK <a> </p>
