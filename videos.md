@@ -1,7 +1,7 @@
 ---
-title: /blog
+title: /videos
 layout: home
-permalink: /blog
+permalink: /videos
 ---
 <p style="text-align:center">
  ._________________.
