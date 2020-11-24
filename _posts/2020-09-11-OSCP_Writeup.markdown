@@ -11,4 +11,4 @@
       |~~|===|e |===|~|~~|%%|~~~|--|:::|=|~|----|==|---|=|
       ^--^---'--^---^-^--^--^---'--^---^-^-^-==-^--^---^-'
 </p>
-<p>Watch my OSCP Experience Writeup on youtube, follow the<a href="https://youtu.be/eKivXJpXeBs"> LINK <a> </p>
+Watch my OSCP Experience Writeup on youtube, follow the <a href="https://youtu.be/eKivXJpXeBs">LINK<a>
