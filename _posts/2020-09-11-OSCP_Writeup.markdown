@@ -1,5 +1,4 @@
-
-<h1>OSCP Writeup - Scarecrow's Experience</h1>
+<h1 style="color:#e78d32;display:inline">OSCP Writeup - Scarecrow's Experience</h1>
 
 <p>
              .--.           .---.        .-.
