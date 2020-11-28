@@ -4,7 +4,7 @@ layout: default
 permalink: /
 ---
 
-<p>
+<p style="text-align:center">
          -*r!`                                    
    '(h68#@@@@@mn`                                  
  vvvlyX$@@@@@@@Bn,                                 
