@@ -9,7 +9,7 @@ permalink: /
    '(h68#@@@@@mn`                                  
  vvvlyX$@@@@@@@Bn,                                 
       Q@@@@@@@@@#n*                                            
-        m@@@@@@@@@Dv`                                   #0x5c4r3       
+        m@@@@@@@@@Dv`                                   <a style="color:#e78d32"># 0x5c4r3 </a>       
         K@@@@@@@@@@@#K!                                 Why Join Navy if you can be a Pirate?
         v@@@@@@@@@@@@@@Q}`                                     
          B@@@@@@@@@@@@@@@@@B5x!`                               
