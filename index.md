@@ -5,7 +5,6 @@ permalink: /
 ---
 
 <p style="text-align:center">
-                                                  
          -*r!`                                    
    '(h68#@@@@@mn`                                  
  vvvlyX$@@@@@@@Bn,                                 
@@ -20,8 +19,8 @@ permalink: /
              .Q@@@@@@@@@@@@@@@@@@@@#dZg#@Qdy*`    
               -#@@@@@@@@@@@@@@@@@@@@@0x``,*L}l` 
                V@@@@}8@d^yY!!r}Xd8$#@@@@Wv-       
-               '@@|_ P@V            ':Ym$QDML`    
-                 D0`   k3`                          
+               '@@|_ P@V            ':Ym$QDML`
+                 D0`   k3`
                 ^j~   'K          
           _LxVai}!'   M*       
                   'rByi~_ ,.                                                         
