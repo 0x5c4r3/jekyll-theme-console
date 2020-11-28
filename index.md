@@ -5,27 +5,41 @@ permalink: /
 ---
 
 <p style="text-align:center">
-               z
-             z"F"$$.
-       -%- . Led$$$$P-
-              3$3 F3$%
-              " ^  .3""
-                 d***$$e.
-              r .%     ^"%
-              '$$r
-               3$$  *$*$$$$$
-                '$$. *b'b"$*$.
-                  *$. "L^L"b"$-
-                   "$b '. L^b^$
-                    ^$$bJ  \ b^$ .
-                    b *$$$b.\ \ b \
-                    *$."$$$$$b.. % %
-                    4$$r'$$b *$.%.\ ".
-                    ^$$  $$P  "$.'c^c"e
-                    4P"  $F%   '$.'c^r*$c
-                    $    $      '$.'c^c "$-
-                   $%   .$       '$.'L^b
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*.$$$$$$$$$$$$$$$
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooaq(11111Ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooJ/11111111111110oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooom11111111111111111xooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooom11111111111uoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooo111111111111rooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooav1111111111111Yooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooc111111111111111/hoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooo111111111111111111(0oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooot11111111111111111111voooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooo|111111111111111111111uUOoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooo/11111111111111111111111111)uoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooQ1111111111111111111111111111111xkooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooq)1111111111111111111111111111111Joooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooZ111111111111111111111111111111)Jooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooh)111111111111111111111111111111|mooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooj111111111111111111111111111111111)tfpooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooox1111111111111111111111111111tdcf/1111111Zhooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo)111111111111111111111111111111CoooohQY11(/oooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooZ11111111111111111111111111111111/ooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo(11111rot11boo0oooooooOurfx11111111rqooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop11Ywkho/11ooooooooooooooooooom(111111)uoooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooook11uoooou1uooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo11dooooxXoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooq(poooooo(ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooo0wkkp1thp0hooo/dooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooopkwwCQkwmooooY1aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooY(|1))uvooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooUtoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooohooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 </p>
 <p style="text-align:center">
 <a style="display:inline" target="new" href="https://www.instagram.com/iamscarecrow17/"><img src="./img/Social_Icons/insta.png"  width="7%" height=auto alt="insta"></a>   <a style="display:inline" target="new" href="https://github.com/0x5c4r3"><img style="display:inline" src="./img/Social_Icons/github.png"  width="7%" height=auto alt="github"></a>   <a style="display:inline" target="new" href="https://twitter.com/iamscarecrow1"><img style="display:inline" src="./img/Social_Icons/twitter.png"  width="7%" height=auto alt="twitter"></a>   <a style="display:inline" target="new" href="https://www.hackthebox.eu/home/users/profile/144238"><img style="display:inline" src="./img/Social_Icons/htb.png"  width="7%" height=auto alt="htb"></a>   <a style="display:inline" target="new" href="https://www.twitch.tv/iamscarecrow17"><img style="display:inline" src="./img/Social_Icons/twitch.png" width="7%" height=auto alt="twitch"></a>   <a style="display:inline" target="new" href="https://www.youtube.com/channel/UCcYc_cJZDhYXPm2hpM7ZqwA"><img style="display:inline" src="./img/Social_Icons/youtube.png"  width="7%" height=auto alt="youtube"></a>
