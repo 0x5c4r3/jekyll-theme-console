@@ -23,8 +23,8 @@ permalink: /
                '@@|_ P@V            ':Ym$QDML`    
                  D0`   k3`                          
           `      ^j~  'K                            
-          _LxVai}!'   M*                            
-     'rByi~_ ,.
+          _LxVai}!'   M*       
+                  'rByi~_ ,.
                                                                 
 </p>
 <p style="text-align:center">
