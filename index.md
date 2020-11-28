@@ -22,7 +22,7 @@ permalink: /
                V@@@@}8@d^yY!!r}Xd8$#@@@@Wv-       
                '@@|_ P@V            ':Ym$QDML`    
                  D0`   k3`                          
-                ^j~   'K                            
+                ^j~   'K          
           _LxVai}!'   M*       
                   'rByi~_ ,.                                                         
 </p>
