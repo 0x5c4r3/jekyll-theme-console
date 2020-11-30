@@ -3,7 +3,7 @@ title: /
 layout: default
 permalink: /
 ---
-<p style="text-align:center;font-size: 1vw">
+<p>
          -*r!`                                    
    '(h68#@@@@@mn`                                  
  vvvlyX$@@@@@@@Bn,                                 
