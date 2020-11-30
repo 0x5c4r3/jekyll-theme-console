@@ -4,13 +4,13 @@ layout: default
 permalink: /
 ---
 
-<p>
+<p style="text-align:center">
          -*r!`                                    
    '(h68#@@@@@mn`                                  
  vvvlyX$@@@@@@@Bn,                                 
       Q@@@@@@@@@#n*                                            
-        m@@@@@@@@@Dv`                                <p1 style="color:#e78d32"># 0x5c4r3 </p1>       
-        K@@@@@@@@@@@#K!                    Why Join Navy if you can be a Pirate?
+        m@@@@@@@@@Dv`                  
+        K@@@@@@@@@@@#K!                   
         v@@@@@@@@@@@@@@Q}`                                     
          B@@@@@@@@@@@@@@@@@B5x!`                               
          Y@@@@@@@@@@@@@@@@@@@@@@0v                             
