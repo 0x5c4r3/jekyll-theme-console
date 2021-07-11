@@ -5,7 +5,7 @@ permalink: /whoami
 ---
 <h1 style="color:#e78d32"># << whoami >></h1>
 <br>
-I'm a Red Team Penetration Tester and Cyber Security researcher.<br/>
+I'm 0x5c4r3 (scarecrow), an OSCP Red Team Penetration Tester and Cyber Security researcher.<br/>
 <br>
 
 <h1 style="color:#e78d32"># Wanna reach me out?</h1>
