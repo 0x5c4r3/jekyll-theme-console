@@ -7,7 +7,7 @@ header_pages:
   - index.md
   #- twitter.md
   - whoami.md
-  - why.md
+  #- why.md
   
 footer: ''
 
