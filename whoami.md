@@ -5,7 +5,7 @@ permalink: /whoami
 ---
 <h1 style="color:#e78d32"># << whoami >></h1>
 <br>
-I'm 0x5c4r3 (scarecrow), an OSCP Red Team Penetration Tester and Security researcher with an academic background in Information Technology and Cyber Security.<br/>
+I'm 0x5c4r3 (scarecrow), an OSCP Penetration Tester and Security researcher with an academic background in Information Technology and Cyber Security, currently working for a security section of an international big-ass company.<br/>
 <br>
 
 <h1 style="color:#e78d32"># Wanna reach me out?</h1>
@@ -20,6 +20,6 @@ I'm 0x5c4r3 (scarecrow), an OSCP Red Team Penetration Tester and Security resear
         |='|
         |= |
 </p>
-Send me your virtual hug by email, hun <3
+Send me your virtual hug by email hun <3
 <br>
-MAIL: scarecrow17@protonmail.com
+MAIL: 17skidrow17@gmail.com
