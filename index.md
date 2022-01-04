@@ -8,7 +8,7 @@ permalink: /
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 </style>
 <pre class="center">
