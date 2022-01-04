@@ -29,9 +29,4 @@ permalink: /
                               _╠▓W╣╫╦Φ##╬║╥Φ║╫▓`
                               _`╫▓░M*^""^*ª╨╫╣H_ 
                                 `╩▀▄▄╗###▄▄▄▀╙ 
-
-  </pre>
-</div>
-<p style="text-align:center">
-<a style="display:inline" target="new" href="https://github.com/0x5c4r3"><img style="display:inline" src="./img/Social_Icons/github.png"  width="7%" height=auto alt="github"></a>   <a style="display:inline" target="new" href="https://twitter.com/iamscarecrow1"><img style="display:inline" src="./img/Social_Icons/twitter.png"  width="7%" height=auto alt="twitter"></a>   <a style="display:inline" target="new" href="https://www.hackthebox.eu/home/users/profile/144238"><img style="display:inline" src="./img/Social_Icons/htb.png"  width="7%" height=auto alt="htb"></a>
-</p>
+</pre>
