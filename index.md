@@ -9,6 +9,7 @@ permalink: /
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  color:red;
 }
 </style>
 <pre class="center"> 
