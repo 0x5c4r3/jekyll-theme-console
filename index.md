@@ -12,4 +12,4 @@ permalink: /
 }
 </style>
 
-<img class="center" alt="FUCK" source="img/daemon.jpg">                                                      
+<img class="center" alt="FUCK" source="/img/daemon.jpg">                                                      
