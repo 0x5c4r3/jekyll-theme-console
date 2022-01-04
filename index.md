@@ -4,11 +4,12 @@ layout: default
 permalink: /
 ---
 <style>
-.ascii-art {
-    font-family: monospace;
-    white-space: pre;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 </style>
-<div class="ascii-art">
-  <pre>  <img source=img/daemon.jpg>                                                      
-</pre>
+
+<img class="center" source=img/daemon.jpg>                                                      
