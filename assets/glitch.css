@@ -1,62 +1,74 @@
-/*body {
-   font-family: 'Source Sans Pro', sans-serif;
-   background-color:#323133;
-   &:after {
-      content: '';
-      position: absolute;
-      top:0px;
-      left:0px;
-      right:0px;
-      bottom:0px;
-      z-index:1000;
-      background: repeating-linear-gradient(0deg, #111 0px, #111 1px, transparent 2px, transparent 5px);
-      background-size:100% 5px;
-      animation: lines 2s ease-out infinite;
-      opacity:0.3;
-      mix-blend-mode: color-burn;
-      pointer-events: none;
-   }*/
-   .text, .text >* {
-      position: absolute;
-      top:50%;
-      left:50%;
-      transform:translate(-50%,-50%);
-   }
-   .text {
-      >* {
-         font-size:80px;
-         animation: giggle 1s ease infinite;
-         mix-blend-mode: difference;
-      }
-      .r {
-         color:#f00;
-         left:-0.5px;
-      }
-      .g {
-         color:#0f0;
-         animation-delay:-0.67s;
-      }
-      .b {
-         color:#00f;
-         animation-delay:-0.33s;
-         left:0.5px;
-      }
-   }
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
+
+body{ 
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background: #131313;
+  color: #fff;
+  font-size: 96px;
+  font-family: 'Fira Mono', monospace;
+  letter-spacing: -7px;
 }
 
-@keyframes giggle {
-   0%, 100% {
-      transform:translate(-50%,-50%) translateY(-2px);
-   }
-   50% {
-      transform:translate(-50%,-50%) translateY(2px);
-   }
+div{
+  animation: glitch 1s linear infinite;
 }
-@keyframes lines {
-   0% {
-      background-position:0px 0px;
-   }
-   100% {
-      background-position:0px 25px;
-   }
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
+  }
+}
+
+div:before,
+div:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+div:before{
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+  2%,64%{
+    transform: translate(2px,-2px);
+  }
+  4%,60%{
+    transform: translate(-2px,2px);
+  }
+  62%{
+    transform: translate(13px,-1px) skew(-13deg); 
+  }
+}
+
+div:after{
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom{
+  2%,64%{
+    transform: translate(-2px,0);
+  }
+  4%,60%{
+    transform: translate(-2px,0);
+  }
+  62%{
+    transform: translate(-22px,5px) skew(21deg); 
+  }
 }
