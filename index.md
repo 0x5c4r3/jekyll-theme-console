@@ -14,15 +14,16 @@ permalink: /
 <script>
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
   // MOBILE
-document.write('<pre><div class="center">▒██   ██▒  ██████  ▄████▄   ▄▄▄       ██▀███  ▓█████\n');
-document.write('▒▒ █ █ ▒░▒██    ▒ ▒██▀ ▀█  ▒████▄    ▓██ ▒ ██▒▓█   ▀ \n');
-document.write('░░  █   ░░ ▓██▄   ▒▓█    ▄ ▒██  ▀█▄  ▓██ ░▄█ ▒▒███   \n');
-document.write(' ░ █ █ ▒   ▒   ██▒▒▓▓▄ ▄██▒░██▄▄▄▄██ ▒██▀▀█▄  ▒▓█  ▄ \n');
-document.write('▒██▒ ▒██▒▒██████▒▒▒ ▓███▀ ░ ▓█   ▓██▒░██▓ ▒██▒░▒████▒\n');
-document.write('▒▒ ░ ░▓ ░▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░ ▒▒   ▓▒█░░ ▒▓ ░▒▓░░░ ▒░ ░\n');
-document.write('░░   ░▒ ░░ ░▒  ░ ░  ░  ▒     ▒   ▒▒ ░  ░▒ ░ ▒░ ░ ░  ░\n');
-document.write(' ░    ░  ░  ░  ░  ░          ░   ▒     ░░   ░    ░   \n');
-document.write(' ░    ░        ░  ░ ░            ░  ░   ░        ░  ░\n</div></pre>');
+document.write('<pre><div class="center">▒██   ██▒ ██████ ▄████▄  ▄▄▄      ██▀███ ▓█████ \n');
+document.write('▒▒ █ █ ▒▒██    ▒▒██▀ ▀█ ▒████▄   ▓██ ▒ ██▓█   ▀ \n');
+document.write('░░  █   ░ ▓██▄  ▒▓█    ▄▒██  ▀█▄ ▓██ ░▄█ ▒███   \n');
+document.write(' ░ █ █ ▒  ▒   ██▒▓▓▄ ▄██░██▄▄▄▄██▒██▀▀█▄ ▒▓█  ▄ \n');
+document.write('▒██▒ ▒██▒██████▒▒ ▓███▀ ░▓█   ▓██░██▓ ▒██░▒████▒\n');
+document.write('▒▒ ░ ░▓ ▒ ▒▓▒ ▒ ░ ░▒ ▒  ░▒▒   ▓▒█░ ▒▓ ░▒▓░░ ▒░ ░\n');
+document.write('░░   ░▒ ░ ░▒  ░ ░ ░  ▒    ▒   ▒▒ ░ ░▒ ░ ▒░░ ░  ░\n');
+document.write(' ░    ░ ░  ░  ░ ░         ░   ▒    ░░   ░   ░   \n');
+document.write(' ░    ░       ░ ░ ░           ░  ░  ░       ░  ░\n');
+document.write(' ░                               \n</div></pre>');
 }else{
   // DESKTOP
 document.write('<pre><div class="center">  ██████  ▄████▄   ▄▄▄       ██▀███  ▓█████  ▄████▄   ██▀███   ▒█████   █     █\n');
