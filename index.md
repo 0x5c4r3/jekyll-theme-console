@@ -18,17 +18,6 @@ permalink: /
   document.write("MOBILE DEVICE BABY");
 }else{
   // false for not mobile device
-  document.write("<pre class="center">");
-document.write("  ██████  ▄████▄   ▄▄▄       ██▀███  ▓█████  ▄████▄   ██▀███   ▒█████   █     █");
-document.write("▒██    ▒ ▒██▀ ▀█  ▒████▄    ▓██ ▒ ██▒▓█   ▀ ▒██▀ ▀█  ▓██ ▒ ██▒▒██▒  ██▒▓█░ █ ░█");
-document.write("░ ▓██▄   ▒▓█    ▄ ▒██  ▀█▄  ▓██ ░▄█ ▒▒███   ▒▓█    ▄ ▓██ ░▄█ ▒▒██░  ██▒▒█░ █ ░█");
-document.write("  ▒   ██▒▒▓▓▄ ▄██▒░██▄▄▄▄██ ▒██▀▀█▄  ▒▓█  ▄ ▒▓▓▄ ▄██▒▒██▀▀█▄  ▒██   ██░░█░ █ ░█");
-document.write("▒██████▒▒▒ ▓███▀ ░ ▓█   ▓██▒░██▓ ▒██▒░▒████▒▒ ▓███▀ ░░██▓ ▒██▒░ ████▓▒░░░██▒██▓");
-document.write("▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░ ▒▒   ▓▒█░░ ▒▓ ░▒▓░░░ ▒░ ░░ ░▒ ▒  ░░ ▒▓ ░▒▓░░ ▒░▒░▒░ ░ ▓░▒ ▒ ");
-document.write("░ ░▒  ░ ░  ░  ▒     ▒   ▒▒ ░  ░▒ ░ ▒░ ░ ░  ░  ░  ▒     ░▒ ░ ▒░  ░ ▒ ▒░   ▒ ░ ░ ");
-document.write("░  ░  ░  ░          ░   ▒     ░░   ░    ░   ░          ░░   ░ ░ ░ ░ ▒    ░   ░ ");
-document.write("      ░  ░ ░            ░  ░   ░        ░  ░░ ░         ░         ░ ░      ░");   
-document.write("</pre>");                                                  
-
+document.write("<pre>  ██████  ▄████▄   ▄▄▄       ██▀███  ▓█████  ▄████▄   ██▀███   ▒█████   █     █</pre>");                                                
 }
 </script>
