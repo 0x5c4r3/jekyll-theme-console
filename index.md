@@ -10,11 +10,11 @@ permalink: /
   document.write("MOBILE DEVICE BABY");
 }else{
   // false for not mobile device
-<div class="container">
-  document.write('<div class="glitch" data-text="ELISABÉTH">ELISABÉTH</div>\n');
-  document.write('<div class="glow">ELISABÉTH</div>\n');
-  document.write('<p class="subtitle">IMPRACTICAL DEVELOPER</p>\n');
-  document.write('</div>\n');
-  document.write('<div class="scanlines"></div>\n');
+document.write('<div class="container">\n');
+document.write('<div class="glitch" data-text="ELISABÉTH">ELISABÉTH</div>\n');
+document.write('<div class="glow">ELISABÉTH</div>\n');
+document.write('<p class="subtitle">IMPRACTICAL DEVELOPER</p>\n');
+document.write('</div>\n');
+document.write('<div class="scanlines"></div>\n');
 }
 </script>
