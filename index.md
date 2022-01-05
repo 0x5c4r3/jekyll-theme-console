@@ -18,7 +18,7 @@ permalink: /
   document.write("mobile device");
 }else{
   // false for not mobile device
-  document.write("not mobile device");
+  document.write("<b>not mobile device</b>");
 }
 </script>
 
