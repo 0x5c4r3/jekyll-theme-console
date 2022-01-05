@@ -18,6 +18,7 @@ permalink: /
   document.write("MOBILE DEVICE BABY");
 }else{
   // false for not mobile device
-document.write("<pre>  ██████  ▄████▄   ▄▄▄       ██▀███  ▓█████  ▄████▄   ██▀███   ▒█████   █     █</pre>");                                                
+document.write("<pre>  ██████  ▄████▄   ▄▄▄       ██▀███  ▓█████  ▄████▄   ██▀███   ▒█████   █     █</pre>");
+document.write("<pre>▒██    ▒ ▒██▀ ▀█  ▒████▄    ▓██ ▒ ██▒▓█   ▀ ▒██▀ ▀█  ▓██ ▒ ██▒▒██▒  ██▒▓█░ █ ░█</pre>");                                       
 }
 </script>
