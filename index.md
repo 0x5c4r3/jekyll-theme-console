@@ -10,7 +10,7 @@ permalink: /
   document.write("MOBILE DEVICE BABY");
 }else{
   // false for not mobile device
-document.write('<div class="container central">\n');
+document.write('<div class="container">\n');
 document.write('<div class="glitch" data-text="ELISABÉTH">ELISABÉTH</div>\n');
 document.write('<div class="glow">ELISABÉTH</div>\n');
 document.write('<p class="subtitle">IMPRACTICAL DEVELOPER</p>\n');
