@@ -10,8 +10,6 @@ permalink: /
   document.write("MOBILE DEVICE BABY");
 }else{
   // false for not mobile device
-document.write('<div class="r">Loading...</div>');
-document.write('<div class="g">Loading...</div>');
-document.write('<div class="b">Loading...</div>');
+document.write('<div title="404">404</div>');
 }
 </script>
