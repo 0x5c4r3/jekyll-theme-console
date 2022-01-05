@@ -18,3 +18,4 @@ document.write('</div>\n');
 document.write('<div class="scanlines"></div>\n');
 }
 </script>
+<p class="central"> TEST TEST TEST </p>
