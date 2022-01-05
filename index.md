@@ -3,7 +3,7 @@ title: /
 layout: default
 permalink: /
 ---
-<link rel="stylesheet" href="/_sass/glitch.scss" />
+<link rel="stylesheet" href="/_sass/glitch.css" />
 <script>
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
   // true for mobile device
