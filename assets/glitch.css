@@ -1,6 +1,6 @@
-body {
-   /*font-family: 'Source Sans Pro', sans-serif;
-   background-color:#323133;*/
+/*body {
+   font-family: 'Source Sans Pro', sans-serif;
+   background-color:#323133;
    &:after {
       content: '';
       position: absolute;
@@ -15,7 +15,7 @@ body {
       opacity:0.3;
       mix-blend-mode: color-burn;
       pointer-events: none;
-   }
+   }*/
    .text, .text >* {
       position: absolute;
       top:50%;
