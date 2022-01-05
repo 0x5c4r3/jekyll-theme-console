@@ -15,13 +15,10 @@ permalink: /
 <script>
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
   // true for mobile device
-  document.write("mobile device");
+  document.write(" MOBILE DEVICE BABY");
 }else{
   // false for not mobile device
-  document.write("<b>not mobile device</b>");
-}
-</script>
-
+  document.write("
 <pre class="center"> 
   ██████  ▄████▄   ▄▄▄       ██▀███  ▓█████  ▄████▄   ██▀███   ▒█████   █     █
 ▒██    ▒ ▒██▀ ▀█  ▒████▄    ▓██ ▒ ██▒▓█   ▀ ▒██▀ ▀█  ▓██ ▒ ██▒▒██▒  ██▒▓█░ █ ░█
@@ -33,3 +30,6 @@ permalink: /
 ░  ░  ░  ░          ░   ▒     ░░   ░    ░   ░          ░░   ░ ░ ░ ░ ▒    ░   ░ 
       ░  ░ ░            ░  ░   ░        ░  ░░ ░         ░         ░ ░      ░   
 </pre>                                                  
+");
+}
+</script>
