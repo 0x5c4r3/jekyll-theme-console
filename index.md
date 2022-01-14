@@ -38,7 +38,7 @@ document.write('      ░  ░ ░            ░  ░   ░        ░  ░░ 
 document.write('         ░                                  ░                                  \n</div></pre>');
 }
 </script>
-<p>
-<span style="floar:left;color:red;display: inline-block;">0x5c4r3</span>
-<span style="float:right;color:red;display: inline-block;">7337</span>
-</p>
+
+<span style="floar:left;color:red;display:inline-block;">0x5c4r3</span>
+<span style="float:right;color:red;display:inline-block;">7337</span>
+
