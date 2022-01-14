@@ -34,7 +34,7 @@ document.write('                  ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||\n');
 document.write('                  !...:!TVBBBRPFT||||||||||!!^^"""   ||||\n');
 document.write('                  !.......:!?|||||!!^^"""            ||||\n');
 document.write('                  !.........||||                     ||||\n');
-document.write('                  !.........||||  ##<div style="floar:left;color:red;display:inline-block;">0x5c4r3</div>                 ||||\n');
+document.write('                  !.........||||  ##<div style="floar:left;color:red;display:inline-block;">0x5c4r3</div>          ||||\n');
 document.write('                  !.........||||                     ||||\n');
 document.write('                  !.........||||                     ||||\n');
 document.write('                  `.........||||                    ,||||\n');
