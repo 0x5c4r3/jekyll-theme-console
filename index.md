@@ -39,13 +39,12 @@ document.write('/C=_____________________/_/\n</div></pre></br>');
   
                                                                                                     
                                                                                                     
-document.write('<pre><div class="center">          *******                                                             *,\n');
+document.write('<pre><div class="center" style="color:red;">          *******                                                             *,\n');
 document.write('        ....****.                               ,** *****.                 .** \n');
 document.write('      , .... *  *.                           **** *** * ,**                ,** \n');
 document.write('      * .....*,  *****                     * *****,  ,.*  *,              .***  \n');
 document.write('      ,.....*****.      .....            *,,*****   **  ** **      ,,   .**,*. \n');
 document.write('       ......****   **** ...... .*,****. ******* ,**  .*  ****.,,     ...  **  \n');
-document.write('       .......,** ,****,.. ..... *** .***,**** **,  .** **. **  * ***...*. **  \n');
 document.write('       ........***      ........*,***********  **  **, ,  .** *****. * .**.*   \n');
 document.write('        ....  /************,,*************  *** ***,,** *** ***********....*   \n');
 document.write('         .... @@   ....... ...........,***     .******..*****   ************,  \n');
@@ -63,8 +62,7 @@ document.write('                        *@@@**************..... ........*,..,   
 document.write('                        &@@********   ********    **,...*         @@        \n');
 document.write('                        @,  .*****..,****.,***   *******                    \n');
 document.write('                               ********.***  *  ,* *.*.                      \n');
-document.write('                                  ******.**,** .*****                     \n');
-document.write('                                     ***** **  * **                    \n</div></pre>');
+document.write('                                    ****** **  * **                    \n</div></pre>');
                                                             
   
 document.write('<pre><div class="center">  ██████  ▄████▄   ▄▄▄       ██▀███  ▓█████  ▄████▄   ██▀███   ▒█████   █     █\n');
