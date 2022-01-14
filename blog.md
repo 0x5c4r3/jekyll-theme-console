@@ -4,4 +4,4 @@ layout: home
 permalink: /blog
 ---
 
-Cool <div style="floar:left;color:red;display:inline-block;">research</div> topics I waste my time on.
+Cool <div style="color:red;">research</div> topics I waste my time on.
