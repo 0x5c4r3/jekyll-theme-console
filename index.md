@@ -44,7 +44,7 @@ document.write('         !YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....\n'
 document.write('         !..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.\n');
 document.write('         !....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.\n');
 document.write('         !........YBBBBBBB8BBBRPFT?!::::::::::^^^...::::;        iBBbo.\n');
-document.write('          `..........:::::::::::::::::::::::;iof688888888888b.    `YBBBP^"\n');
+document.write('          `..........:::::::::::::::::::::::;iof688888888888b.    `YBBBP^\n');
 document.write('             `........:::::::::;iof68888888888888888888888888888b.\n');
 document.write('                   `..::!8888888888888888888888888888888899fT|!^""   \n');
 document.write('                        `!98888888888888888888899fT|!^""\n');
