@@ -19,4 +19,4 @@ I'm 0x5c4r3 (scarecrow), an OSCP Penetration Tester and Security researcher with
         |='|
         |='|
 </p>
-MAIL: <div style="color:red;">17skidrow17@gmail.com<div>
+MAIL: <div style="color:red;">17skidrow17@gmail.com</div>
