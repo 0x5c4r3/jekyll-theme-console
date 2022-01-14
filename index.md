@@ -15,7 +15,7 @@ permalink: /
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
   // MOBILE
 document.write('<pre><div class="center">     ____________________________\n');
-document.write('    !\_________________________/!\\n');
+document.write('    !\_________________________/\! \n');
 document.write('    !! #<div style="floar:left;color:red;display:inline-block;">0x5c4r3</div>                         !! \\n');
 document.write('    !!                         !!  \\n');
 document.write('    !!                         !!  !\n');
