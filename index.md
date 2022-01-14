@@ -38,7 +38,8 @@ document.write('      ░  ░ ░            ░  ░   ░        ░  ░░ 
 document.write('         ░                                  ░                                  \n</div></pre>');
 }
 </script>
-<p style="text-align:left; color:red;">
+
+<p style="color:red;">
     0x5c4r3
     <span style="float:right; color:red;">
         7337
