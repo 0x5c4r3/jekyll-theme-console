@@ -38,3 +38,4 @@ document.write('      ░  ░ ░            ░  ░   ░        ░  ░░ 
 document.write('         ░                                  ░                                  \n</div></pre>');
 }
 </script>
+<div class="center">0x5c4r3</div>
