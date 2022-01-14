@@ -8,7 +8,7 @@ permalink: /
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 50%;
 }
 </style>
 <script>
@@ -38,4 +38,5 @@ document.write('      ░  ░ ░            ░  ░   ░        ░  ░░ 
 document.write('         ░                                  ░                                  \n</div></pre>');
 }
 </script>
-<div class="center">0x5c4r3</div>
+<div class="center" style=>0x5c4r3</div>
+<div class="center" style=>0x5c4r3</div>
