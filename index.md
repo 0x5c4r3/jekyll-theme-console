@@ -39,6 +39,6 @@ document.write('         ░                                  ░               
 }
 </script>
 <p>
-<span style="floar:left;color:red;">0x5c4r3</span>
-<span style="float:right;color:red;">7337</span>
-  </p>
+<span style="floar:left;color:red;display: inline-block;">0x5c4r3</span>
+<span style="float:right;color:red;display: inline-block;">7337</span>
+</p>
