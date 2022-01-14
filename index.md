@@ -28,7 +28,7 @@ document.write(' ░                               \n</div></pre>');
   // DESKTOP
   
   
-document.write('<pre><div class="center">                           .,,uod8B8bou,,.\n');
+document.write('<pre><div class="center">                                  .,,uod8B8bou,,.\n');
 document.write('                       ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.\n');
 document.write('                  ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||\n');
 document.write('                  !...:!TVBBBRPFT||||||||||!!^^"""   ||||\n');
