@@ -61,7 +61,7 @@ document.write('                    </div><div style="color:red;display:inline;"
 document.write('                      &</div><div style="color:white;display:inline;">@@</div><div style="color:red;display:inline;">********   ********    **,...*          </div><div style="color:white;display:inline;">@</div><div style="color:red;display:inline;display:inline;">       \n');
 document.write('                      </div><div style="color:white;display:inline;">@</div><div style="color:red;display:inline;">,  .*****..,****.,***   *******                    \n');
 document.write('                             ********.***  *  ,* *.*.                      \n');
-document.write('                                  ****** **  * **                    \n</div></pre>');
+document.write('                                  ****** **  * **                    \n</div></pre></br>');
                                                             
   
 //document.write('</br><pre><div class="center">  ██████  ▄████▄   ▄▄▄       ██▀███  ▓█████  ▄████▄   ██▀███   ▒█████   █     █\n');
