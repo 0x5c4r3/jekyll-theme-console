@@ -47,7 +47,7 @@ document.write('    ,.....*****.      .....            *,,*****   **  ** **     
 document.write('     ......****   **** ...... .*,****. ******* ,**  .*  ****.,,     ...  **  \n');
 document.write('     ........***      ........*,***********  **  **, ,  .** *****. * .**.*   \n');
 document.write('      ....  /************,,*************  *** ***,,** *** ***********....*   \n');
-document.write('       .... </div><div style="color:white;display: inline-block;">@@</div><div style="color:red;display: inline-block;">   ....... ...........,***     .******..*****   ************,  \n');
+document.write('       .... </div><div style="color:white;">@@</div><div style="color:red;display: inline-block;">   ....... ...........,***     .******..*****   ************,  \n');
 document.write('        ... </div><div style="color:white;">@@@</div><div style="color:red;">, ...*,*</div><div style="color:white;">@@@@@@</div><div style="color:red;"> ,........ ..,,,,,********* **,.......     *</div><div style="color:white;">@</div><div style="color:red;">   \n');
 document.write('         ...&</div><div style="color:white;">@@@@</div><div style="color:red;"> .* ,</div><div style="color:white;">@@@@@@@@</div><div style="color:red;">    . ******..*****  **********,.. </div><div style="color:white;">@@@@* @@@</div><div style="color:red;">   \n');
 document.write('         ... </div><div style="color:white;">@@@@@</div><div style="color:red;">*   </div><div style="color:white;">@@@@@@@@/@@@%@@%</div><div style="color:red;">.  .,******.************.</div><div style="color:white;">@@@@@@@@@@</div><div style="color:red;">    \n');
