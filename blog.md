@@ -4,6 +4,4 @@ layout: home
 permalink: /blog
 ---
 
-<p style="display:inline;">
-Cool <div style="color:red;display:inline;">research</div> topics I waste my time on.
-</p>
+<p style="display:inline;">All the information provided on this blog is for <div style="color:red;display:inline;">educational purposes only</div>. The author is no way responsible for any misuse of the information.</p>
