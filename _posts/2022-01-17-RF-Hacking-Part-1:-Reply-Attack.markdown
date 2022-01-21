@@ -21,7 +21,7 @@ There are 2 main algorithms implemented in modern cars:
            --------------->
                   <del>ABD</del>
  __        --------------->    ______
-/o \_____         <del>ABE</del>         /|_||_\`.__
+/o \_____         ABE         /|_||_\`.__
 \__/-="="` --------------->  (   _    _ _\
                              =`-(_)--(_)-' 
 </p>
