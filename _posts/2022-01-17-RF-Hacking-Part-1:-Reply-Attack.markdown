@@ -1,3 +1,3 @@
-# RF Hacking Part 1: Reply Attack
+# RF Hacking Part 1: Reply Attack</br>
 
-I recently researched on Radio Signals and how they are implemented in modern car and keyfobs algorithms.
+I recently researched on Radio Signals and how they are implemented in modern cars and keyfobs algorithms.
