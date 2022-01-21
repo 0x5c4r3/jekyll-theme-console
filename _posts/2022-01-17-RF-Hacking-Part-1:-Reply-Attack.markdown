@@ -1,4 +1,4 @@
-<span style="color:red;"><ins>**RF Hacking Part 1: Reply Attack**</ins></span>
+<font size="+2"><span style="color:red;"><ins>**RF Hacking Part 1: Reply Attack**</ins></span></font>
 \
 I recently researched on Radio Signals and how they are implemented in modern cars and keyfobs algorithms.
 This Blogpost is the first of a series of posts that will explain the path I followed, from the basic Reply attack to the most advanced Rolljam, using different hardware and methodologies.
