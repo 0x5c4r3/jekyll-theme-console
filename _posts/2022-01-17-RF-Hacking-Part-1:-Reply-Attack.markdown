@@ -8,21 +8,22 @@ I won’t go in depth on certain topics and I will assume that the reader has a 
 **Algorithms**
 \
 There are 2 main algorithms implemented in modern cars:
-- *Single Code*: a single string of code is sent from the keyfob to the car. This is the exact same code every time the owner of the car clicks the button on the keyfob. This implementation is obviously lacking of security since whoever intercepts, clones and repeats the signal sent from the keyfob is basically able to get in the car.\
+- *Single Code*: a single string of code is sent from the keyfob to the car. This is the exact same code every time the owner of the car clicks the button on the keyfob. This implementation is obviously lacking of security since whoever intercepts, clones and repeats the signal sent from the keyfob is basically able to get in the car.
+\
 <p>                  
  __                            ______
 /o \_____        ABC          /|_||_\`.__
 \__/-="="` --------------->  (   _    _ _\
                              =`-(_)--(_)-' 
-</p>\
-
+</p>
+\
 - *Rolling Code*: this algorithm is a little more secure than the Single Code, since it's based on an iteration through a long array of one-time codes. This avoids a single code - that has been already used - to be used again, protecting the car from simple reply attacks.\
 <p> 
-               ~~ABC~~ 
+             <del>ABC</del>
            --------------->
-               ~~ABD~~ 
+             <del>ABD</del>
  __        --------------->    ______
-/o \_____        ABE          /|_||_\`.__
+/o \_____         <del>ABE</del>         /|_||_\`.__
 \__/-="="` --------------->  (   _    _ _\
                              =`-(_)--(_)-' 
 </p>\
