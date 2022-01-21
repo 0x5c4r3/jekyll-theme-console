@@ -1,14 +1,3 @@
-test 123 
-asd
-asd
-asd
-asd
- Sf 
- asr ga
- sfd 
- dfv
- as
- d 
- asDV sdbas B
- S DFGsd g
- 
+# RF Hacking Part 1: Reply Attack
+
+I recently researched on Radio Signals and how they are implemented in modern car and keyfobs algorithms.
