@@ -14,6 +14,7 @@ There are 2 main algorithms implemented in modern cars:
 /o \_____        ABC          /|_||_\`.__
 \__/-="="` --------------->  (   _    _ _\
                              =`-(_)--(_)-' 
+ 
 </p>
 - *Rolling Code*: this algorithm is a little more secure than the Single Code, since it's based on an iteration through a long array of one-time codes. This avoids a single code - that has been already used - to be used again, protecting the car from simple reply attacks.\
 <p>
@@ -24,4 +25,5 @@ There are 2 main algorithms implemented in modern cars:
 /o \_____         GHI         /|_||_\`.__
 \__/-="="` --------------->  (   _    _ _\
                              =`-(_)--(_)-' 
+ 
 </p>
