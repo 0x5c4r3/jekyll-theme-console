@@ -19,9 +19,9 @@ There are 2 main algorithms implemented in modern cars:
 <p>
                   <del>ABC</del>
            --------------->
-                  <del>ABD</del>
+                  <del>DEF</del>
  __        --------------->    ______
-/o \_____         ABE         /|_||_\`.__
+/o \_____         GHI         /|_||_\`.__
 \__/-="="` --------------->  (   _    _ _\
                              =`-(_)--(_)-' 
 </p>
