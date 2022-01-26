@@ -56,6 +56,6 @@ There are many interesting tools, both hardware and software, that can be used f
       
 > - *Python Libraries*: Really handy, I liked it. I only used the HackRF one and works fine, I imagine the one from Nuand for the BladeRF might have the same issues as the CLI.
 
-<img src="/img/Car_Hacking_Part_1/receive.png" style="width:50%;height:100%;text-aligh:center;" alt="GNU_Receive Pic">
+<img src="/img/Car_Hacking_Part_1/receive.png" style="width:100%;height:100%;text-aligh:center;" alt="GNU_Receive Pic">
 
-<img src="/img/Car_Hacking_Part_1/send.png" style="width:50%;height:100%;text-aligh:center;" alt="GNU_Send Pic">
+<img src="/img/Car_Hacking_Part_1/send.png" style="width:100%;height:100%;text-aligh:center;" alt="GNU_Send Pic">
