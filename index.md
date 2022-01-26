@@ -9,6 +9,8 @@ permalink: /
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  text-align:center;
+  align:center;
 }
 </style>
 <script>
