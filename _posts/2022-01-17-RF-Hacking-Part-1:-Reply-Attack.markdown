@@ -18,6 +18,7 @@ I won’t go in depth on certain topics and I will assume that the reader has a 
 Car Opening mechanisms (keyfobs, if you want) work at default frequencies: 315MHz, 433.92MHz or 868MHz. This allow us to easily find out the exact frequency of the keyfob operates at and - in this case - reply it.
 Also, if we exclude the algorithms implementing both Radio Signals and Bluetooth, there are 2 main algorithms implemented in modern cars:
 &nbsp;
+
 > - *Single Code*: a single string of code is sent from the keyfob to the car. This is the exact same code every time the owner of the car clicks the button on the keyfob. This implementation is obviously lacking of security since whoever intercepts, clones and repeats the signal sent from the keyfob is basically able to get in the car.
 <p>                  
  __                            ______
