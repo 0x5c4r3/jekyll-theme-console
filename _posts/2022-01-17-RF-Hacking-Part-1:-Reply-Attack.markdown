@@ -19,7 +19,7 @@ Car Opening mechanisms (keyfobs, if you want) work at default frequencies: 315MH
 Also, if we exclude the algorithms implementing both Radio Signals and Bluetooth, there are 2 main algorithms implemented in modern cars:
 &nbsp;
 
-- > *Single Code*: a single string of code is sent from the keyfob to the car. This is the exact same code every time the owner of the car clicks the button on the keyfob. This implementation is obviously lacking of security since whoever intercepts, clones and repeats the signal sent from the keyfob is basically able to get in the car.
+> - *Single Code*: a single string of code is sent from the keyfob to the car. This is the exact same code every time the owner of the car clicks the button on the keyfob. This implementation is obviously lacking of security since whoever intercepts, clones and repeats the signal sent from the keyfob is basically able to get in the car.
 <p>                  
       __                            ______
      /o \_____        ABC          /|_||_\`.__
@@ -27,7 +27,7 @@ Also, if we exclude the algorithms implementing both Radio Signals and Bluetooth
                                   =`-(_)--(_)-' 
  
 </p>
-- > *Rolling Code*: this algorithm is a little more secure than the Single Code, since it's based on an iteration through a long array of one-time codes. This avoids a single code - that has been already used - to be used again, protecting the car from simple reply attacks.
+> - *Rolling Code*: this algorithm is a little more secure than the Single Code, since it's based on an iteration through a long array of one-time codes. This avoids a single code - that has been already used - to be used again, protecting the car from simple reply attacks.
 <p>
                        <del>ABC</del>
                 --------------->
@@ -42,17 +42,17 @@ Also, if we exclude the algorithms implementing both Radio Signals and Bluetooth
 ## <ins style="color:red;"><b>Tools Used</b></ins>
 There are many interesting tools, both hardware and software, that can be used for such purpose. I tried the majority of them, to have a better understanding of which is the best.
 <b>Hardware:<b>
-- > *Yard Stick One*: Cheapest and quite versatile half-duplex radio dongle able to receive or transmit signals below 1GHz. Perfect to jam the signal (we'll talk later about it), honestly I did not really like the interface, but it did its job.
+> - *Yard Stick One*: Cheapest and quite versatile half-duplex radio dongle able to receive or transmit signals below 1GHz. Perfect to jam the signal (we'll talk later about it), honestly I did not really like the interface, but it did its job.
 
-- > *HackRF*: the most famous SDR on the market, half-duplex, range from 1MHz to 6GHz (quite impressive tbh). Different ways for operating it. Not sure what to say about this one, it's the standard.
+> - *HackRF*: the most famous SDR on the market, half-duplex, range from 1MHz to 6GHz (quite impressive tbh). Different ways for operating it. Not sure what to say about this one, it's the standard.
 
-- > *BladeRF*: expensive, but probably the best interface around. Full-duplex, 2 RX and 2 TX Antennas with 2x2 MIMO, 47MHz to 6GHz... I mean, it's definitely my favourite toy.
+> - *BladeRF*: expensive, but probably the best interface around. Full-duplex, 2 RX and 2 TX Antennas with 2x2 MIMO, 47MHz to 6GHz... I mean, it's definitely my favourite toy.
 &nbsp;
 <b>Software:<b>
-- > *GNU Radio*: block-based tool used to play with radio signals, not easy at first impact, not really something a hacker would put hands on without knowing signals theory. With time, it became my best friend.
+> - *GNU Radio*: block-based tool used to play with radio signals, not easy at first impact, not really something a hacker would put hands on without knowing signals theory. With time, it became my best friend.
       
-- > *CLIs: Each hardware interface has it's own CLI, unfortunately quite messy and not always working. The HackRF one works fine, the BladeRF one is kinda messy, a little too much, mostly when dealing with full-duplex stuff, sending and receiving simultaneously.
+> - *CLIs: Each hardware interface has it's own CLI, unfortunately quite messy and not always working. The HackRF one works fine, the BladeRF one is kinda messy, a little too much, mostly when dealing with full-duplex stuff, sending and receiving simultaneously.
       
-- > *Python Libraries*: Really handy, I liked it. I only used the HackRF one and works fine, I imagine the one from Nuand for the BladeRF might have the same issues as the CLI.
+> - *Python Libraries*: Really handy, I liked it. I only used the HackRF one and works fine, I imagine the one from Nuand for the BladeRF might have the same issues as the CLI.
 
 
