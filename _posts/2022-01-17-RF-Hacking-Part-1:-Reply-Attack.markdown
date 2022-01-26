@@ -27,3 +27,8 @@ There are 2 main algorithms implemented in modern cars:
                              =`-(_)--(_)-' 
  
 </p>
+
+> In this blogpost I'll explain the basics of car hacking and how to hack a car implementing a *Single Code Algorithm*. If you're interested in bypassing *Rolling Code Algorithms*, check <a href="https://scare.rocks/2022/01/27/RF-Hacking-Part-2-Rolljam-Attack.html">Rf Hacking Part 2: Rolljam Attack</a>.
+
+
+## <ins><b>Tools Used</b></ins>
