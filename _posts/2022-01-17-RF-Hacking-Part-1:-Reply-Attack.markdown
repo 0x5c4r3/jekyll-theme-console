@@ -1,9 +1,9 @@
-# <span style="color:red;font-size:15px;"><ins><b>RF Hacking Part 1: Reply Attack</b></ins></span>
+# <span style="color:red;font-size:17px;"><ins><b>RF Hacking Part 1: Reply Attack</b></ins></span>
 
 &nbsp;
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-In this blogpost I'll explain the basics of car hacking and how to hack a car implementing a *Single Code Algorithm*. If you're interested in bypassing *Rolling Code Algorithms*, check <a href="https://scare.rocks/2022/01/27/RF-Hacking-Part-2-Rolljam-Attack.html">Rf Hacking Part 2: Rolljam Attack</a>.
+<div style="  padding-left: 7px;padding-right: 7px;">In this blogpost I'll explain the basics of car hacking and how to hack a car implementing a *Single Code Algorithm*. If you're interested in bypassing *Rolling Code Algorithms*, check <a href="https://scare.rocks/2022/01/27/RF-Hacking-Part-2-Rolljam-Attack.html">Rf Hacking Part 2: Rolljam Attack</a>.</div>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 &nbsp;
