@@ -56,4 +56,6 @@ There are many interesting tools, both hardware and software, that can be used f
       
 > - *Python Libraries*: Really handy, I liked it. I only used the HackRF one and works fine, I imagine the one from Nuand for the BladeRF might have the same issues as the CLI.
 
-<img src="pic_trulli.jpg" alt="Italian Trulli">
+<img src="/img/Car_Hacking_Part_1/receive.png" alt="GNU_Receive Pic">
+
+<img src="/img/Car_Hacking_Part_1/send.png" alt="GNU_Send Pic">
