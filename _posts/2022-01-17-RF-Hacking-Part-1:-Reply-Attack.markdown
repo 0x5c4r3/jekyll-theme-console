@@ -1,4 +1,4 @@
-# <span style="color:red;"><ins><b>RF Hacking Part 1: Reply Attack</b></ins></span>
+# <span style="color:red;font-size:+0.5;"><ins><b>RF Hacking Part 1: Reply Attack</b></ins></span>
 &nbsp;
 I recently researched on Radio Signals and how they are implemented in modern cars and keyfobs algorithms.
 This Blogpost is the first of a series of posts that will explain the path I followed, from the basic Reply attack to the most advanced Rolljam, using different hardware and methodologies.
@@ -32,3 +32,5 @@ There are 2 main algorithms implemented in modern cars:
 
 
 ## <ins><b>Tools Used</b></ins>
+
+
