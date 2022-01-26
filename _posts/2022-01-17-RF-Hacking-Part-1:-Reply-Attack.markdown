@@ -21,29 +21,30 @@ Also, if we exclude the algorithms implementing both Radio Signals and Bluetooth
 
 > - *Single Code*: a single string of code is sent from the keyfob to the car. This is the exact same code every time the owner of the car clicks the button on the keyfob. This implementation is obviously lacking of security since whoever intercepts, clones and repeats the signal sent from the keyfob is basically able to get in the car.
 <p>                  
- __                            ______
-/o \_____        ABC          /|_||_\`.__
-\__/-="="` --------------->  (   _    _ _\
-                             =`-(_)--(_)-' 
+      __                            ______
+     /o \_____        ABC          /|_||_\`.__
+     \__/-="="` --------------->  (   _    _ _\
+                                  =`-(_)--(_)-' 
  
 </p>
 > - *Rolling Code*: this algorithm is a little more secure than the Single Code, since it's based on an iteration through a long array of one-time codes. This avoids a single code - that has been already used - to be used again, protecting the car from simple reply attacks.
 <p>
-                  <del>ABC</del>
-           --------------->
-                  <del>DEF</del>
- __        --------------->    ______
-/o \_____         GHI         /|_||_\`.__
-\__/-="="` --------------->  (   _    _ _\
-                             =`-(_)--(_)-' 
+                       <del>ABC</del>
+                --------------->
+                       <del>DEF</del>
+      __        --------------->    ______
+     /o \_____         GHI         /|_||_\`.__
+     \__/-="="` --------------->  (   _    _ _\
+                                  =`-(_)--(_)-' 
  
 </p>
 
 ## <ins style="color:red;"><b>Tools Used</b></ins>
-There are many interesting tools, both hardware and software, that can be used for such purpose. I tried the majority of them, to have a better understanding of which is the best:
-- *Yard Stick One*: Cheapest and quite versatile half-duplex radio dongle able to receive or transmit signals below 1GHz. Perfect to jam the signal (we'll talk later about it), honestly I did not really like the interface, but it did its job.
-- *HackRF*: the most famous SDR on the market, half-duplex, range from 1MHz to 6GHz (quite impressive tbh). Different ways for operating it. Not sure what to say about this one, it's the standard.
-- *BladeRF*: expensive, but probably the best interface around. Full-duplex, 2 RX and 2 TX Antennas with 2x2 MIMO, 47MHz to 6GHz... I mean, it's definitely my favourite toy.
-
+There are many interesting tools, both hardware and software, that can be used for such purpose. I tried the majority of them, to have a better understanding of which is the best.
+<b>Hardware:<b>
+> - *Yard Stick One*: Cheapest and quite versatile half-duplex radio dongle able to receive or transmit signals below 1GHz. Perfect to jam the signal (we'll talk later about it), honestly I did not really like the interface, but it did its job.
+> - *HackRF*: the most famous SDR on the market, half-duplex, range from 1MHz to 6GHz (quite impressive tbh). Different ways for operating it. Not sure what to say about this one, it's the standard.
+> - *BladeRF*: expensive, but probably the best interface around. Full-duplex, 2 RX and 2 TX Antennas with 2x2 MIMO, 47MHz to 6GHz... I mean, it's definitely my favourite toy.
+<b>Software:<b>
 
 
