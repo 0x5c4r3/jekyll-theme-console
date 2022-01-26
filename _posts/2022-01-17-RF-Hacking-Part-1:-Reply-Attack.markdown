@@ -1,12 +1,18 @@
 # <span style="color:red;font-size:15px;"><ins><b>RF Hacking Part 1: Reply Attack</b></ins></span>
+
 &nbsp;
+
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 In this blogpost I'll explain the basics of car hacking and how to hack a car implementing a *Single Code Algorithm*. If you're interested in bypassing *Rolling Code Algorithms*, check <a href="https://scare.rocks/2022/01/27/RF-Hacking-Part-2-Rolljam-Attack.html">Rf Hacking Part 2: Rolljam Attack</a>.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
 &nbsp;
+
 I recently researched on Radio Signals and how they are implemented in modern cars and keyfobs algorithms.
 This Blogpost is the first of a series of posts that will explain the path I followed, from the basic Reply attack to the most advanced Rolljam, using different hardware and methodologies.
+
 &nbsp;
+
 I won’t go in depth on certain topics and I will assume that the reader has a general background in basic signals theory and is comfortable with terms like radio frequencies, gain, filters… 
 
 ## <ins><b>Algorithms</b></ins>
