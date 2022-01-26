@@ -35,7 +35,7 @@ document.write('                        ** *,\n</div></pre></br>')
   
                                                                                                     
                                                                                                     
-document.write('<pre><div class="center" style="color:red;display:inline;">                              *******                                                             *,\n');
+document.write('<pre><div class="center" style="color:red;display:inline;">                            *******                                                             *,\n');
 document.write('                           ....****.                               ,** *****.                 .** \n');
 document.write('                         , .... *  *.                           **** *** * ,**                ,** \n');
 document.write('                         * .....*,  *****                     * *****,  ,.*  *,              .***  \n');
