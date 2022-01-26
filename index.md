@@ -35,7 +35,7 @@ document.write('                        ** *,\n</div></pre></br>')
   
                                                                                                     
                                                                                                     
-document.write('<pre><div class="center" style="color:red;display:inline;">                                   *******                                                             *,\n');
+document.write('<pre><div class="center" style="color:red;display:inline;">                              *******                                                             *,\n');
 document.write('                           ....****.                               ,** *****.                 .** \n');
 document.write('                         , .... *  *.                           **** *** * ,**                ,** \n');
 document.write('                         * .....*,  *****                     * *****,  ,.*  *,              .***  \n');
@@ -54,7 +54,7 @@ document.write('                                    .**/</div><div style="color:
 document.write('                                     ,***..*</div><div style="color:white;display:inline;">@@@@@</div><div style="color:red;display:inline;">    </div><div style="color:white;display:inline;">#@ @@@@@@@@@@@@@@@@@#@@#@    *.  @@@@</div><div style="color:red;display:inline;">       \n');
 document.write('                                       *****</div><div style="color:white;display:inline;">@@@@</div><div style="color:red;display:inline;">%*****,           .....*</div><div style="color:white;display:inline;">@@@</div><div  style="color:red;display:inline;">*   .*,    </div><div style="color:white;display:inline;">@@@&       \n');
 document.write('                                         </div><div style="color:red;display:inline;">***</div><div style="color:white;display:inline;">@@@</div><div style="color:red;display:inline;"> . . .......... ..******, .... .       </div><div style="color:white;display:inline;">@@@</div><div style="color:red;display:inline;">      \n');
-document.write('                                     &</div><div style="color:white;display:inline;">@@</div><div style="color:red;display:inline;">********   ********    **,...*          </div><div style="color:white;display:inline;">@</div><div style="color:red;display:inline;display:inline;">       \n');
+document.write('                                          &</div><div style="color:white;display:inline;">@@</div><div style="color:red;display:inline;">********   ********    **,...*          </div><div style="color:white;display:inline;">@</div><div style="color:red;display:inline;display:inline;">       \n');
 document.write('                                           </div><div style="color:white;display:inline;">@</div><div style="color:red;display:inline;">,  .*****..,****.,***   *******                    \n');
 document.write('                                                  ********.***  *  ,* *.*.                      \n');
 document.write('                                                       ****** **  * **                    \n</div></pre></br>');
