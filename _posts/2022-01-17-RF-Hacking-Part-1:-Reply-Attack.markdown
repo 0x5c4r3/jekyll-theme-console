@@ -46,5 +46,8 @@ There are many interesting tools, both hardware and software, that can be used f
 > - *HackRF*: the most famous SDR on the market, half-duplex, range from 1MHz to 6GHz (quite impressive tbh). Different ways for operating it. Not sure what to say about this one, it's the standard.
 > - *BladeRF*: expensive, but probably the best interface around. Full-duplex, 2 RX and 2 TX Antennas with 2x2 MIMO, 47MHz to 6GHz... I mean, it's definitely my favourite toy.
 <b>Software:<b>
+> - *GNU Radio*: block-based tool used to play with radio signals, not easy at first impact, not really something a hacker would put hands on without knowing signals theory. With time, it became my best friend.
+> - *CLIs: Each hardware interface has it's own CLI, unfortunately quite messy and not always working. The HackRF one works fine, the BladeRF one is kinda messy, a little too much, mostly when dealing with full-duplex stuff, sending and receiving simultaneously.
+> - *Python Libraries*: Really handy, I liked it. I only used the HackRF one and works fine, I imagine the one from Nuand for the BladeRF might have the same issues as the CLI.
 
 
