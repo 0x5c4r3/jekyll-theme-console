@@ -42,7 +42,7 @@ Also, if we exclude the algorithms implementing both Radio Signals and Bluetooth
 ## <ins style="color:red;"><b>Tools Used</b></ins>
 There are many interesting tools, both hardware and software, that can be used for such purpose. I tried the majority of them, to have a better understanding of which is the best.
 <b>Hardware:<b>
-> - *Yard Stick One*: Cheapest and quite versatile half-duplex radio dongle able to receive or transmit signals below 1GHz. Perfect to jam the signal (we'll talk later about it), honestly I did not really like the interface, but it did its job.
+- > *Yard Stick One*: Cheapest and quite versatile half-duplex radio dongle able to receive or transmit signals below 1GHz. Perfect to jam the signal (we'll talk later about it), honestly I did not really like the interface, but it did its job.
 
 - > *HackRF*: the most famous SDR on the market, half-duplex, range from 1MHz to 6GHz (quite impressive tbh). Different ways for operating it. Not sure what to say about this one, it's the standard.
 
