@@ -47,7 +47,7 @@ There are many interesting tools, both hardware and software, that can be used f
 > - *HackRF*: the most famous SDR on the market, half-duplex, range from 1MHz to 6GHz (quite impressive tbh). Different ways for operating it. Not sure what to say about this one, it's the standard.
 
 > - *BladeRF*: expensive, but probably the best interface around. Full-duplex, 2 RX and 2 TX Antennas with 2x2 MIMO, 47MHz to 6GHz... I mean, it's definitely my favourite toy.
-&nbsp;
+
 <b>Software:<b>
 > - *GNU Radio*: block-based tool used to play with radio signals, not easy at first impact, not really something a hacker would put hands on without knowing signals theory. With time, it became my best friend.
       
