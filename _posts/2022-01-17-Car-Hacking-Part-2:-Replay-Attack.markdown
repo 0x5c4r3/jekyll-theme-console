@@ -28,6 +28,8 @@ The doorbell has a remote to stick outside the door that, when clicked, sends a 
 As explained in the <a href="https://scare.rocks/2022/01/14/Car-Hacking-Part-1-Intro.html" style="color:red;">Introduction</a>, devices that implement single code are very easy to hack, since we only need to intercept, store and replay the signal.
 &nbsp;
 I will explain these steps using GNU Radio and a BladeRF, since it's more handy due to the fact that it's full-duplex and I can use it to both send and receive signals (we'll need to do it during the Rolljam Attack).
+&nbsp;
+  asd
 <img src="/img/Car_Hacking_Part_1/receive.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Receive Pic">
 &nbsp;
 <img src="/img/Car_Hacking_Part_1/send.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Send Pic">
