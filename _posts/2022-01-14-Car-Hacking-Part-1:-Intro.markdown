@@ -24,7 +24,7 @@ Also, if we exclude the opening mechanisms implementing both Radio Signals and B
                                   =`-(_)--(_)-' 
  
 </p>
-> - *Rolling Code*: this algorithm is a little more secure than the Single Code, since it's based on an iteration through a long array of single-use codes. This avoids a string of code to be used twice or more times, protecting the car from simple reply attacks.
+> - *Rolling Code*: this algorithm is a little more secure than the Single Code, since it's based on an iteration through a long array of single-use codes. This avoids a string of code to be used twice or more times, protecting the car from simple replay attacks.
 <p>
                       <del> ABC </del>
                 --------------->
@@ -77,5 +77,5 @@ This tool allows us to see the frequency of the signal, but let's get deeper and
  
 In this case, URH prints the actual waveform of the signal, trying to automatically detect the modulation and other parameters used and dumping the relative data transmitted.
       
-With this basic understanding, we can now pass onto analysing the various attack against these mechanisms, starting from the easiest <a href="https://scare.rocks/2022/01/17/Car-Hacking-Part-2-Reply-Attack.html" style="color:red;">Reply Attack</a>.
+With this basic understanding, we can now pass onto analysing the various attack against these mechanisms, starting from the easiest <a href="https://scare.rocks/2022/01/17/Car-Hacking-Part-2-Replay-Attack.html" style="color:red;">Replay Attack</a>.
 
