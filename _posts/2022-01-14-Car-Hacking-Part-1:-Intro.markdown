@@ -75,4 +75,7 @@ This tool allows us to see the frequency of the signal, but let's get deeper and
       
 &nbsp;
  
-In this case, URH prints the actual waveform of the signal, trying to automatically detect the modulation and other parameters used, dumping the relative data transmitted. 
+In this case, URH prints the actual waveform of the signal, trying to automatically detect the modulation and other parameters used and dumping the relative data transmitted.
+      
+With this basic understanding, we can now pass onto analysing the various attack against these mechanisms, starting from the easiest <a href="https://scare.rocks/2022/01/17/Car-Hacking-Part-2-Reply-Attack.html" style="color:red;">Reply Attack</a>.
+
