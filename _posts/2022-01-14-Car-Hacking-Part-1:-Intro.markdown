@@ -59,4 +59,4 @@ There are many interesting tools, both hardware and software, that can be used f
 
 <ins style="color:red;">Analysing the Signal</ins>
 Let's now try to plot the signal that a keyfob is sending using GQRX and a BladeRF:
-<img src="/img/Car_Hacking_Part_1/Gif_Signal.gif" style="width:80%;height:80%;text-aligh:center;" alt="Signal_Plotter Pic">
+<img src="/img/Car_Hacking_Part_1/Gif_Signal.gif" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="Signal_Plotter Pic">
