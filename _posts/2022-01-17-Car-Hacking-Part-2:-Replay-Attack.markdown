@@ -38,7 +38,7 @@ First thing forst, let's intercept and record the signal. We'll use URH to do so
 
 &nbsp;
   
-<img src="/img/Car_Hacking_Part_1/receive.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="Record Pic">
+<img src="/img/Car_Hacking_Part_2/signal_doorbell.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="Doorbell Signal Pic">
   
 &nbsp;
 
