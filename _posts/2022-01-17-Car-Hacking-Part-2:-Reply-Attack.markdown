@@ -8,7 +8,7 @@ In my case, I used radio doorbell.
 
 very simple, very cheap.
 
-<img src="/img/Car_Hacking_Part_2/doorbell.jpeg" style="width:60%;height:60%;display:block;margin-left:auto;margin-right:auto;" alt="Doorbell Pic">
+<img src="/img/Car_Hacking_Part_2/doorbell.jpeg" style="width:40%;height:40%;display:block;margin-left:auto;margin-right:auto;" alt="Doorbell Pic">
 
 <img src="/img/Car_Hacking_Part_1/receive.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Receive Pic">
 
