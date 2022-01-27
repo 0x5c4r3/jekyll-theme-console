@@ -7,9 +7,18 @@ Before getting into more advanced methodologies, it's always better to understan
 In my case, I used radio doorbell.
 
 &nbsp;
-
-<img src="/img/Car_Hacking_Part_2/doorbell.jpeg" style="width:40%;height:40%;display:block;margin-left:auto;margin-right:auto;" alt="Doorbell Pic">
-
+<p>
+              ________
+             / ______ \                                <>
+             || _  _ ||                                ||
+             ||| || |||                                ||
+             |||_||_|||               ABC              ||
+             || _  _o|| (o)   ------------------>     /  \
+             ||| || |||                              |#   |
+             |||_||_|||                              /    \
+             ||______||                             '-....-'
+                                                        U
+</p>
 &nbsp;
 
 The doorbell has a remote to stick outside the door that, when clicked, sends a signal to the actual doorbell that, once received the signal, playes a sound. Very simple, very cheap.
