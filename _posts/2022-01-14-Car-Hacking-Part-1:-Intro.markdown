@@ -9,6 +9,8 @@ This Blogpost is the first of a series of posts that will explain the path I fol
 
 I won’t go in depth on certain topics and I will assume that the reader has a general background in basic signals theory and is comfortable with terms like radio frequencies, gain, filters… 
 
+&nbsp;
+
 <ins style="color:red;">Algorithms and Frequencies</ins>
 Car Opening mechanisms (keyfobs, if you want) work at default frequencies: 315MHz, 433.92MHz or 868MHz. This allow us to easily find out the exact frequency of the keyfob operates at and - in this case - reply it.
 Also, if we exclude the algorithms implementing both Radio Signals and Bluetooth, there are 2 main algorithms implemented in modern cars:
