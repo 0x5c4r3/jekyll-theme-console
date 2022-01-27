@@ -26,9 +26,9 @@ Also, if we exclude the algorithms implementing both Radio Signals and Bluetooth
 </p>
 > - *Rolling Code*: this algorithm is a little more secure than the Single Code, since it's based on an iteration through a long array of one-time codes. This avoids a single code - that has been already used - to be used again, protecting the car from simple reply attacks.
 <p>
-                       <del>ABC</del>
+                       <del> ABC </del>
                 --------------->
-                       <del>DEF</del>
+                       <del> DEF </del>
       __        --------------->    ______
      /o \_____         GHI         /|_||_\`.__
      \__/-="="` --------------->  (   _    _ _\
