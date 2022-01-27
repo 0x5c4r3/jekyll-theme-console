@@ -75,3 +75,4 @@ This tool allows us to see the frequency of the signal, but let's get deeper and
       
 &nbsp;
  
+In this case, URH prints the actual waveform of the signal, trying to automatically detect the modulation and other parameters used, dumping the relative data transmitted. 
