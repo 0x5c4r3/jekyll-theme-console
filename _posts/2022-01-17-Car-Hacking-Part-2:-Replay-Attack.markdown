@@ -42,5 +42,8 @@ First thing forst, let's intercept and record the signal. We'll use URH to do so
   
 &nbsp;
 
+Once that's done, we don;t really need to do anything else but send it from our interface.
+Whenever we do that, the doorbell will receive the signal and play the sound.
+  
 
 
