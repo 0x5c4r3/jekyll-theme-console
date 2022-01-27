@@ -1,4 +1,4 @@
-# <span style="color:red;font-size:17px;"><ins><b>RF Hacking Part 2: Reply Attack</b></ins></span>
+# <span style="color:red;font-size:17px;"><ins><b>RF Hacking Part 2: Replay Attack</b></ins></span>
 
 &nbsp;
 
@@ -24,6 +24,9 @@ In my case, I used radio doorbell.
 The doorbell has a remote to stick outside the door that, when clicked, sends a signal to the actual doorbell that, once received the signal, playes a sound. Very simple, very cheap.
 
 &nbsp;
+<ins style="color:red;">Recording the signal</ins>
+As explained in the <a href="https://scare.rocks/2022/01/17/Car-Hacking-Part-1-Intro.html" style="color:red;">Introduction</a>, devices that implement single code are very easy to hack, since we only need to intercept, store and replay the signal.
+  I will explain asd
 <img src="/img/Car_Hacking_Part_1/receive.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Receive Pic">
 &nbsp;
 <img src="/img/Car_Hacking_Part_1/send.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Send Pic">
