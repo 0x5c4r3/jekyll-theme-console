@@ -25,7 +25,7 @@ document.write('          . </div><div style="color:white;display:inline;">@@@ @
 document.write('            .</div><div style="color:white;display:inline;">@@@@@@,@               @@@@</div><div style="color:red;display:inline;">\n')
 document.write('             **.</div><div style="color:white;display:inline;">@@@   @@@@@@@@@@@</div><div style="color:red;display:inline;">  * </div><div style="color:white;display:inline;">@@@</div><div style="color:red;display:inline;">\n')
 document.write('               *</div><div style="color:white;display:inline;">@@</div><div style="color:red;display:inline;">.. ...*******...,  </div><div style="color:white;display:inline;">@@</div><div style="color:red;display:inline;">\n')
-document.write('                 </div><div style="color:white;display:inline;">@</div><div style="color:red;display:inline;">****** *..** .*    </div><div style="color:white;display:inline;">*\n')          
+document.write('                </div><div style="color:white;display:inline;">@</div><div style="color:red;display:inline;">****** *..** .*     </div><div style="color:white;display:inline;">*\n')          
 document.write('                    </div><div style="color:red;display:inline;">..*** * ,**\n')
 document.write('                        ** *,\n</div></pre></br>')    
   
