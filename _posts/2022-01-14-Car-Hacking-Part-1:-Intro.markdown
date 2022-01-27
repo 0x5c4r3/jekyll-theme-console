@@ -68,3 +68,10 @@ Let's now try to plot the signal that a keyfob is sending using GQRX and a Blade
  
 As we can see from the figure above, the interface is receiving the signal and printing it around 433.92MHz, since the keyfob works at that frequency (there always will be a some offset/noise when receiving the signal, so it won't be at exactly 433.92MHz, but close enough). We can clearly see the pick  every time I click the button on the keyfob.
 This tool allows us to see the frequency of the signal, but let's get deeper and let's use URH to actually check the data the signal carries:
+      
+&nbsp;
+      
+<img src="/img/Car_Hacking_Part_1/urh_dump.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="Data_Plotter Pic">
+      
+&nbsp;
+ 
