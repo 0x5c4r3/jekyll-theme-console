@@ -1,9 +1,8 @@
 ---
-title: /
+title: Scarecrow's Cyber Security Blog
 layout: default
 permalink: /
 ---
-<title>Scarecrow's Cyber Security Blog</title>
 <style>
 .center {
   display: block;
