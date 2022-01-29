@@ -1,7 +1,7 @@
 ---
-title: /
+title: /0x5c4r3
 layout: default
-permalink: /
+permalink: /0x5c4r3
 description: I like to break stuff and whenever I have time to waste, I hack shit and I talk about it here. 
 ---
 <style>
