@@ -34,7 +34,7 @@ I will explain these steps using a BladeRF, since it's more handy due to the fac
 
 &nbsp;
   
-First thing forst, let's intercept and record the signal. We'll use URH to do so. Once recorded, let's just crop it so that we don't really have too much empty seconds sent in the signal.
+First thing first, let's intercept and record the signal. We'll use URH to do so. Once recorded, let's just crop it so that we don't really have too much empty seconds stored in the signal.
 
 &nbsp;
   
@@ -42,8 +42,8 @@ First thing forst, let's intercept and record the signal. We'll use URH to do so
   
 &nbsp;
 
-Once that's done, we don;t really need to do anything else but send it from our interface.
-Whenever we do that, the doorbell will receive the signal and play the sound.
+Once that's done, we don't really need to do anything else but send it from our interface.
+Whenever we do that, the doorbell will receive the signal and play the sound. Easy-peasy, not really worth spending more time talking about this, so let's go straight to <a href="https://scare.rocks/2022/01/27/Car-Hacking-Part-3-Rolljam-Attack.html" style="color:red;">Rolljam Attacks</a>.
   
 
 
