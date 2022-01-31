@@ -7,7 +7,7 @@ This method is safe against reply attacks, but there is still a way to bypass it
 
 &nbsp;
 
-<ins style="color:red;">Attack Approach</ins>
+<ins style="color:red;">Attack Approach - Theory</ins>
 
 &nbsp;
 
@@ -20,7 +20,7 @@ In order to achieve the goal of opening the car remotely, we need a little bit o
  
 </p>
 
- The owner, who obviously is a muggle and does not know the dark magic we are using, will think that the car did not pick up the signal he just sent, so he'll press the keyfob again. This time we will intercept the second signal he sent, store it and send the first one 
+The owner, who obviously is a muggle and does not know the dark magic we are using, will think that the car did not pick up the signal he just sent, so he'll press the keyfob again. This time we will intercept the second signal he sent, store it and immediately send the first one, so that he'll think that this time, his pressing the keyfob worked.
 
 
 <p>                  
@@ -30,6 +30,9 @@ In order to achieve the goal of opening the car remotely, we need a little bit o
                                    .='`"``=.                     =`-(_)--(_)-' 
  
 </p>
+
+This way we still have the second signal he just sent and with that, we'll be able to remotely open the car once the owner will have left.
+
 <p>                  
       __                              .-.                          ______
      /o \_____                       (0.0)           2            /|_||_\`.__
@@ -37,6 +40,12 @@ In order to achieve the goal of opening the car remotely, we need a little bit o
                                    .='`"``=.                     =`-(_)--(_)-' 
  
 </p>
+
+&nbsp;
+
+<ins style="color:red;">Attack Approach - Practice</ins>
+
+&nbsp;
 
 <img src="/img/Car_Hacking_Part_1/receive.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Receive Pic">
   
