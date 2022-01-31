@@ -47,7 +47,8 @@ This way we still have the second signal he just sent and with that, we'll be ab
 
 &nbsp;
 
-In order to perform such attack, we need to introduction to <b>jamming</b>: jamming is basically sending a very strong signal, close to the one we are interested in, so that all the devices listening for that frequency (i.e. a car) won't be able to receive the original signal.
+In order to perform such attack, we need to introduction to <b>jamming</b>: jamming is basically sending a very strong signal, close to the one we are interested in, so that all the devices listening for that frequency (i.e. a car) won't be able to receive the original signal.   
+Also, to prove that this method works, we can limit our practice approach to dealing with jamming, recording and fintering the signal, since all the other functions are only a matter of simple implementation and do not need any particolar attention.
 
 &nbsp;
 
@@ -64,7 +65,7 @@ While recording these signals, we are jamming and clicking the car keyfob. We ca
   
 &nbsp;
 
-The first row is configuring one of the BladeRF TX Antennas sending a strong triangle wave to jam the signal at 433.85MHz. The second row configures the receiver, recording the window of frequencies happening in a file and printing it on a GUI.
+The first row is configuring one of the BladeRF TX Antennas sending a strong triangle wave to jam the signal at 433.85MHz. The second row configures the receiver, another RX antenna from the BladeRF, recording the window of frequencies happening in a file and printing it on a GUI. Running this script, we are basically able to store a file that we will need to filter later on, to isolate the original one sent from the keyfob.
 
 &nbsp;
 
