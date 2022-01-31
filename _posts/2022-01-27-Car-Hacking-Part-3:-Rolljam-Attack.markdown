@@ -47,7 +47,7 @@ This way we still have the second signal he just sent and with that, we'll be ab
 
 &nbsp;
 
-In order to perform such attack, we need to introduction to <b>jamming</b>: jamming is basically sending a very strong signal, close to the one we are interested in, so that all the devices listening for that frequency (i.e. a car) won't be able to receive the signal.
+In order to perform such attack, we need to introduction to <b>jamming</b>: jamming is basically sending a very strong signal, close to the one we are interested in, so that all the devices listening for that frequency (i.e. a car) won't be able to receive the original signal.
 
 &nbsp;
 
@@ -55,6 +55,8 @@ In order to perform such attack, we need to introduction to <b>jamming</b>: jamm
 
 &nbsp;
 
+The picture above is basically a scheme representing some signals happening around 433.92MHz. Le't start analysing the receiving window: each device has such structure since the frequency it's waiting for won't always be precisely 433.92MHz, but can vary based on different aspects (i.e. temperature). Having a receiving window allows the receiving device to detect and get the signal even if it's slightly moved.   
+While recording these signals, we are jamming and clicking the keyfob. We can clearly see how the jamming signal is far higher in gain than the original signal on the right.
 <img src="/img/Car_Hacking_Part_1/receive.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Receive Pic">
   
 &nbsp;
