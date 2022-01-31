@@ -2,8 +2,8 @@
 
 &nbsp;
 
-And now the fun part. As explained in the <a href="https://github.com/0x5c4r3/scare.rocks/edit/master/_posts/2022-01-14-Car-Hacking-Part-1:-Intro.markdown" style="color:red;">Intro</a>, rolling code algorithms implement an array of ordered single-use codes, which expires after being used once. Also, the list works in a way that if we are at a certain level - let's say we are at code at position 123 in the list -, all the other codes that precede that one are considered already expired and not usable. This means that if we click the keyfob 10 times away from the car (so that the car does not receive anything) and we intercept all these 10 signals, the only code that will be usable to open the car is the 10th (the last signal that the keyfob sent).    
-This method is safe against reply attacks, but there is still a way to bypass it, using a bit of social engineerig and technical skills.
+And now the fun part. As explained in the <a href="https://github.com/0x5c4r3/scare.rocks/edit/master/_posts/2022-01-14-Car-Hacking-Part-1:-Intro.markdown" style="color:red;">Intro</a>, rolling code algorithms implement an array of ordered single-use codes, which expire after being used once. Also, the list works in a way that if we are at a certain level - let's say we are at code at position 123 in the list -, all the other codes that precede that one are considered already expired and not usable. This means that if we click the keyfob 10 times away from the car (so that the car does not receive anything) and we intercept all these 10 signals, the only code that will be usable to open the car is the 10th (the last signal that the keyfob sent).    
+This method is safe against replay attacks, but there is still a way to bypass it, using a bit of social engineerig and technical skills.
 
 &nbsp;
 
@@ -46,6 +46,7 @@ This way we still have the second signal he just sent and with that, we'll be ab
 <ins style="color:red;">Attack Approach - Practice</ins>
 
 &nbsp;
+
 
 <img src="/img/Car_Hacking_Part_1/receive.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Receive Pic">
   
