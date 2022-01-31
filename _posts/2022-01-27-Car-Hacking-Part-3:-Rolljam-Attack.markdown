@@ -56,14 +56,16 @@ In order to perform such attack, we need to introduction to <b>jamming</b>: jamm
 &nbsp;
 
 The picture above is basically a scheme representing some signals happening around 433.92MHz. Le't start analysing the receiving window: each device has such structure since the frequency it's waiting for won't always be precisely 433.92MHz, but can vary based on different aspects (i.e. temperature). Having a receiving window allows the receiving device to detect and get the signal even if it's slightly moved.   
-While recording these signals, we are jamming and clicking the keyfob. We can clearly see that both the signals are in the device receiving window amd we can also see how the jamming signal is far higher in gain than the original signal on the right. This will force the receiving device to only consider the higher signal, ignoring all the others. This way, we are able to jam the signal and record all the section of interesting frequencies, to then cut only what we need, as shown in the GNU Radio scheme below:
+While recording these signals, we are jamming and clicking the keyfob. We can clearly see that both the signals are in the device receiving window amd we can also see how the jamming signal is far higher in gain than the original signal on the right. This will force the receiving device to only consider the higher signal, ignoring all the others. This way, we are able to jam the signal and record all the section of interesting frequencies, to then cut only what we need, as shown in the GNU Radio scheme below, that uses a BladeRF to both jam and record the signals:
 
 &nbsp;
 
-<img src="/img/Car_Hacking_Part_1/receive.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Receive Pic">
+<img src="/img/Car_Hacking_Part_3/receive.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Receive Pic">
   
 &nbsp;
 
-<img src="/img/Car_Hacking_Part_1/send.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Send Pic">
+The first signal source block is one of the BladeRF TX Antennas sending a 
+
+<img src="/img/Car_Hacking_Part_3/send.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Send Pic">
   
 &nbsp;
