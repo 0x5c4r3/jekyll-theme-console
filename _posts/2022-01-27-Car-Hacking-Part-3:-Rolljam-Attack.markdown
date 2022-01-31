@@ -65,10 +65,12 @@ While recording these signals, we are jamming and clicking the car keyfob. We ca
   
 &nbsp;
 
-The first row is configuring one of the BladeRF TX Antennas sending a strong triangle wave to jam the signal at 433.85MHz. The second row configures the receiver, another RX antenna from the BladeRF, recording the window of frequencies happening in a file and printing it on a GUI. Running this script, we are basically able to store a file that we will need to filter later on, to isolate the original one sent from the keyfob.
+The first row is configuring one of the BladeRF TX Antennas sending a strong triangle wave to jam the signal at 433.85MHz. The second row configures the receiver, another RX antenna from the BladeRF, recording the window of frequencies happening in a file and printing it on a GUI. Running this script, we are basically able to store a file that we will need to filter later on, to isolate the original wave sent from the keyfob.
 
 &nbsp;
 
 <img src="/img/Car_Hacking_Part_3/send.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Send Pic">
   
 &nbsp;
+
+With the script above, we are able to filter out, using a lowpass filter with a cutoff at 60kHz, only the signal that we need, and replay it to the car, that will pop open.
