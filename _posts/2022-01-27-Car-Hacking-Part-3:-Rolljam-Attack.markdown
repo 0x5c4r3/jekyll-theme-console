@@ -51,7 +51,7 @@ In order to perform such attack, we need to introduction to <b>jamming</b>: jamm
 
 &nbsp;
 
-<img src="/img/Car_Hacking_Part_3/jamming.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="jamming Pic">
+<img src="/img/Car_Hacking_Part_3/jamming.png" style="width:50%;height:50%;display:block;margin-left:auto;margin-right:auto;" alt="jamming Pic">
 
 &nbsp;
 
