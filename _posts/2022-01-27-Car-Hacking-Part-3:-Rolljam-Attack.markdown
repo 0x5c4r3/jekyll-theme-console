@@ -48,6 +48,13 @@ This way we still have the second signal he just sent and with that, we'll be ab
 &nbsp;
 
 In order to perform such attack, we need to introduction to <b>jamming</b>: jamming is basically sending a very strong signal, close to the one we are interested in, so that all the devices listening for that frequency (i.e. a car) won't be able to receive the signal.
+
+&nbsp;
+
+<img src="/img/Car_Hacking_Part_3/jamming.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="jamming Pic">
+
+&nbsp;
+
 <img src="/img/Car_Hacking_Part_1/receive.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Receive Pic">
   
 &nbsp;
