@@ -1,3 +1,5 @@
+<meta name="twitter:image" content="/img/Car_Hacking_Part_1/Gif_Signal.gif">
+
 # <span style="color:red;font-size:17px;"><ins><b>RF Hacking Part 1: Intro</b></ins></span>
 
 &nbsp;
