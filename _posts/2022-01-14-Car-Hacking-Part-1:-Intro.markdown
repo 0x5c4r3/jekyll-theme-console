@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:     0x5c4r3
-image: /img/Car_Hacking_Part_1/Gif_Signal.gif
+image: /img/Car_Hacking_Part_1/urh_dump.png
 ---
 # <span style="color:red;font-size:17px;"><ins><b>RF Hacking Part 1: Intro</b></ins></span>
 
