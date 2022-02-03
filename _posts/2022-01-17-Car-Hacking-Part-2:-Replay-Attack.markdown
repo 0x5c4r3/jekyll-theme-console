@@ -35,7 +35,7 @@ As explained in the <a href="https://scare.rocks/2022/01/14/Car-Hacking-Part-1-I
 
 &nbsp;
   
-I will explain these steps using a BladeRF and GNU Radio scripts, since it's more handy due to the fact that the hardware is full-duplex and I can use it to both send and receive signals (we'll need to do it during the Rolljam Attack, don't worry, I'll explain later).
+I will explain these steps using a BladeRF, since it's more handy due to the fact that the hardware is full-duplex and I can use it to both send and receive signals (we'll need to do it during the Rolljam Attack, don't worry, I'll explain later).
 
 &nbsp;
   
