@@ -77,5 +77,8 @@ With the script above, we are able to filter out, using a lowpass filter with a 
 
 &nbsp;
 
-<img src="/img/Car_Hacking_Part_3/car.gif" style="width:70%;height:70%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Send Pic">
+<!-- <img src="/img/Car_Hacking_Part_3/car.gif" style="width:70%;height:70%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Send Pic"> -->
+ <iframe width="420" height="315"
+src="https://youtu.be/Eq_0i4Ahtas">
+</iframe> 
 
