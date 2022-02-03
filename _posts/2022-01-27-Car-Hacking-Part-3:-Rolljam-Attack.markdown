@@ -81,19 +81,4 @@ With the script above, we are able to filter out, using a lowpass filter with a 
 
 &nbsp;
 
-<iframe style="width:100%;height:100%;display:block;margin-left:auto;margin-right:auto;" src="https://www.youtube.com/embed/Eq_0i4Ahtas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<p></p>
+<iframe width="560" height="315" style="display:block;margin-left:auto;margin-right:auto;" src="https://www.youtube.com/embed/Eq_0i4Ahtas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
