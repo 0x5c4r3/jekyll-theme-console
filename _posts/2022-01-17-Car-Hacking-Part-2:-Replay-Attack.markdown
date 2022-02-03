@@ -47,11 +47,11 @@ First thing first, let's intercept and record the signal. We'll use URH to do so
   
 &nbsp;
 
-Once done, we don't really need to do anything else but send it from our interface. We have just recorded the single and unique code that is used every time the doorbell is clicked, so we can pay it again, whenever we want, to make it play the sound. That's it. It's that simple.
+Once done, we don't really need to do anything else but send it from our interface. We have just recorded the single and unique code that is used every time the doorbell is clicked, so we can play it again, whenever we want, to make it play the sound. That's it. It's that simple. And trust me, when your office has a radio doorbell installed, it's also very fun.
   
 &nbsp;
   
-Now, imagine a car implementing that algorithm. Anyone might be able to perform such attack, so yeah, think about it next time you leave your purse in your old car. Also, I actually found out during my random car testing, that some of the modern cars (I'm talking about 2020/2021) are still implementing such algorithm... and that's scary honestly.   
+Now, imagine a car implementing that algorithm. That's definitely less fun (if the car is yours).Anyone might be able to perform such attack, so yeah, think about it next time you leave your purse in your old car. Also, I actually found out during my random car testing, that some of the modern cars (I'm talking about 2020/2021) are still implementing such algorithm... and that's scary honestly.   
 Anyways, easy-peasy, not really worth spending more time talking about this, so let's go straight to <a href="https://scare.rocks/2022/01/27/Car-Hacking-Part-3-Rolljam-Attack.html" style="color:red;">Rolljam Attacks</a>. (<--- working on it, it will be out in a couple of days, stay tuned ;) )
   
 
