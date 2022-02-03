@@ -80,5 +80,5 @@ With the script above, we are able to filter out, using a lowpass filter with a 
 <!-- <img src="/img/Car_Hacking_Part_3/car.gif" style="width:70%;height:70%;display:block;margin-left:auto;margin-right:auto;" alt="GNU_Send Pic"> -->
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Eq_0i4Ahtas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="width:60%;height:60%;display:block;margin-left:auto;margin-right:auto;" src="https://www.youtube.com/embed/Eq_0i4Ahtas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
