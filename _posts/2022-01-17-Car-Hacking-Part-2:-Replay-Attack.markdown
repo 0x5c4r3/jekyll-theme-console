@@ -51,7 +51,7 @@ Once done, we don't really need to do anything else but send it from our interfa
   
 &nbsp;
   
-Now, imagine a car implementing that algorithm. That's definitely less fun (if the car is yours).Anyone might be able to perform such attack, so yeah, think about it next time you leave your purse in your old car. Also, I actually found out during my random car testing, that some of the modern cars (I'm talking about 2020/2021) are still implementing such algorithm... and that's scary honestly.   
+Now, imagine a car implementing that algorithm. That's definitely less fun (if the car is yours).Anyone might be able to perform such attack, so yeah, think about it next time you leave your purse in your old car. Also, I actually found out during my random car testing, that some of the modern cars (I'm talking 2020/2021) are still implementing such algorithm... and that's scary honestly.   
 Anyways, easy-peasy, not really worth spending more time talking about this, so let's go straight to <a href="https://scare.rocks/2022/01/27/Car-Hacking-Part-3-Rolljam-Attack.html" style="color:red;">Rolljam Attacks</a>. (<--- working on it, it will be out in a couple of days, stay tuned ;) )
   
 
