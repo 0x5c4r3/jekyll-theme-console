@@ -73,7 +73,7 @@ The first row is configuring one of the BladeRF TX Antennas sending a strong tri
   
 &nbsp;
 
-With the script above, we are able to filter out, using a lowpass filter with a cutoff at 60kHz, only the signal that we need, and replay it to the car, that will pop open:
+With the script above, we are able to filter out, using a lowpass filter with a cutoff at 60kHz, only the signal that we need, and replay it to the car, that will pop open, as shown in the video below:
 
 &nbsp;
 
