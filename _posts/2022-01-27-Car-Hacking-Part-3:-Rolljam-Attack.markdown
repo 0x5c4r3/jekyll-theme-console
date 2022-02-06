@@ -8,9 +8,6 @@ This method is safe against replay attacks, but there is still a way to bypass i
 &nbsp;
 
 <ins style="color:red;">Attack Approach - Theory</ins>
-
-&nbsp;
-
 In order to achieve the goal of opening the car remotely, we need a little bit of social engineering. I'll try to explain the approach using the next ascii pictures. Let's say the owner of the car is represented by the key, while we are the skull (obviously). The owner needs to hurry to a dentist appointment, so he'll open the car remotely, as he usually does. We'll intercept the signal sent from the keyfob, stop it and store it, so that the car do not receive it.
 <p>                  
       __                              .-.                          ______
@@ -44,9 +41,6 @@ This way we still have the second signal he just sent and with that, we'll be ab
 &nbsp;
 
 <ins style="color:red;">Attack Approach - Practice</ins>
-
-&nbsp;
-
 In order to perform such attack, we need to introduction to <b>jamming</b>: jamming is basically sending a very strong signal, close to the one we are interested in, so that all the devices listening for that frequency (i.e. a car) won't be able to receive the original signal.   
 Also, to prove that this method works, we can limit our practice approach to dealing with jamming, recording and fintering the signal, since all the other functions are only a matter of simple implementation and do not need any particolar attention.
 
