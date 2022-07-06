@@ -5,8 +5,8 @@ permalink: /news
 ---
 <h1><b># News</b></h1>
 I'll use this space for any communications apart from the blogposts, maybe to make the website a little more clean, dunno, let's see how long it's gonna last..<br/>
-
-<p class="center" style="color:red;display:inline;">
+<pre>
+<div class="center" style="display:inline;">
 ⠀⠀⢸⣿⣿⣶⣶⣦⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣴⣶⣶⠿⣿⡇⠀⠀
 ⠀⠀⢸⣿⣈⣉⠙⠛⠻⠿⣿⣶⣤⡀⠀⠀⢀⣤⣶⠿⠛⠋⠉⠀⠀⠀⢸⡇⠀⠀
 ⠀⠀⢸⣿⠛⠻⣿⢷⣶⣦⣤⣈⡉⣿⡇⢸⡟⠉⠀⠀⠀⠀⠀⠀⠀⢀⣼⡇⠀⠀
@@ -18,7 +18,8 @@ I'll use this space for any communications apart from the blogposts, maybe to ma
 ⠀⠀⢸⡇⠀⠀⠀⠀⢸⣷⣦⣤⣤⣿⡇⢸⣿⠋⣉⣉⣨⣿⠀⣿⣿⡇⢸⡇⠀⠀
 ⠀⠀⢸⣇⣀⣀⣀⡀⢸⣧⣄⣉⣉⣿⡇⢸⣿⠛⠋⣉⣹⣿⣀⣉⣉⣠⣼⡇⠀⠀
 ⠀⠀⠈⠉⠉⠉⠉⠛⠛⠛⠿⠿⢿⣿⡇⢸⣿⡿⠿⠿⠛⠛⠛⠉⠉⠉⠉⠁⠀
-</p>
+</div>
+</pre>
 <br/>
 <p><p style="color:red;display:inline;">2022-07-06:</p> <div style="display:inline;" >I'm starting a new series of blogposts called <div class="center" style="color:red;display:inline;">\\findings</div> in which I'll share some interesting exploits found during daily pentests.</div></p>
 <br/>
