@@ -6,7 +6,7 @@ permalink: /news
 <h1><b># News</b></h1>
 I'll use this space for any communications apart from the blogposts, maybe to make the website a little more clean, dunno, let's see how long it's gonna last..<br/>
 
-<p>
+<p class="center" style="color:red;display:inline;">
 ⠀⠀⢸⣿⣿⣶⣶⣦⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣴⣶⣶⠿⣿⡇⠀⠀
 ⠀⠀⢸⣿⣈⣉⠙⠛⠻⠿⣿⣶⣤⡀⠀⠀⢀⣤⣶⠿⠛⠋⠉⠀⠀⠀⢸⡇⠀⠀
 ⠀⠀⢸⣿⠛⠻⣿⢷⣶⣦⣤⣈⡉⣿⡇⢸⡟⠉⠀⠀⠀⠀⠀⠀⠀⢀⣼⡇⠀⠀
