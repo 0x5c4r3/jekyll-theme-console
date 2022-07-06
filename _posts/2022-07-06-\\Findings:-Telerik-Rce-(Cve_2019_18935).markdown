@@ -31,7 +31,7 @@ Ok, at this point I was sure Telerik was actually implemented, but I was not tha
 
 &nbsp;
 
-{% highlight bash %}
+{% highlight shell %}
 curl -skL <HOST> | grep -oE '20[0-9]{2}(\.[0-9]*)+'
 {% endhighlight %}
 
@@ -42,4 +42,7 @@ I ended up running it against 3 different endpoints related to the Telerik imple
 &nbsp;
 
 <ins style="color:red;">Exploitation</ins>
+
+&nbsp;
+  
 
