@@ -19,4 +19,5 @@ I'll use this space for any communications apart from the blogposts, maybe to ma
 ⠀⠀⢸⣇⣀⣀⣀⡀⢸⣧⣄⣉⣉⣿⡇⢸⣿⠛⠋⣉⣹⣿⣀⣉⣉⣠⣼⡇⠀⠀
 ⠀⠀⠈⠉⠉⠉⠉⠛⠛⠛⠿⠿⢿⣿⡇⢸⣿⡿⠿⠿⠛⠛⠛⠉⠉⠉⠉⠁⠀
 </p>
+</br>
 <p><p style="color:red;display:inline;">2022-07-06:</p> <div style="display:inline;" >asdasdasd</div></p>
