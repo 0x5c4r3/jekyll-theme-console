@@ -15,6 +15,12 @@ I was recently working on a pentest for a really big company, huge scope, quite 
 
 &nbsp;
 
+The pic clearly show that the _default.aspx_ endpoint had something to deal with Telerik, so I went checking the HTTP History and I found the actual endopoint:
+
+&nbsp;
+
+<img src="/img/Telerik_RCE/detection2.png" style="width:60%;height:60%;display:block;margin-left:auto;margin-right:auto;" alt="Burp_Detection">
+
 <ins style="color:red;">Algorithms and Frequencies</ins>
 Car Opening mechanisms (keyfobs, if you want) work at default frequencies, depending on the country they come from and the brand: 315MHz, 433.92MHz or 868MHz. This allow us to easily find out the exact frequency of the keyfob operates at.
 Also, if we exclude the opening mechanisms implementing both Radio Signals and Bluetooth (i.e. Tesla), there are 2 main algorithms implemented in modern cars:
