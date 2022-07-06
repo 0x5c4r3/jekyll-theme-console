@@ -11,7 +11,7 @@ image: /img/Car_Hacking_Part_1/twitter_banner.png
 
 &nbsp;
 
-I was recently working on a pentest for a really big company, huge scope, quite a lot of different IPs and hosts from all over the world. Focusing on one IP, I was checking the various endpoints of its web servers and while scanning and enumerating the website to have a general map of the structure, I noticed that one of the passive extentions that I have on Burp found an outdated Telerik version implemented:
+I was recently working on a pentest for a really big company, huge scope, quite a lot of different IPs and hosts from all over the world. Focusing on one IP, I was checking the various endpoints of its web servers and while scanning and enumerating the website to have a general map of the structure, I was checking the source code of a page and I noticed some references to Telerik, plus an html comment that might have been the version implemented:
 
 &nbsp;
 
@@ -19,13 +19,21 @@ I was recently working on a pentest for a really big company, huge scope, quite 
 
 &nbsp;
 
-The pic clearly show that the _default.aspx_ endpoint had something to deal with Telerik, so I went checking the HTTP History and I found the actual endopoint:
+The pic clearly show that _default.aspx_ had something to deal with Telerik, so I went checking the HTTP History and I found the actual endopoint:
 
 &nbsp;
 
 <img src="/img/Telerik_RCE/detection2.png" style="width:60%;height:60%;display:block;margin-left:auto;margin-right:auto;" alt="Burp_Detection">
 
 &nbsp;
+
+Ok, we do now now that Telerik is actually implemented, but I'm not that sure about the version, I can't only rely on an html comment, so I researched online and I found out that you can figure out the version implemented running the following very simple bash script:
+
+&nbsp;
+
+```
+curl -skL <HOST> | grep -oE '20[0-9]{2}(\.[0-9]*)+'
+```
 
 &nbsp;
 
