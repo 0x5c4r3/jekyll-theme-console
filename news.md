@@ -4,7 +4,6 @@ layout: page
 permalink: /news
 ---
 <h1><b># News</b></h1>
-<br/>
 I'll use this space for any communications apart from the blogposts, maybe to make the website a little more clean, dunno, let's see how long it's gonna last..<br/>
 
 <p>
