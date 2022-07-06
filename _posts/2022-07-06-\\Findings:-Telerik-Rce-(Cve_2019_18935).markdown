@@ -19,7 +19,7 @@ I was recently working on a pentest for a really big company, huge scope, quite 
 
 &nbsp;
 
-The pic clearly show that _default.aspx_ had something to deal with Telerik, so I went checking the HTTP History and I found the actual endopoint:
+The pic clearly showed that _default.aspx_ had something to deal with Telerik, so I checked the HTTP History and I found the actual endopoint:
 
 &nbsp;
 
@@ -27,13 +27,15 @@ The pic clearly show that _default.aspx_ had something to deal with Telerik, so 
 
 &nbsp;
 
-Ok, we do now now that Telerik is actually implemented, but I'm not that sure about the version, I can't only rely on an html comment, so I researched online and I found out that you can figure out the version implemented running the following very simple bash script:
+Ok, at this point I was sure Telerik was actually implemented, but I was not that sure about the version, I could't only rely on an html comment, so I researched online and I found out that you can figure out the version implemented running the following very simple bash script against different endpoints: 
 
 &nbsp;
 
-```
-curl -skL <HOST> | grep -oE '20[0-9]{2}(\.[0-9]*)+'
-```
+```curl -skL <HOST> | grep -oE '20[0-9]{2}(\.[0-9]*)+'```
+
+&nbsp;
+
+I ended up running it against 3 different endpoints related to the Telerik implementation that reported the same version: v2017.1.228.45.
 
 &nbsp;
 
