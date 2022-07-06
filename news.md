@@ -3,6 +3,15 @@ title: /news
 layout: page
 permalink: /news
 ---
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+</style>
+
 # <span style="color:red;font-size:17px;"><ins><b>NEWS</b></ins></span>
 I'll use this space for any communications apart from the blogposts, maybe to make the website a little more clean, dunno, let's see how long it's gonna last..<br/>
 <pre>
