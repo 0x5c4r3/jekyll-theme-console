@@ -3,7 +3,7 @@ title: /news
 layout: page
 permalink: /news
 ---
-<h1><b># News</b></h1>
+# <span style="color:red;font-size:17px;"><ins><b>NEWS</b></ins></span>
 I'll use this space for any communications apart from the blogposts, maybe to make the website a little more clean, dunno, let's see how long it's gonna last..<br/>
 <pre>
 <div class="center" style="display:inline;">
