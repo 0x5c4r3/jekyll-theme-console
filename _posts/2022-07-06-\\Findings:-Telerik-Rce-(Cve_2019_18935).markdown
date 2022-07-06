@@ -3,7 +3,7 @@ layout:     post
 author:     0x5c4r3
 image: /img/Car_Hacking_Part_1/twitter_banner.png
 ---
-# <span style="color:red;font-size:17px;"><ins><b>\\findings: Telerik RCE (CVE-2019-18935)</b></ins></span>
+# <span style="color:red;font-size:17px;"><ins><b> \\findings: Telerik RCE (CVE-2019-18935)</b></ins></span>
 
 &nbsp;
 
