@@ -18,4 +18,5 @@ I'm 0x5c4r3 (scarecrow), an OSCP and Security researcher with an academic and wo
         |='|
         |='|
 </p>
-<div>Best way to do so is to text me on twitter --> https://twitter.com/iamscarecrow1</div>
+</br>
+<div>Best way to do so is to text me on twitter --> <a style="color:red;" href="https://twitter.com/iamscarecrow1">twitter</a></div>
