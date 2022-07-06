@@ -7,7 +7,7 @@ permalink: /whoami
 <br/>
 I'm 0x5c4r3 (scarecrow), an OSCP and Security researcher with an academic and working background in Information Technology and Cyber Security, smashing my head on the desk every fucking day to learn new shit, hack new stuff and talk about it.<br/>
 
-<h1><b># Ping me an email</b></h1>
+<h1><b># Ping me a message</b></h1>
 <p>
        ..--""|
        | .---'
@@ -19,4 +19,4 @@ I'm 0x5c4r3 (scarecrow), an OSCP and Security researcher with an academic and wo
         |='|
         |='|
 </p>
-<p><p style="display:inline;">EMAIL:</p> <div style="color:red;display:inline;">17skidrow17@gmail.com</div></p>
+<div>Best way to do so is to text me on twitter --> https://twitter.com/iamscarecrow1</div>
