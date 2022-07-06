@@ -11,7 +11,7 @@ I was recently working on a pentest for a really big company, huge scope, quite 
 
 &nbsp;
 
-<img src="/img/Telerik_RCE/detection_telerik.png.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="Burp_Detection">
+<img src="/img/Telerik_RCE/detection_telerik.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="Burp_Detection">
 
 &nbsp;
 
