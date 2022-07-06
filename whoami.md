@@ -19,4 +19,4 @@ I'm 0x5c4r3 (scarecrow), an OSCP and Security researcher with an academic and wo
         |='|
 </p>
 <br/>
-<p style="display:inline;"><div>Best way to do so is to text me on <a style="color:red;display:inline;" href="https://twitter.com/iamscarecrow1">twitter</a></div>.</p>
+<p style="display:inline;"><div>Best way to do so is to text me on <a style="color:red;display:inline;" href="https://twitter.com/iamscarecrow1">twitter</a>.</div></p>
