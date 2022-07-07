@@ -41,11 +41,20 @@ I ended up running it against 3 different endpoints related to Telerik that repo
 
 &nbsp;
 
-<ins style="color:red;">CVE-2019-18935</ins>
+<ins style="color:red;">CVE-2019-18935 - Quick Theory</ins>
 
 &nbsp;
   
-I was already aware about <a href="https://nvd.nist.gov/vuln/detail/CVE-2019-18935" style="color:red;">CVE-2019-18935</a>, but I didn't have the possibility to dig in details and actually use the exploit. 
+I was already aware about <a href="https://nvd.nist.gov/vuln/detail/CVE-2019-18935" style="color:red;">CVE-2019-18935</a>, but I didn't have the possibility to dig in details.<br/>
+The vulnerability is based on 2 parts: an Unrestricted File Upload and an Insecure Deserialization.
+
+&nbsp;
+
+  _RadAsyncUpload_, a file handler that allows asynchronous encrypted file uploads. Until v2017.2.621, the encryption mechanism implemented was not secure, allowing an attacker to use a hard-coded key to craft a file upload request to _/Telerik.Web.Ui.WebResource.axd?type=rau_ with a custom encrypted rauPostData POST parameter. Changing the _TempTargetFolder_, an attacker is able to save the uploaded file to any directory the web server has write acess to.
+ 
+&nbsp;
+  
+ kug 
   
 &nbsp;
 
