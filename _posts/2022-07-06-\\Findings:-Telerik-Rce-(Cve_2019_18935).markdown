@@ -36,10 +36,6 @@ curl -skL <HOST> | grep -oE '20[0-9]{2}(\.[0-9]*)+'
 {% endhighlight %}
 
 &nbsp; 
-  
-<pre><code> curl -skL _HOSTNAME_ | grep -oE '20[0-9]{2}(\.[0-9]*)+' </code></pre>
-
-&nbsp;
 
 I ended up running it against 3 different endpoints related to Telerik that reported the same version: v2017.1.228.45.
 
