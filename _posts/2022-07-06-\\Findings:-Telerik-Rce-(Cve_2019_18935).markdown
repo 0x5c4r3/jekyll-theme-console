@@ -35,6 +35,8 @@ Ok, at this point I was sure Telerik was actually implemented, but I was not tha
 curl -skL <HOST> | grep -oE '20[0-9]{2}(\.[0-9]*)+'
 {% endhighlight %}
 
+<code>curl -skL <HOST> | grep -oE '20[0-9]{2}(\.[0-9]*)+'</code>
+
 &nbsp;
 
 I ended up running it against 3 different endpoints related to Telerik that reported the same version: v2017.1.228.45.
