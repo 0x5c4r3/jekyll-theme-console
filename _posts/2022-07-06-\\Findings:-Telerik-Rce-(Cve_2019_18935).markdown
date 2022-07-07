@@ -91,8 +91,9 @@ The exploit actually works, with the execution time of the script over 10 second
   
 &nbsp;
  
-  
+At this point I just compiled the _reverse_shell.c_ payload in Win11 and following the same path of the sleep.dll, I sent it to the server, receiving a reverse shell.
   
 &nbsp;
   
 <img src="/img/Telerik_RCE/revshell.png" style="width:60%;height:60%;display:block;margin-left:auto;margin-right:auto;" alt="payload_compilation">
+ 
