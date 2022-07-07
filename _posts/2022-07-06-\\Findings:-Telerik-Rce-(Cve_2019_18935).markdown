@@ -11,7 +11,7 @@ image: /img/Car_Hacking_Part_1/twitter_banner.png
 
 &nbsp;
 
-I was recently working on a pentest for a really big company, huge scope, quite a lot of different IPs and hosts from all over the world. Focusing on one IP, I was checking the various endpoints of its web servers and while scanning and enumerating the website to have a general map of the structure, I was checking the source code of a page and I noticed some references to Telerik, with an html comment that might have been the version implemented:
+I was recently working on a pentest for a really big company, huge scope, quite a lot of different IPs and hosts from all over the world. Focusing on one IP, I was checking the various endpoints of its web servers and while scanning and enumerating the website to have a general map of the structure, I was checking the source code of a page and I noticed some references to Telerik, a famous collection of UI tools for web applications. The webpage also contained an html comment that might have been the version implemented:
 
 &nbsp;
 
@@ -41,8 +41,14 @@ I ended up running it against 3 different endpoints related to Telerik that repo
 
 &nbsp;
 
-<ins style="color:red;">Exploitation</ins>
+<ins style="color:red;">CVE-2019-18935</ins>
 
 &nbsp;
   
-I was already aware about <a href="https://nvd.nist.gov/vuln/detail/CVE-2019-18935" style="color:red;">CVE-2019-18935</a>, but I have never had the possibility to dig in details and actually use the exploit. 
+I was already aware about <a href="https://nvd.nist.gov/vuln/detail/CVE-2019-18935" style="color:red;">CVE-2019-18935</a>, but I didn't have the possibility to dig in details and actually use the exploit. 
+  
+&nbsp;
+
+<ins style="color:red;">Exploitation</ins>
+
+&nbsp;
