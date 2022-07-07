@@ -41,7 +41,7 @@ I ended up running it against 3 different endpoints related to Telerik that repo
 
 &nbsp;
 
-<ins style="color:red;">CVE-2019-18935 - Quick Theory</ins>
+<ins style="color:red;">Exploitation - Quick Theory</ins>
 
 &nbsp;
   
@@ -50,14 +50,14 @@ The vulnerability is based on 2 parts: an Unrestricted File Upload and an Insecu
 
 &nbsp;
 
-  _RadAsyncUpload_, a file handler that allows asynchronous encrypted file uploads. Until v2017.2.621, the encryption mechanism implemented was not secure, allowing an attacker to use a hard-coded key to craft a file upload request to _/Telerik.Web.Ui.WebResource.axd?type=rau_ with a custom encrypted rauPostData POST parameter. Changing the _TempTargetFolder_, an attacker is able to save the uploaded file to any directory the web server has write acess to.
+CVE-2017-11317:  _RadAsyncUpload_, a file handler that allows asynchronous encrypted file uploads. Until v2017.2.621, the encryption mechanism implemented was not secure, allowing an attacker to use a hard-coded key to craft a file upload request to _/Telerik.Web.Ui.WebResource.axd?type=rau_ with a custom encrypted rauPostData POST parameter. Changing the _TempTargetFolder_, an attacker is able to save the uploaded file to any directory the web server has write acess to.
  
 &nbsp;
   
- kug 
+CVE-2019-18935: _rauPostData_ contains the serialize configuration and the type of the object, which gets deserialized by the .NET's _JavaScriptSerializer.Deserialize()_ function. When the deserialization happens, this function takes some parameters and assign them based on the specified object type specified. If the type of the object can be controlled by the attacker, he/she may specify the type to be a _gadget_ (a class within the executing scope of the application that, as a side effect of being instantiated and modified via setters or field assignment, has special properties that make it useful during deserialization) A remote code execution (RCE) gadget's properties allow it to perform operations that facilitate executing arbitrary code.
   
 &nbsp;
 
-<ins style="color:red;">Exploitation</ins>
+<ins style="color:red;">Exploitation - let's break it</ins>
 
 &nbsp;
