@@ -35,7 +35,7 @@ Ok, at this point I was sure Telerik was actually implemented, but I was not tha
 curl -skL <HOST> | grep -oE '20[0-9]{2}(\.[0-9]*)+'
 {% endhighlight %}
 
-<code>curl -skL <HOST> | grep -oE '20[0-9]{2}(\.[0-9]*)+'</code>
+<pre><code>curl -skL <HOST> | grep -oE '20[0-9]{2}(\.[0-9]*)+' </code></pre>
 
 &nbsp;
 
