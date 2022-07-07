@@ -62,4 +62,5 @@ CVE-2019-18935: _rauPostData_ contains the serialize configuration and the type 
 
 &nbsp;
 
-Yeah the theory it's boring, I know, so let's dive in the actual exploit. First thing first, the CVE comes in <a style="color:red;" href="https://github.com/noperator/CVE-2019-18935" style="color:red;">Github</a>, very well explained.
+Yeah the theory it's boring, I know, so let's dive in the actual exploit. First thing first, the CVE comes in <a style="color:red;" href="https://github.com/noperator/CVE-2019-18935" style="color:red;">Github</a>, very well explained. It's not immediate tho, so I'll try to explain what I have done as best as I can.<br/>
+Since the exploitation of the vulnerability depends on the architecture of the vulnerable server, I had to go through a little trial and error to get the correct one, since I had no idea of what the server structure was.
