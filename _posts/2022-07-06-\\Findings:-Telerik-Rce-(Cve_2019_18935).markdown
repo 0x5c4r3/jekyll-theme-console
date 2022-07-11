@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:     0x5c4r3
-image: /img/Telerik_RCE/detection_telerik.png
+image: /img/Telerik_RCE/payload.png
 ---
 # <span style="color:red;font-size:17px;"><ins><b>\\\findings: Telerik RCE (CVE-2019-18935)</b></ins></span>
 
