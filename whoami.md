@@ -9,7 +9,8 @@ I'm 0x5c4r3 (scarecrow), an OSCP and Security researcher with an academic and wo
 <br/>
 <center> TWITTER - <script src="https://www.hackthebox.eu/badge/144238"></script> - YOUTUBE </center>
 <h1><b># Ping me a message</b></h1>
-<p>
+<center>
+<p>  
                      ..--""|
                      | .---'
                (\-.--| |---------.
@@ -20,5 +21,5 @@ I'm 0x5c4r3 (scarecrow), an OSCP and Security researcher with an academic and wo
                       |='|
                       |='|
 </p>
+</center>
 <br/>
-<p style="display:inline;"><div>Best way to do so is to text me on <a style="color:red;display:inline;" href="https://twitter.com/iamscarecrow1">twitter</a>.</div></p>
