@@ -14,21 +14,27 @@ permalink: /news
 
 # <span style="color:red;font-size:17px;"><ins><b>News</b></ins></span>
 I'll use this space for any communications apart from the blogposts, maybe to make the website a little more clean, dunno, let's see how long it's gonna last..<br/>
-<pre>
-<div class="center" style="display:inline;">
-        ⠀⢸⣿⣿⣶⣶⣦⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣴⣶⣶⠿⣿⡇⠀⠀
-        ⠀⢸⣿⣈⣉⠙⠛⠻⠿⣿⣶⣤⡀⠀⠀⢀⣤⣶⠿⠛⠋⠉⠀⠀⠀⢸⡇⠀⠀
-       ⠀⠀⢸⣿⠛⠻⣿⢷⣶⣦⣤⣈⡉⣿⡇⢸⡟⠉⠀⠀⠀⠀⠀⠀⠀⢀⣼⡇⠀⠀
-       ⠀⠀⢸⣿⠿⠶⣿⣤⣴⣿⣏⣉⣙⣿⡇⢸⡇⠀⠀⣀⣀⣤⣴⣶⠿⠿⣿⡇⠀⠀
-       ⠀⠀⢸⣷⣶⣤⣤⣤⣄⣈⣉⠙⠛⣿⡇⢸⣷⠾⠟⠛⢉⣿⣧⣤⣴⣶⣿⡇⠀⠀
-       ⠀⠀⢸⣯⣤⣄⣸⣿⣏⠙⠛⠛⠛⣿⡇⢸⣿⣴⣶⡿⠿⠛⠛⣿⣇⣤⣽⡇⠀⠀
-       ⠀⠀⢸⡏⠉⠛⠛⠛⢿⡿⠿⢿⣶⣿⡇⢸⣿⣉⣤⣤⡶⠾⠛⠛⢉⣉⣽⡇⠀⠀
-       ⠀⠀⢸⡇⠀⠀⠀⠀⢸⡷⠶⢤⣤⣿⡇⢸⣿⣉⣥⣿⣶⣶⠞⠛⠋⠉⢹⡇⠀⠀
-       ⠀⠀⢸⡇⠀⠀⠀⠀⢸⣷⣦⣤⣤⣿⡇⢸⣿⠋⣉⣉⣨⣿⠀⣿⣿⡇⢸⡇⠀⠀
-       ⠀⠀⢸⣇⣀⣀⣀⡀⢸⣧⣄⣉⣉⣿⡇⢸⣿⠛⠋⣉⣹⣿⣀⣉⣉⣠⣼⡇⠀⠀
-       ⠀⠀⠈⠉⠉⠉⠉⠛⠛⠛⠿⠿⢿⣿⡇⢸⣿⡿⠿⠿⠛⠛⠛⠉⠉⠉⠉⠁⠀
-</div>
-</pre>
+<center>
+<script>
+  
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+// MOBILE
+}else{
+// DESKTOP
+document.write('<div class="center" style="color:white;display:inline;">⢸⣿⣿⣶⣶⣦⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣴⣶⣶⠿⣿⡇</br>');
+document.write('⢸⣿⣈⣉⠙⠛⠻⠿⣿⣶⣤⡀⠀⠀⢀⣤⣶⠿⠛⠋⠉⠀⠀⠀⢸⡇</br>');
+document.write('⢸⣿⠛⠻⣿⢷⣶⣦⣤⣈⡉⣿⡇⢸⡟⠉⠀⠀⠀⠀⠀⠀⠀⢀⣼⡇</br>');
+document.write('⢸⣿⠿⠶⣿⣤⣴⣿⣏⣉⣙⣿⡇⢸⡇⠀⠀⣀⣀⣤⣴⣶⠿⠿⣿⡇</br>');
+document.write('⢸⣷⣶⣤⣤⣤⣄⣈⣉⠙⠛⣿⡇⢸⣷⠾⠟⠛⢉⣿⣧⣤⣴⣶⣿⡇</br>');
+document.write('⢸⣯⣤⣄⣸⣿⣏⠙⠛⠛⠛⣿⡇⢸⣿⣴⣶⡿⠿⠛⠛⣿⣇⣤⣽⡇</br>');
+document.write('⢸⡏⠉⠛⠛⠛⢿⡿⠿⢿⣶⣿⡇⢸⣿⣉⣤⣤⡶⠾⠛⠛⢉⣉⣽⡇</br>');
+document.write('⢸⡇⠀⠀⠀⠀⢸⡷⠶⢤⣤⣿⡇⢸⣿⣉⣥⣿⣶⣶⠞⠛⠋⠉⢹⡇</br>');
+document.write('⢸⡇⠀⠀⠀⠀⢸⣷⣦⣤⣤⣿⡇⢸⣿⠋⣉⣉⣨⣿⠀⣿⣿⡇⢸⡇</br>');
+document.write('⢸⣇⣀⣀⣀⡀⢸⣧⣄⣉⣉⣿⡇⢸⣿⠛⠋⣉⣹⣿⣀⣉⣉⣠⣼⡇</br>');
+document.write('⠈⠉⠉⠉⠉⠛⠛⠛⠿⠿⢿⣿⡇⢸⣿⡿⠿⠿⠛⠛⠛⠉⠉⠉⠉⠁</div></br>');
+}
+</script>
+</center>
 <br/>
 <p><p style="color:red;display:inline;">2022-07-06:</p> <div style="display:inline;" >SORRY I'M LATE! I've been super busy with work and shit, but I'm back, proimise. I'm also starting a new series of blogposts called <div class="center" style="color:red;display:inline;">\\findings</div> in which I'll share some interesting exploits found during daily pentests.</div></p>
 <br/>
