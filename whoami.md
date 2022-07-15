@@ -10,6 +10,7 @@ permalink: /whoami
   margin-right: auto;
   width: 100%;
 }
+</style>
   
 # <span style="color:red;font-size:17px;"><ins><b>Whoami & Contacts</b></ins></span>
 
