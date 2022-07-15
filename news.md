@@ -21,7 +21,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 // MOBILE
 }else{
 // DESKTOP
-document.write('<div class="center" style="color:white;display:inline;">⢸⣿⣿⣶⣶⣦⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣴⣶⣶⠿⣿⡇</br>');
+document.write('</br><div class="center" style="color:white;display:inline;">⢸⣿⣿⣶⣶⣦⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣴⣶⣶⠿⣿⡇</br>');
 document.write('⢸⣿⣈⣉⠙⠛⠻⠿⣿⣶⣤⡀⠀⠀⢀⣤⣶⠿⠛⠋⠉⠀⠀⠀⢸⡇</br>');
 document.write('⢸⣿⠛⠻⣿⢷⣶⣦⣤⣈⡉⣿⡇⢸⡟⠉⠀⠀⠀⠀⠀⠀⠀⢀⣼⡇</br>');
 document.write('⢸⣿⠿⠶⣿⣤⣴⣿⣏⣉⣙⣿⡇⢸⡇⠀⠀⣀⣀⣤⣴⣶⠿⠿⣿⡇</br>');
