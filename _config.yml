@@ -10,7 +10,7 @@ header_pages:
   - blog.md
   - news.md
   
-footer: '<p style="display:inline;"><p style="color:red;text-align:left;">17</p>follow me on <a style="color:red;" href="https://twitter.com/iamscarecrow1">twitter</a></p>'
+footer: '<p style="display:inline-block;"><p style="color:red;text-align:left;">17</p>follow me on <a style="color:red;" href="https://twitter.com/iamscarecrow1">twitter</a></p>'
 
 style: dark # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
