@@ -18,11 +18,12 @@ I'm 0x5c4r3 (scarecrow), an OSCP and Security researcher with an academic and wo
 <br/>
 <center>
 <script>
-   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-  // MOBILE
   
-  }else{
-  // DESKTOP
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+// MOBILE
+  document.write('MOBILE')
+}else{
+// DESKTOP
 document.write('<div class="center" style="color:white;display:inline;">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n')
 document.write('88888888888888888888888888888888888888888888888888888\n')
 document.write('8888""""""""""""""88888888888888888888888888888888888\n')
@@ -47,5 +48,6 @@ document.write('8888888888888888888888888:::8888888888888888888888888\n')
 document.write('88888888888888888888888888a88888888888888888888888888\n')
 document.write('"""""""""""""""""""' `"""""""""' `"""""""""""""""""""\n</div>')
 }
+</script>
 </center>
 
