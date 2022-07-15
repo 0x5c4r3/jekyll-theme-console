@@ -25,7 +25,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   document.write('<div>MOBILE</div>');
 }else{
 // DESKTOP
-document.write('<div class="center" style="color:white;display:inline;">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n');
+document.write('<div class="center" style="color:white;display:inline;">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</br>');
 document.write('88888888888888888888888888888888888888888888888888888\n');
 document.write('8888""""""""""""""88888888888888888888888888888888888\n');
 document.write('8888              88888888888888888888888888888888888\n');
