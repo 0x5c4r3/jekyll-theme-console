@@ -7,7 +7,7 @@ permalink: /whoami
 
 I'm 0x5c4r3 (scarecrow), an OSCP and Security researcher with an academic and working background in Information Technology and Cyber Security, smashing my head on the desk every day to learn new stuff and talk about it here.
 <br/>
-<center style="display:inline;"> <span style="display:inline;">TWITTER - </span><script style="display:inline;" src="https://www.hackthebox.eu/badge/144238"></script><span style="display:inline;"> - YOUTUBE</span></center>
+<center style="display:inline;"> <span>TWITTER - </span><script style="display:inline;" src="https://www.hackthebox.eu/badge/144238"></script><span> - YOUTUBE</span></center>
 <h1><b># Ping me a message</b></h1>
 <p>  
                      ..--""|
