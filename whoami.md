@@ -6,9 +6,6 @@ permalink: /whoami
 # <span style="color:red;font-size:17px;"><ins><b>Whoami & Contacts</b></ins></span>
 
 I'm 0x5c4r3 (scarecrow), an OSCP and Security researcher with an academic and working background in Information Technology and Cyber Security, smashing my head on the desk every day to learn new stuff and talk about it here.
-<br/>
-
-<center><script style="display:inline;" src="https://www.hackthebox.eu/badge/144238"></script></center>
 
 <br/>
 <center>
@@ -29,7 +26,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 88888888888888888888888aa:::aa88888888888888888888888
 88888888888888888888888888888888888888888888888888888
 88888888888888888888888888888888888888888888888888888
-88888888888888888888888888"88888888888888888888888888
+88888888888888<script style="display:inline;" src="https://www.hackthebox.eu/badge/144238"></script></center>8888888888888
 8888888888888888888888888:::8888888888888888888888888
 8888888888888888888888888:::8888888888888888888888888
 8888888888888888888888888:::8888888888888888888888888
