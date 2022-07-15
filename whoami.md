@@ -11,9 +11,9 @@ I'm 0x5c4r3 (scarecrow), an OSCP and Security researcher with an academic and wo
 <center><script style="display:inline;" src="https://www.hackthebox.eu/badge/144238"></script></center>
 
 <br/>
-<center>
-  <span> 
-    <p>
+<center style="display:inline;">
+  <span style="display:inline;"> 
+    <p style="display:inline;">
                              .^!???7~:   :^         
          .J?:            .7Y55555555J?J?^.        
          ^555?~.         ?555555555555YJ!:        
@@ -30,8 +30,8 @@ I'm 0x5c4r3 (scarecrow), an OSCP and Security researcher with an academic and wo
              .:^~~~~~~^:.                         
     </p>                          
   </span>-
-  <span> 
-    <p>
+  <span style="display:inline;"> 
+    <p style="display:inline;">
          .^~!!!!!!77777777777777777777777777!!!!!!~^.   
  .~77777777777777777777777777777777777777777777~. 
  !7777777777777777777777777777777777777777777777!.
@@ -50,8 +50,8 @@ I'm 0x5c4r3 (scarecrow), an OSCP and Security researcher with an academic and wo
    .:^^~~~~~~~~~~~~~~!!!!!!!!!~~~~~~~~~~~~~^^:.
     </p>
   </span>-
-  <span>
-    <p>
+  <span style="display:inline;">
+    <p style="display:inline;">
       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@&#GP5YJY5PB#&@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@BJ^.             .~Y#@@@@@@@@@@@@@@@@
