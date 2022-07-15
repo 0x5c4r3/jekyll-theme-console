@@ -25,15 +25,15 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   document.write('<div>MOBILE</div>');
 }else{
 // DESKTOP
-document.write('<div class="center" style="color:white;display:inline;">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n</div>');
-//document.write('88888888888888888888888888888888888888888888888888888\n');
-//document.write('8888""""""""""""""88888888888888888888888888888888888\n');
-//document.write('8888              88888888888888888888888888888888888\n');
-//document.write('8888              88888888888888888888888888888888888\n');
-//document.write('8888..............88888888888888888888888888888888888\n');
-//document.write('88888888888888888888888888888888888888888888888888888\n');
-//document.write('88888888888888888888888":::::"88888888888888888888888\n');
-//document.write('888888888888888888888::;gPPRg;::888888888888888888888\n');
+document.write('<div class="center" style="color:white;display:inline;">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n');
+document.write('88888888888888888888888888888888888888888888888888888\n');
+document.write('8888""""""""""""""88888888888888888888888888888888888\n');
+document.write('8888              88888888888888888888888888888888888\n');
+document.write('8888              88888888888888888888888888888888888\n');
+document.write('8888..............88888888888888888888888888888888888\n');
+document.write('88888888888888888888888888888888888888888888888888888\n');
+document.write('88888888888888888888888":::::"88888888888888888888888\n');
+document.write('888888888888888888888::;gPPRg;::888888888888888888888\n</div>');
 //document.write('88888888888888888888::dP`   `Yb::88888888888888888888\n');
 //document.write('88888888888888888888::8)     (8::88888888888888888888\n');
 //document.write('88888888888888888888;:Yb     dP:;88( )888888888888888\n');
