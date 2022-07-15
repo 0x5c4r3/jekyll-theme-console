@@ -30,7 +30,7 @@ document.write('<a href="https://www.youtube.com/channel/UCcYc_cJZDhYXPm2hpM7Zqw
 document.write('<div class="center" style="color:white;display:inline;">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</br>');
 document.write('88888888888888888888888888888888888888888888888888888</br>');
 document.write('8888//////////////88888888888888888888888888888888888</br>');
-document.write('8888/ <p style="color:red;">Scarey <3</p>  /88888888888888888888888888888888888</br>');
+document.write('8888/ <p> style="color:red;">Scarey <3</p>  /88888888888888888888888888888888888</br>');
 document.write('8888//////////////88888888888888888888888888888888888</br>');
 document.write('8888..............88888888888888888888888888888888888</br>');
 document.write('88888888888888888888888888888888888888888888888888888</br>');
