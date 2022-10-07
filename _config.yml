@@ -8,7 +8,6 @@ header_pages:
   - index.md
   - whoami.md
   - blog.md
-  - news.md
   
 footer: 'follow me on <a style="color:red;" href="https://twitter.com/iamscarecrow1">twitter</a>'
 
