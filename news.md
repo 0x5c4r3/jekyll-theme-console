@@ -37,8 +37,3 @@ document.write('⠈⠉⠉⠉⠉⠛⠛⠛⠿⠿⢿⣿⡇⢸⣿⡿⠿⠿⠛⠛⠛�
 </center>
 </br>
 <a class="twitter-timeline" href="https://twitter.com/iamscarecrow1?ref_src=twsrc%5Etfw">Tweets by iamscarecrow1</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-//<p><p style="color:red;display:inline;">2022-10-07:</p> <div style="display:inline;" >I'm currently developing an <div class="center" //style="color:red;display:inline;">alarmed notification system</div> using an ESP32 and different modules, once I'll be done I'll make sure to share the project here. //It's taking time but I think I'm almost at the end</div></p>
-//<br/>
-//<p><p style="color:red;display:inline;">2022-07-06:</p> <div style="display:inline;" >SORRY I'M LATE! I've been super busy with work and shit, but I'm back, //proimise. I'm also starting a new series of blogposts called <div class="center" style="color:red;display:inline;">\\findings</div> in which I'll share some //interesting exploits found during daily pentests.</div></p>
-//<br/>
-//<p><p style="color:red;display:inline;">2022-01-01:</p> <div style="display:inline;" >New Year new ideas, one of which is sharing my <div class="center" //style="color:red;display:inline;">pentesting experiences</div>, which hopefully will be interesting and inspiring for someone out there. I'm planning to post here //and there about research, ideas, exploits, findings and other interesting pentesting-related stuff, let's see where I get.</div></p>
