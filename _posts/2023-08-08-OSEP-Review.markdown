@@ -14,26 +14,34 @@ Since my knowledge on red teaming was relatively zero - apart from a couple mach
 Here's what it's been for me.
 &nbsp;
 
+<p>                  
+   ,   ,                        
+  /////|                        .----.
+ ///// |            .---------. | == |
+|~~~|  |            |.-"""""-.| |----|
+|===|  |            ||<div style="color:red;display:inline;">$</div>div       || | == |
+|j  |  |            |'-.....-'| |::::|
+| g |  |            `"")---(""` |___.|
+|  s| /            /:::::::::::\    
+|===|/            /:::=======:::\ \"\
+'---'               
+
+</p>
+
 <ins style="color:red;">Preparation</ins>
 I subscribed to the LEARN ONE, which basically gives you access to the labs and documentation for a whole year. It costs more, but I believe it's the best type of subscription for someone that works in cybersec 9-to-5 and would like to keep having a normal life (I'm talking to you mate, get some friends, go swimming I don't know...). I started in December and I was basically done with the theory mid May. Ngl, I did do some of the exercises of the course, but most of the time I was just following step-by-step what the documentation explained, doing exactly what was described and trying to understand how everything worked. I used <a href="https://obsidian.md/" style="color:red;">Obsidian</a> to take notes instead of CherryTree and I must say I kinda liked it, very handy and good looking.
 The notes taking is really crucial, the course fully explains how to build several C# exploits, but often the only necessary part is the final script (this is a very important tip on how to take notes: since there is a lot of theory to go through, make sure to highlight the final/best scripts to then reuse those in other situations! Theory will describe every exploit from the simple ones to the more complicated - if you have the possibility, always use the sophisticated ones first, as they have more chances of working and not being detected by AVs).
 &nbsp;
 
-
-
+<ins style="color:red;">Challenges</ins>
+The course comes with 6 very well done challenges which, in my opinion, are more then enough to get prepared for the exam. Each single challenge covers different course topics to a good extent.
 
 
 
 
 
 > - *Single Code*: a single string of code is sent from the keyfob to the car. This is the exact same code every time the owner of the car clicks the button on the keyfob. This implementation is obviously lacking of security since whoever intercepts, clones and repeats the signal sent from the keyfob is basically able to open the car.
-<p>                  
-      __                            ______
-     /o \_____        ABC          /|_||_\`.__
-     \__/-="="` --------------->  (   _    _ _\
-                                  =`-(_)--(_)-' 
- 
-</p>
+
 > - *Rolling Code*: this algorithm is a little more secure than the Single Code, since it's based on an iteration through a long array of single-use codes. This avoids a string of code to be used twice or more times, protecting the car from simple replay attacks.
 <p>
                       <del> ABC </del>
