@@ -14,15 +14,15 @@ Since my knowledge on red teaming was relatively zero - apart from a couple mach
 Here's what it's been for me.
 &nbsp;
 
-<p>                  
+<p>                      
                ,   ,                        
               /////|                        .----.
              ///// |            .---------. | == |
             |~~~|  |            |.-"""""-.| |----|
             |===|  |  ------->  ||<span style="color:red;">$</span>        || | == | -------> EXAM
-            |j  |  |            |'-.....-'| |::::|
-            | g |  |            `"")---(""` |___.|
-            |  s| /            /:::::::::::\    
+            |p 3|  |            |'-.....-'| |::::|
+            |e 0|  |            `"")---(""` |___.|
+            |n 0| /            /:::::::::::\    
             |===|/            /:::=======:::\ \"\
             '---'               
 
@@ -45,8 +45,10 @@ So, sometimes during the challenges (or during the exam) it can happen that you 
 Also: exploiting ADs, there are usually 2 ways of hacking something, remotely (from Kali, i.e. psexec.py) and Locally (from the pwned machine, i.e. psexec.exe). It's fundamental to understand, be ready and be able to do both since - during both the exam and the challenges - it might happen that one of the two ways is not viable because of configurations/AVs/firewalls and that.
 &nbsp;
 Apart from the standard tools you always use (impackets, crackmapexec...), here's the <a href="https://github.com/0x5c4r3/OSEP/tree/main" style="color:red;">Collection of beautiful pre-compiled Tools</a> I used during PEN-300 and OSEP. This can be really helpful during challenges as - trying different type of exploits with different tools - you'll get used to exploit a vulnerability in different ways, which definitely help you in case i.e. the default "psexe.exe does not work omg what do I do now".
-
 &nbsp;
+I, like everyone else apparently, also bought a month subscription to HTB Prolabs, in my opinion - in this case - completely useless. Wasted money. Could have gone grabbing a beer instead.
+I got the first flags and stopped because yeah enough, but hear me out: <span style="color:red;">the challenges PEN-300 provide are enough for you to go through the exam</span>. Yup. You don't need any other thing. You might, if you feel insecure, but I felt insecure and still made it.
+Again, as long as you cover everything in the course and understand the processes you go through, you're ready.
 
 <ins style="color:red;">Exam</ins>
 In order to go back to your mom and tell her you passed the exam, you either need to get to a final "secret" flag or you need to collect different 10 flags. I personally did the 1st.
