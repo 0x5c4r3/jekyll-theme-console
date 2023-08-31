@@ -41,4 +41,5 @@ The course comes with 6 very well done challenges which, in my opinion, are more
 I just did those for a couple times each, deeply understood how each exploit worked - clearly using the exploits that have been explained during the course.&nbsp;
 Also: exploiting ADs, there are usually 2 ways of hacking something, remotely (from Kali) and Locally (from the pwned machine). It's fundamental to understand and be able to do both as - during both the exam and the challenges - it might happen that one of the two ways is not viable because of configurations/AVs/firewalls...
 
+Apart from the standard tools you always use (impackets, crackmapexec...), here's the <a href="https://github.com/0x5c4r3/OSEP/tree/main" style="color:red;">Collection of pre-compiled Tools</a> I used during PEN-300 and OSEP. This can be really helpful during challenges as - trying different type of exploits with different tools - you'll get used to exploit a vulnerability in different ways, which definitely help you in case i.e. the default "psexe.exe does not work omg what do I do now".
 
