@@ -49,7 +49,6 @@ Apart from the standard tools you always use (impackets, crackmapexec...), here'
 &nbsp;
 
 <ins style="color:red;">Exam</ins>
-&nbsp;
 In order to go back to your mom and tell her you passed the exam, you either need to get to a final "secret" flag or you need to collect different 10 flags. I personally did the 1st.
 Yeah I mean it was definitely tough, not a piece of cake, but I found it to be such good fun. The environment you gotta hack is quite big and can be scary at first, but maybe you don't really need to hack every single machine you see there yk...
 I started at 9 and finished at 4:30pm the day after, then chilled talking about Christine Aguilera with the proctor (I'm very much joking, please don't talk about Christina Aguilera with the proctor).
