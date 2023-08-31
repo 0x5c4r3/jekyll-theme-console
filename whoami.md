@@ -42,7 +42,7 @@ document.write('88888888888888888888;:Y```````P:;88( )888888888888888</br>');
 document.write('888888888888888888888;:"80`08":;888888888888888888888</br>');
 document.write('88888888888888888888888aa:::aa88888888888888888888888</br>');
 document.write('88888888888888888888888888888888888888888888888888888</br>');
-document.write('8888888888888//////////<a href="https://twitter.com/iamscarecrow1" style="color:red;">Twitter</a>//////////8888888888888</br>');
+document.write('8888888888888//////////.. <a href="https://twitter.com/iamscarecrow1" style="color:red;">X</a> ..//////////8888888888888</br>');
 document.write('8888888888888////////////<a href="https://app.hackthebox.com/profile/144238" style="color:red;">HTB</a>////////////8888888888888</br>');
 document.write('888888888888///////////<a href="https://www.youtube.com/channel/UCcYc_cJZDhYXPm2hpM7ZqwA" style="color:red;">YouTube</a>//////////8888888888888</br>');
 document.write('8888888888888///////////<a href="https://github.com/0x5c4r3" style="color:red;">GitHub</a>///////////8888888888888</br>');
