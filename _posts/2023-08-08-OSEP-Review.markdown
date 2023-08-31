@@ -6,7 +6,7 @@ image: /img/Car_Hacking_Part_1/twitter_banner.png
 # <span style="color:red;font-size:17px;"><ins><b>OSEP Review</b></ins></span>
 
 &nbsp;
-
+<ins></ins>
 Since my knowledge on red teaming was relatively zero - apart from a couple machines on HTB, I decided to get into ADs from 0 to 100 subscribing to <a href="https://www.offsec.com/courses/pen-300/" style="color:red;">Evasion Techniques and Breaching Defenses (PEN-300)</a>, which is the course ending up with the OSEP exam.
 
 &nbsp;
