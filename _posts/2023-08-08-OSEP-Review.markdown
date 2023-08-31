@@ -27,7 +27,7 @@ Here's what it's been for me.
             '---'               
 
 </p>
-
+&nbsp;
 <ins style="color:red;">Preparation</ins>
 I subscribed to the LEARN ONE, which basically gives you access to the labs and documentation for a whole year. It costs more, but I believe it's the best type of subscription for someone that works in cybersec 9-to-5 and would like to keep having a normal life (I'm talking to you mate, get some friends, go swimming I don't know...).
 &nbsp;
@@ -38,8 +38,24 @@ The notes taking is really crucial, the course fully explains how to build sever
 
 <ins style="color:red;">Challenges</ins>
 The course comes with 6 very well done challenges which, in my opinion, are more then enough to get prepared for the exam. Each single challenge covers different course topics to a good extent.
-I just did those for a couple times each, deeply understood how each exploit worked - clearly using the exploits that have been explained during the course.&nbsp;
+I just did those for a couple times each, deeply understood how each exploit worked - clearly using the exploits that have been explained during the course.
+&nbsp;
 Also: exploiting ADs, there are usually 2 ways of hacking something, remotely (from Kali) and Locally (from the pwned machine). It's fundamental to understand and be able to do both as - during both the exam and the challenges - it might happen that one of the two ways is not viable because of configurations/AVs/firewalls...
-
+&nbsp;
 Apart from the standard tools you always use (impackets, crackmapexec...), here's the <a href="https://github.com/0x5c4r3/OSEP/tree/main" style="color:red;">Collection of pre-compiled Tools</a> I used during PEN-300 and OSEP. This can be really helpful during challenges as - trying different type of exploits with different tools - you'll get used to exploit a vulnerability in different ways, which definitely help you in case i.e. the default "psexe.exe does not work omg what do I do now".
+
+&nbsp;
+
+
+<ins style="color:red;">Exam</ins>
+&nbsp;
+In order to go back to your mom and tell her you passed the exam, you either need to get to a final "secret" flag or you need to collect different 10 flags. I personally did the 1st.
+Yeah I mean it was definitely tough, not a piece of cake, but I found it to be such good fun. The environment you gotta hack is quite big and can be scary at first, but maybe you don't really need to hack every single machine you see there yk...
+
+
+
+
+
+
+
 
