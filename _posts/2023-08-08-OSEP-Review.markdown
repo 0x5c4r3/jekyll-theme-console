@@ -7,7 +7,7 @@ image: /img/Car_Hacking_Part_1/twitter_banner.png
 
 &nbsp;
 <ins></ins>
-Since my knowledge on red teaming was relatively zero - apart from a couple machines on HTB, I decided to get into ADs from 0 to 100 subscribing to <a href="https://www.offsec.com/courses/pen-300/" style="color:red;">Evasion Techniques and Breaching Defenses (PEN-300)</a>, which is the course ending up with the OSEP exam.
+Since my knowledge on red teaming was relatively zero - apart from a couple machines on HTB (which makes me feel like a guy that shares the "top 1% on tryhackme" on his Linkedin public description), I decided to get into ADs from 0 to 100 subscribing to <a href="https://www.offsec.com/courses/pen-300/" style="color:red;">Evasion Techniques and Breaching Defenses (PEN-300)</a>, which is the course ending up with the OSEP exam.
 
 &nbsp;
 
@@ -38,20 +38,22 @@ The notes taking is really crucial, the course fully explains how to build sever
 
 <ins style="color:red;">Challenges</ins>
 The course comes with 6 very well done challenges which, in my opinion, are more then enough to get prepared for the exam. Each single challenge covers different course topics to a good extent.
-I just did those for a couple times each, deeply understood how each exploit worked - clearly using the exploits that have been explained during the course.
+I just did those for a couple times each (it took me from mid May to mid August, but I had plenty of bench time as penetration tests are less requested by companies during summer time), focusing on deeply understood how each exploit worked - clearly using the exploits that have been explained during the course.
 &nbsp;
-Also: exploiting ADs, there are usually 2 ways of hacking something, remotely (from Kali) and Locally (from the pwned machine). It's fundamental to understand and be able to do both as - during both the exam and the challenges - it might happen that one of the two ways is not viable because of configurations/AVs/firewalls...
+So, sometimes during the challenges (or during the exam) it can happen that you end up requiring some exploit not studied during PEN-300: don't panic my g, if you see something new usually it's OffSec trying to make you shit yourself. Most of the vulnerabilities that you find are covered by the theory and, if not, you can easily google and find a solution. It will happen, so get mentally prepared. Just fyi.
 &nbsp;
-Apart from the standard tools you always use (impackets, crackmapexec...), here's the <a href="https://github.com/0x5c4r3/OSEP/tree/main" style="color:red;">Collection of pre-compiled Tools</a> I used during PEN-300 and OSEP. This can be really helpful during challenges as - trying different type of exploits with different tools - you'll get used to exploit a vulnerability in different ways, which definitely help you in case i.e. the default "psexe.exe does not work omg what do I do now".
+Also: exploiting ADs, there are usually 2 ways of hacking something, remotely (from Kali, i.e. psexec.py) and Locally (from the pwned machine, i.e. psexec.exe). It's fundamental to understand, be ready and be able to do both since - during both the exam and the challenges - it might happen that one of the two ways is not viable because of configurations/AVs/firewalls and that.
+&nbsp;
+Apart from the standard tools you always use (impackets, crackmapexec...), here's the <a href="https://github.com/0x5c4r3/OSEP/tree/main" style="color:red;">Collection of beautiful pre-compiled Tools</a> I used during PEN-300 and OSEP. This can be really helpful during challenges as - trying different type of exploits with different tools - you'll get used to exploit a vulnerability in different ways, which definitely help you in case i.e. the default "psexe.exe does not work omg what do I do now".
 
 &nbsp;
-
 
 <ins style="color:red;">Exam</ins>
 &nbsp;
 In order to go back to your mom and tell her you passed the exam, you either need to get to a final "secret" flag or you need to collect different 10 flags. I personally did the 1st.
 Yeah I mean it was definitely tough, not a piece of cake, but I found it to be such good fun. The environment you gotta hack is quite big and can be scary at first, but maybe you don't really need to hack every single machine you see there yk...
-
+I started at 9 and finished at 4:30pm the day after, then chilled talking about Christine Aguilera with the proctor (I'm very much joking, please don't talk about Christina Aguilera with the proctor).
+Passed first-try bitch, mom's proud.
 
 
 
