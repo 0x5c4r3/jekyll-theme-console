@@ -49,7 +49,7 @@ Apart from the standard tools you always use (impackets, crackmapexec...), here'
 I, like everyone else apparently, also bought a month subscription to HTB Prolabs, in my opinion - in this case - completely useless. Wasted money. Could have gone grabbing a beer instead.
 I got the first flags and stopped because yeah enough, but hear me out: <span style="color:red;">the challenges PEN-300 provide are enough for you to go through the exam</span>. Yup. You don't need any other thing. You might, if you feel insecure, but I felt insecure and still made it.
 Again, as long as you cover everything in the course and understand the processes you go through, you're ready.
-
+&nbsp;
 <ins style="color:red;">Exam</ins>
 In order to go back to your mom and tell her you passed the exam, you either need to get to a final "secret" flag or you need to collect different 10 flags. I personally did the 1st.
 Yeah I mean it was definitely tough, not a piece of cake, but I found it to be such good fun. The environment you gotta hack is quite big and can be scary at first, but maybe you don't really need to hack every single machine you see there yk...
