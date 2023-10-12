@@ -18,13 +18,12 @@ Here's a quick view:
 <img src="/img/darkArch/desktop.png" style="width:50%;height:50%;display:block;margin-left:auto;margin-right:auto;" alt="Desktop_Pic">
 &nbsp;
 
-<ins style="color:red;">Copnfiguration</ins>
+<ins style="color:red;">Configuration</ins>
 I started the project flashing the usual <a href="https://archlinux.org/download/" style="color:red;">Arch Kernel</a> on live USB to then proceed with the minimal installation, connecting the laptop to an ethernet cable (with like 17 dongles because it's a Mac with 2 VERY USEFUL THUNDERBOLT PORTS and an SD PORT but no Ethernet because Tim was drunk when he chose the design) and proceeding with the installation on local disk. Now, since the Apple sensed that I had plenty of time, it immediately started fucking around with the Network drivers so that once booted in the actual installed Arch, no interface apart from 127.0.0.1 was detected. I wasted some time figuring out what the problem was and it turned out the driver I needed was the <a href="https://wiki.archlinux.org/title/broadcom_wireless" style="color:red;">Broadcom-wl</a>, as b43 and brcm80211 were not working because otherwise it would have been to easy.
-So with that done I had the minimal installation working and connected to the internet, so I started having fun trying different configurations and I ended up with using <a href="https://i3wm.org/" style="color:red;">i3</a> because who wants a mouse nowadays.
+So with that done I had the minimal installation working and connected to the internet, so I started having fun trying different configurations and I ended up with using <a href="https://wiki.archlinux.org/title/xorg" style="color:red;">Xorg</a>, <a href="https://wiki.archlinux.org/title/LightDM" style="color:red;">LightDM</a> and <a href="https://i3wm.org/" style="color:red;">i3</a>, because who wants a mouse nowadays. I configured it to have some gaps because it looks cool and I installed the main tools to properly test (Burp, nmap and so on...), creating keybinds to open the tools just using the keyboard i.e. Burp is CTRL+B, pretty easy to remember.
 &nbsp;
 
-https://i3wm.org/
-https://wiki.archlinux.org/title/broadcom_wireless
+
 
 
 I started in December and I was basically done with the theory mid May. Ngl, I did do some of the exercises of the course, but most of the time I was just following step-by-step what the documentation explained, doing exactly what was described and trying to understand how everything worked. I used <a href="https://obsidian.md/" style="color:red;">Obsidian</a> to take notes instead of CherryTree and I must say I kinda liked it, very handy and good looking.
