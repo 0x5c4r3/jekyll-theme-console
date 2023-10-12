@@ -13,7 +13,7 @@ I had an old Macbook Pro (late 2012) that I wasn't really using anymore, so I ju
 TLTR: Yeh I got it working, it looks sick, references for the tools I installed down below.
 
 &nbsp;
-Here's a quick look on how it looks
+Here's a quick view:
 &nbsp;
 <img src="/img/darkArch/desktop.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="Desktop_Pic">
 &nbsp;
