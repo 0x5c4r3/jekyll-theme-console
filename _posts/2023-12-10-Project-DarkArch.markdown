@@ -23,3 +23,9 @@ I started the project flashing the usual <a href="https://archlinux.org/download
 So with that done I had the minimal installation working and connected to the internet, so I started having fun trying different configurations and I ended up with using <a href="https://wiki.archlinux.org/title/xorg" style="color:red;">Xorg</a>, <a href="https://wiki.archlinux.org/title/LightDM" style="color:red;">LightDM</a> and <a href="https://i3wm.org/" style="color:red;">i3</a>, because who wants a mouse nowadays. I configured it to have some gaps because it looks cool and I installed the main tools to properly test (Burp, nmap and so on...), creating keybinds to open the tools just using the keyboard i.e. Burp is CTRL+B, pretty easy to remember.
 &nbsp;
 
+Some of the applications I chosed are listed below:
+- <a href="https://github.com/firecat53/keepmenu" style="color:red;">KeepMenu</a>: great <a href="https://wiki.archlinux.org/title/Dmenu" style="color:red;">dmenu</a>/<a href="https://github.com/davatorium/rofi" style="color:red;">rofi</a>-based frontend for KeePass databases.
+- <a href="https://docs.xfce.org/xfce/thunar/start" style="color:red;">Thunar</a>: simple file manager, widely used, nothing exciting.
+- <a href="https://github.com/alacritty/alacritty" style="color:red;">Alacritty</a>: just a terminal emulator, I liked it because it's highly customizable and the configuration is quite user-friendly.
+- <a href="https://wiki.archlinux.org/title/nitrogen" style="color:red;">Nitrogen</a>: lightweight desktop background tool, easy and fast to use.
+- <a href="https://github.com/polybar/polybar" style="color:red;">Polybar</a>: Highly customizable status bar, I honestly loved this one, you can do so many things with it.
