@@ -15,7 +15,7 @@ TLTR: Yeh I got it working, it looks sick, references for the tools I installed 
 &nbsp;
 Here's a quick view:
 &nbsp;
-<img src="/img/darkArch/desktop.png" style="width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;" alt="Desktop_Pic">
+<img src="/img/darkArch/desktop.png" style="width:50%;height:50%;display:block;margin-left:auto;margin-right:auto;" alt="Desktop_Pic"><img src="/img/darkArch/windows.png" style="width:50%;height:50%;display:block;margin-left:auto;margin-right:auto;" alt="Windows_Pic">
 &nbsp;
 
 <ins style="color:red;">Preparation</ins>
