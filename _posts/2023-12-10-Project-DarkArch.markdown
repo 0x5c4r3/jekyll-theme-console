@@ -6,7 +6,6 @@ image: /img/darkArch/windows3.png
 # <span style="color:red;font-size:17px;"><ins><b>Project darkArch</b></ins></span>
 
 &nbsp;
-<ins></ins>
 So I recently changed workplace as I received a nice offer from a big company, so with the moving and all the burocratic stuff I ended up with 2 weeks of boring nothingness waiting to start with the new job, therefore the nerd in me saw the opportunity to resume a project I started some years ago: an Arch testing machine using i3 that looks badass and works like magic.
 I had an old Macbook Pro (late 2012) that I wasn't really using anymore, so I just wiped that and started building like crazy because why not and I gotta say I'm quite happy with the result, looks sick and works fine. 
 
