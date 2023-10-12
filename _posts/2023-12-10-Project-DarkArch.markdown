@@ -1,7 +1,7 @@
 ---
 layout:     post
 author:     0x5c4r3
-image: /img/osep.png
+image: /img/darkArch/windows3.png
 ---
 # <span style="color:red;font-size:17px;"><ins><b>Project darkArch</b></ins></span>
 
