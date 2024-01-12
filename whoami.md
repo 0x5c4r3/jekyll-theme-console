@@ -22,7 +22,7 @@ I'm 0x5c4r3 (scarecrow), an OSEP, OSCP, OSWP and Senior Penetration Tester with 
   
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
 // MOBILE
-  document.write('<a href="https://twitter.com/iamscarecrow1" style="color:red;">Twitter</a></br>');
+  document.write('<a href="https://twitter.com/iamscarecrow1" style="color:red;">X</a></br>');
 document.write('<a href="https://app.hackthebox.com/profile/144238" style="color:red;">HTB</a></br>');
 document.write('<a href="https://www.youtube.com/channel/UCcYc_cJZDhYXPm2hpM7ZqwA" style="color:red;">YouTube</a></br>');
 }else{
