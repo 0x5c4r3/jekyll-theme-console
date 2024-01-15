@@ -24,4 +24,4 @@ SimpleJekyllSearch({
   json: '/search.json'
 })
 </script>
-%amp
+&amp
