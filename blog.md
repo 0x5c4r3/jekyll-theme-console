@@ -9,7 +9,7 @@ permalink: /blog
 
 <!-- Html Elements for Search -->
 <div id="search-container" class="center">
-<input type="text" id="search-input" placeholder="search...">
+<input type="text" id="search-input" placeholder="search..."  class="center"  style="color:red;display:inline;">
 <ul id="results-container"></ul>
 </div>
 
