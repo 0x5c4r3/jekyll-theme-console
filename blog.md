@@ -8,8 +8,8 @@ permalink: /blog
 <p style="display:inline;">All the information provided on this blog is for <div style="color:red;display:inline;">educational purposes only</div>. The author is no way responsible for any misuse of the information.</p>
 
 <!-- Html Elements for Search -->
-<div id="search-container" style="display:block;margin-left:auto;margin-right:auto;color:red;">
-<input type="text" id="search-input" placeholder="search..." style="color:red;">
+<div id="search-container">
+<input type="text" id="search-input" placeholder="search...">
 <ul id="results-container"></ul>
 </div>
 
