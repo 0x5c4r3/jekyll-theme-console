@@ -17,7 +17,7 @@ permalink: /blog
 <script src="/js/search-script.js" type="text/javascript"></script>
 
 <!-- Configuration -->
-<script>
+<script  class="center" style="color:red;display:inline;">
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
