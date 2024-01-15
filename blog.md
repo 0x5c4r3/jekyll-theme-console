@@ -8,7 +8,7 @@ permalink: /blog
 <p style="display:inline;">All the information provided on this blog is for <div style="color:red;display:inline;">educational purposes only</div>. The author is no way responsible for any misuse of the information.</p>
 
 <!-- Html Elements for Search -->
-<div id="search-container">
+<div id="search-container" class="center">
 <input type="text" id="search-input" placeholder="search...">
 <ul id="results-container"></ul>
 </div>
@@ -17,7 +17,7 @@ permalink: /blog
 <script src="/js/search-script.js" type="text/javascript"></script>
 
 <!-- Configuration -->
-<script  class="center">
+<script>
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
