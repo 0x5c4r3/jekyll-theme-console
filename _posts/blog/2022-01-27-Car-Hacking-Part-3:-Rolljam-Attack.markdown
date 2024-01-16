@@ -2,6 +2,7 @@
 layout:     post
 author:     0x5c4r3
 image: /img/Car_Hacking_Part_3/twitter5.png
+type: blog
 ---
 # <span style="color:red;font-size:17px;"><ins><b>Car Hacking Part 3: Rolljam Attack</b></ins></span>
 
