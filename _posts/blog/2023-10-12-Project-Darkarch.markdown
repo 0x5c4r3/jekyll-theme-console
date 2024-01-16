@@ -2,6 +2,7 @@
 layout:     post
 author:     0x5c4r3
 image: /img/darkArch/windows3.png
+type: blog
 ---
 # <span style="color:red;font-size:17px;"><ins><b>Project darkArch</b></ins></span>
 
