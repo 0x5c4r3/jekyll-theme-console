@@ -14,7 +14,9 @@ collections:
   blogposts:
     output: true
     permalink: /blogposts/:path/
-  - docs
+  docs:
+    output: true
+    permalink: /docs/:path/
   
 footer: 'follow me on <a style="color:red;" href="https://twitter.com/iamscarecrow1">X</a>'
 
