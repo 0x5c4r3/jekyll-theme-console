@@ -5,7 +5,7 @@ permalink: /docs
 ---
 {% assign posts = site.posts | where:"type", "docs" %}
 
-<p style="display:inline;">All the information provided on this blog is for <div style="color:red;display:inline;">educational purposes only</div>. The author is no way responsible for any misuse of the information.</p>
+<p style="display:inline;">Search the <div style="color:red;display:inline;">DOCS</div>...</p>
 &nbsp;
 <!-- Html Elements for Search -->
 <div id="search-container">
