@@ -1,6 +1,7 @@
 ---
 layout: none
 ---
+{% assign posts = site.posts | where:"type", "docs" %}
 [
   {% for post in site.posts %}
     {
