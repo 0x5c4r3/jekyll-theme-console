@@ -13,7 +13,7 @@ header_pages:
 collections:
   blogposts:
     output: true
-    permalink: /blogposts/:path/
+    permalink: /_blogposts/:path/
   docs:
     output: true
     permalink: /docs/:path/
