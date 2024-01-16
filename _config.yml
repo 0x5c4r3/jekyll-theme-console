@@ -7,6 +7,7 @@ url: "https://scare.rocks"
 header_pages:
   - index.md
   - whoami.md
+  - docs.md
   - blog.md
   
 footer: 'follow me on <a style="color:red;" href="https://twitter.com/iamscarecrow1">X</a>'
