@@ -11,7 +11,9 @@ header_pages:
   - blog.md
 
 collections:
-  - blogposts
+  blogposts:
+    output: true
+    permalink: /blogposts/:path/
   - docs
   
 footer: 'follow me on <a style="color:red;" href="https://twitter.com/iamscarecrow1">X</a>'
