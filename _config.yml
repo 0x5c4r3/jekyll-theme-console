@@ -9,6 +9,16 @@ header_pages:
   - whoami.md
   - docs.md
   - blog.md
+
+defaults:
+  - scope:
+      path: "_posts/blog"
+    values:
+      type: "blog"
+  - scope:
+      path: "_posts/docs"
+    values:
+      type: "docs"
   
 footer: 'follow me on <a style="color:red;" href="https://twitter.com/iamscarecrow1">X</a>'
 
