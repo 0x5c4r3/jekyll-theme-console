@@ -1,7 +1,7 @@
 ---
-title: /docs
+title: doc_list
 layout: default
-permalink: /docs
+permalink: "/docs/"
 ---
 {% assign posts = site.posts | where:"type", "docs" %}
 
