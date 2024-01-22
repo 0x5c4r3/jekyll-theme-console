@@ -3,6 +3,14 @@ title: /docs
 layout: default
 permalink: "/docs/"
 ---
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+</style>
 
 <p style="display:inline;">Search the <div style="color:red;display:inline;">DOCS</div>...</p>
 &nbsp;
@@ -16,7 +24,7 @@ permalink: "/docs/"
 <script src="/js/search-script.js" type="text/javascript"></script>
 
 <!-- Configuration -->
-<div>
+<div style=."center";>
   <script>
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
