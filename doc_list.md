@@ -3,19 +3,11 @@ title: /docs
 layout: default
 permalink: "/docs/"
 ---
-<style>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-</style>
 
 <p style="display:inline;">The <div style="color:red;display:inline;">DOCS</div> are a list of notes, researches and relevant knowledge that I personally worked on that might help with engagements of various types.</p>
 &nbsp;
 <!-- Html Elements for Search -->
-<div id="search-container" class="center" display="inline;">
+<div id="search-container" style="text-align: center;" display="inline;">
 <input type="text" id="search-input" placeholder="search...">
 <ul id="results-container"></ul>
 </div>
