@@ -1,6 +1,6 @@
 ---
 title: /docs
-layout: docs
+layout: default
 permalink: "/docs/"
 ---
 
