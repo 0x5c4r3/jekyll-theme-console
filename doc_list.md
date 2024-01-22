@@ -16,11 +16,13 @@ permalink: "/docs/"
 <script src="/js/search-script.js" type="text/javascript"></script>
 
 <!-- Configuration -->
-<script>
+<div>
+  <script>
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json'
 })
-</script>
+  </script>
+</div>
 &nbsp;
