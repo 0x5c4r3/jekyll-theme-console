@@ -1,5 +1,5 @@
 ---
-title: doc_list
+title: /docs
 layout: default
 permalink: "/docs/"
 ---
