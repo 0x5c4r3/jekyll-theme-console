@@ -15,7 +15,7 @@ collections_dir: my_collections
 collections:
   blogposts:
     output: true
-    permalink: /_blogposts/
+    permalink: /_blog/
   docs:
     output: true
     permalink: /_docs/
