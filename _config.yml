@@ -7,8 +7,8 @@ url: "https://scare.rocks"
 header_pages:
   - index.md
   - whoami.md
-  - docs.md
-  - blog.md
+  - doc_list.md
+  - blog_list.md
 
 collections:
   blog:
