@@ -13,7 +13,7 @@ header_pages:
 collections_dir: my_collections
 
 collections:
-  blogposts:
+  blog:
     output: true
     permalink: /_blog/
   docs:
