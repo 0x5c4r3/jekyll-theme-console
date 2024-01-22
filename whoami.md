@@ -12,7 +12,7 @@ permalink: /whoami
 }
 </style>
   
-# <span style="color:red;font-size:17px;"><ins><b>Whoami & Contacts</b></ins></span>
+# <span style="color:red;">Whoami & Contacts</span>
 
 I'm 0x5c4r3 (scarecrow), an OSEP, OSCP, OSWP and Senior Penetration Tester with an academic and working background in Information Technology and Cyber Security, smashing my head on the desk every day to learn how to break stuff and talk about it here.
 
