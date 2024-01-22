@@ -1,5 +1,5 @@
 ---
-title: blog_list
+title: /blog
 layout: home
 permalink: /blog/
 ---
