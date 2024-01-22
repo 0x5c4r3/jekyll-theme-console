@@ -1,6 +1,6 @@
 ---
 title: /whoami
-layout: page
+layout: default
 permalink: /whoami
 ---
 <style>
