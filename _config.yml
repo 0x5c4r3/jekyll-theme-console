@@ -10,6 +10,8 @@ header_pages:
   - docs.md
   - blog.md
 
+collections_dir: my_collections
+
 collections:
   blogposts:
     output: true
