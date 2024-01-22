@@ -13,10 +13,8 @@ header_pages:
 collections:
   blog:
     output: true
-    permalink: /_blog/:name
   docs:
     output: true
-    permalink: /_docs/:name
   
 footer: 'follow me on <a style="color:red;" href="https://twitter.com/iamscarecrow1">X</a>'
 
