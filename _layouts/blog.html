@@ -5,7 +5,7 @@ layout: default
 {{ content }}
 {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
 
-{% assign posts = site.blog | sort %}
+{% assign posts = site.blog | reverse %}
 
 {%- if site.blog.size > 0 -%}
   <ul>
