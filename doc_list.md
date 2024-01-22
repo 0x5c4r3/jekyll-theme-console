@@ -1,6 +1,6 @@
 ---
 title: /docs
-layout: default
+layout: docs
 permalink: "/docs/"
 ---
 {% assign posts = site.posts | where:"type", "docs" %}
