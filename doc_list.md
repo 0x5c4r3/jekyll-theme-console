@@ -12,7 +12,7 @@ permalink: "/docs/"
 }
 </style>
 
-<p style="display:inline;">Search the <div style="color:red;display:inline;">DOCS</div>...</p>
+<p style="display:inline;">The <div style="color:red;display:inline;">DOCS</div> are a list of notes, researches and relevant knowledge that I personally worked on that might help with engagements of various types.</p>
 &nbsp;
 <!-- Html Elements for Search -->
 <div id="search-container">
