@@ -24,7 +24,7 @@ permalink: "/docs/"
 <script src="/js/search-script.js" type="text/javascript"></script>
 
 <!-- Configuration -->
-<div style=."center";>
+<div class="center">
   <script>
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
