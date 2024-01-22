@@ -2,8 +2,7 @@
 layout: none
 ---
 [
-  {% assign post = site.posts | where:"type", "docs" %}
-  {% for post in site.posts %}
+  {% for post in site.docs %}
     {
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.category }}",
