@@ -3,7 +3,6 @@ title: /docs
 layout: docs
 permalink: "/docs/"
 ---
-{% assign posts = site.posts | where:"type", "docs" %}
 
 <p style="display:inline;">Search the <div style="color:red;display:inline;">DOCS</div>...</p>
 &nbsp;
