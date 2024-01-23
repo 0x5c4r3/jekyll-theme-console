@@ -6,6 +6,11 @@ permalink: Ansible
 ---
 
 # Ansible
+code {
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
 
 <pre>
   <code class="ruby">
