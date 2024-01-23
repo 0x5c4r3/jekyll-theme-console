@@ -15,7 +15,7 @@ permalink: /
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
   // MOBILE
 
-document.write('<div style:"text-align:center;"><div class="center" style="color:red;display:inline;">       ...**                * **,        **\n')
+document.write('<div style:"text-align:center; white-space: pre;"><div class="center" style="color:red;display:inline;">       ...**                * **,        **\n')
 document.write('        ..* .**.         ****  * *       *,\n')
 document.write('        ...*  **...  ** *,** * * ** *  . *\n')
 document.write('        ...**  .....,*****,*.**  * ****.**\n')
@@ -27,7 +27,7 @@ document.write('             **.</div><div style="color:white;display:inline;">@
 document.write('               *</div><div style="color:white;display:inline;">@@</div><div style="color:red;display:inline;">.. ...*******...,  </div><div style="color:white;display:inline;">@@</div><div style="color:red;display:inline;">\n')
 document.write('                </div><div style="color:white;display:inline;">@</div><div style="color:red;display:inline;">****** *..** .*     </div><div style="color:white;display:inline;">*\n')          
 document.write('                    </div><div style="color:red;display:inline;">..*** * ,**\n')
-document.write('                        ** *,\n</div></div></br>')    
+document.write('                        ** *,\n</div></div style="white-space: pre;"></br>')    
   
 }else{
   // DESKTOP
@@ -35,7 +35,7 @@ document.write('                        ** *,\n</div></div></br>')
   
                                                                                                     
                                                                                                     
-document.write('<div><div class="center" style="color:red;display:inline;">                            *******                                                             *,\n');
+document.write('<div style="white-space: pre;"><div class="center" style="color:red;display:inline;">                            *******                                                             *,\n');
 document.write('                           ....****.                               ,** *****.                 .** \n');
 document.write('                         , .... *  *.                           **** *** * ,**                ,** \n');
 document.write('                         * .....*,  *****                     * *****,  ,.*  *,              .***  \n');
@@ -57,7 +57,7 @@ document.write('                                         </div><div style="color
 document.write('                                          &</div><div style="color:white;display:inline;">@@</div><div style="color:red;display:inline;">********   ********    **,...*          </div><div style="color:white;display:inline;">@</div><div style="color:red;display:inline;display:inline;">       \n');
 document.write('                                           </div><div style="color:white;display:inline;">@</div><div style="color:red;display:inline;">,  .*****..,****.,***   *******                    \n');
 document.write('                                                  ********.***  *  ,* *.*.                      \n');
-document.write('                                                       ****** **  * **                    \n</div></div></br>');
+document.write('                                                       ****** **  * **                    \n</div></div style="white-space: pre;"></br>');
                                                             
   
 //document.write('</br><pre><div class="center">  ██████  ▄████▄   ▄▄▄       ██▀███  ▓█████  ▄████▄   ██▀███   ▒█████   █     █\n');
