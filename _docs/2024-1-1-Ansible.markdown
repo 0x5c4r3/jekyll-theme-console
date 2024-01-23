@@ -7,8 +7,8 @@ permalink: Ansible
 
 # Ansible
 #### Commands
-_Ansible_ is an infrastructure configuration engine that enables IT personnel to dynamically and automatically configure IT infrastructure and computing resources through Python scripts.
-Config in <code>/etc/ansible/hosts</code>.
+Ansible is an infrastructure configuration engine that enables IT personnel to dynamically and automatically configure IT infrastructure and computing resources through Python scripts.
+Config in <div style="color:red">/etc/ansible/hosts</div>.
 The _ansibleadm_ user on the controller issues commands.
 From the command machine:
 &nbsp;
@@ -16,11 +16,11 @@ From the command machine:
 ansible victims -a "whoami"
 ```
 &nbsp;
-This will run `whoami` on all members of the Ansible group. To run it as root `ansible victims -a "whoami" --become` or specify the user `ansible victims -a "whoami" --become user2`.
+This will run _whoami_ on all members of the Ansible group. To run it as root <div style="color:red">ansible victims -a "whoami" --become</div> or specify the user <div style="color:red">ansible victims -a "whoami" --become user2</div>.
 
 #### Playbooks
 Sets of tasks written in YAML to be scripted so that they can be run in a routine.
-Check this files in _/opt/playbooks_ to see if there's any info leakage.
+Check this files in <div style="color:red">/opt/playbooks</div> to see if there's any info leakage.
 &nbsp;
 I.E.
 ```YAML
@@ -52,7 +52,7 @@ ansible_become_pass: !vault |
           3036
 ```
 &nbsp;
-Copy the hash starting with "$ANSIBLE_VAULT......." and use _ansible2john_ to convert it in a crackable way to then:
+Copy the hash starting with "$ANSIBLE_VAULT......." and use <div style="color:red">ansible2john</div> to convert it in a crackable way to then:
 &nbsp;
 ```shell
 hashcat testhash.txt --force --hash-type=16900 /usr/share/wordlists/rockyou.txt
@@ -91,4 +91,4 @@ I.E. to add to the yaml playbook:
         insertbefore: EOF
 ```
 &nbsp;
-Also, some modules from Ansible might leak data in /var/log/syslog (I.E. shell module)
+Also, some modules from Ansible might leak data in <div style="color:red">/var/log/syslog</div> (I.E. shell module)
