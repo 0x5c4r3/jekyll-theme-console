@@ -16,11 +16,11 @@ From the command machine:
 ansible victims -a "whoami"
 {% endhighlight %}
 &nbsp;
-This will run _whoami_ on all members of the Ansible group. To run it as root <div style="color:red">ansible victims -a "whoami" --become</div> or specify the user <div style="color:red">ansible victims -a "whoami" --become user2</div>.
+This will run _whoami_ on all members of the Ansible group. To run it as root <span style="color:red">ansible victims -a "whoami" --become</span> or specify the user <span style="color:red">ansible victims -a "whoami" --become user2</span>.
 
 #### Playbooks
 Sets of tasks written in YAML to be scripted so that they can be run in a routine.
-Check this files in <div style="color:red">/opt/playbooks</div> to see if there's any info leakage.
+Check this files in <span style="color:red">/opt/playbooks</span> to see if there's any info leakage.
 &nbsp;
 I.E.
 {% highlight yaml linenos %}
@@ -52,7 +52,7 @@ ansible_become_pass: !vault |
           3036
 {% endhighlight %}
 &nbsp;
-Copy the hash starting with "$ANSIBLE_VAULT......." and use <div style="color:red">ansible2john</div> to convert it in a crackable way to then:
+Copy the hash starting with "$ANSIBLE_VAULT......." and use <span style="color:red">ansible2john</span> to convert it in a crackable way to then:
 &nbsp;
 {% highlight shell linenos %}
 hashcat testhash.txt --force --hash-type=16900 /usr/share/wordlists/rockyou.txt
@@ -91,4 +91,4 @@ I.E. to add to the yaml playbook:
         insertbefore: EOF
 {% endhighlight %}
 &nbsp;
-Also, some modules from Ansible might leak data in <div style="color:red">/var/log/syslog</div> (I.E. shell module)
+Also, some modules from Ansible might leak data in <span style="color:red">/var/log/syslog</span> (I.E. shell module)
