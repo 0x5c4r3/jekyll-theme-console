@@ -5,7 +5,7 @@ type: docs
 permalink: Ansible
 ---
 
-# Ansible
+# <span style="color:red">Ansible</span>
 #### Commands
 Ansible is an infrastructure configuration engine that enables IT personnel to dynamically and automatically configure IT infrastructure and computing resources through Python scripts.
 Config in <span style="color:red">/etc/ansible/hosts</span>.
