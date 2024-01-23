@@ -1,3 +1,10 @@
+---
+layout:     post
+author:     0x5c4r3
+type: docs
+permalink: Ansible
+---
+
 # Ansible
 #### Commands
 _Ansible_ is an infrastructure configuration engine that enables IT personnel to dynamically and automatically configure IT infrastructure and computing resources through Python scripts.
