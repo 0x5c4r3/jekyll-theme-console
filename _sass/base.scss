@@ -84,7 +84,7 @@ pre { background-color: var(--code-color-1); background-color: #252525; padding:
 .highlight .gd { color: var(--code-color-7); } /* Generic.Deleted */
 .highlight .ge { font-style: italic } /* Generic.Emph */
 .highlight .gr { color: var(--code-color-7); } /* Generic.Error */
-.highlight .gh { color: var(--code-color-8); font-weight: bold } /* Generic.Heading */
+.highlight .gh { color: red; font-weight: bold } /* Generic.Heading */
 .highlight .gi { color: var(--code-color-9); } /* Generic.Inserted */
 .highlight .go { color: var(--code-color-10); } /* Generic.Output */
 .highlight .gp { color: var(--code-color-11); } /* Generic.Prompt */
