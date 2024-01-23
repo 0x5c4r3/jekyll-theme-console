@@ -9,7 +9,7 @@ permalink: Ansible
 
 <pre>
   <code>
-    puts "hello"
+    puts "helloz"
   </code>
 </pre>
 
