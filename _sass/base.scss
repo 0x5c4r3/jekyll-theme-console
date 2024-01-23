@@ -37,6 +37,13 @@ footer { margin-bottom: 20px; }
 ::selection { background: var(--selection-background);  color: var(--selection-text); }
 ::-moz-selection { background: var(--selection-background);  color: var(--selection-text); }
 
+/* Code Blocks */
+code {
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
 /**
  * Lists
  */
