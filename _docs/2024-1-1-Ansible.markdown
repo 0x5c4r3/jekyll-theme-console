@@ -8,7 +8,7 @@ permalink: Ansible
 # Ansible
 
 <pre>
-  <code class="ruby">
+  <code>
     puts "hello"
   </code>
 </pre>
