@@ -5,19 +5,17 @@ type: docs
 permalink: Ansible
 ---
 
-<pre>
-  test123
-</pre>
-
 # Ansible
 #### Commands
 _Ansible_ is an infrastructure configuration engine that enables IT personnel to dynamically and automatically configure IT infrastructure and computing resources through Python scripts.
 Config in `/etc/ansible/hosts`.
 The _ansibleadm_ user on the controller issues commands.
 From the command machine:
+<pre>
 ```shell
 ansible victims -a "whoami"
 ```
+</pre>
 This will run `whoami` on all members of the Ansible group. To run it as root `ansible victims -a "whoami" --become` or specify the user `ansible victims -a "whoami" --become user2`.
 
 #### Playbooks
