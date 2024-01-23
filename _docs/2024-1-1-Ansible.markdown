@@ -8,7 +8,7 @@ permalink: Ansible
 # Ansible
 #### Commands
 _Ansible_ is an infrastructure configuration engine that enables IT personnel to dynamically and automatically configure IT infrastructure and computing resources through Python scripts.
-Config in `/etc/ansible/hosts`.
+Config in <pre>/etc/ansible/hosts</pre>.
 The _ansibleadm_ user on the controller issues commands.
 From the command machine:
 &nbsp;
