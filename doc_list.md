@@ -8,7 +8,7 @@ permalink: "/docs/"
 &nbsp;
 <!-- Html Elements for Search -->
 <div id="search-container" style="text-align: center;" display="inline;">
-<input type="text" id="search-input" placeholder="search...">
+<input type="text" id="search-input" placeholder="search..." style="text-align: center;" display="inline;">
 <ul id="results-container"></ul>
 </div>
 
