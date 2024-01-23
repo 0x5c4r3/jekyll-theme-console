@@ -5,6 +5,10 @@ type: docs
 permalink: Ansible
 ---
 
+<pre>
+  test123
+</pre>
+
 # Ansible
 #### Commands
 _Ansible_ is an infrastructure configuration engine that enables IT personnel to dynamically and automatically configure IT infrastructure and computing resources through Python scripts.
