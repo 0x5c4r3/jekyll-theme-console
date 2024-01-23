@@ -12,9 +12,8 @@ Config in <span style="color:red">/etc/ansible/hosts</span>.
 The _ansibleadm_ user on the controller issues commands.
 From the command machine:
 &nbsp;
-{% highlight shell linenos %}
+{% highlight shell linenos & include codeHeader.html %}
 ansible victims -a "whoami"
-{% include codeHeader.html %}
 {% endhighlight %}
 &nbsp;
 This will run _whoami_ on all members of the Ansible group. To run it as root <span style="color:red">ansible victims -a "whoami" --become</span> or specify the user <span style="color:red">ansible victims -a "whoami" --become user2</span>.
