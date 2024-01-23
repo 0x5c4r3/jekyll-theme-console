@@ -139,7 +139,7 @@ pre.highlight {
     position: relative;
 
     // override skeleton styles
-    > code {
+    > pre {
       border: 0;
       overflow-x: auto;
       padding-right: 0;
@@ -154,7 +154,7 @@ pre.highlight {
       word-wrap: normal;
 
       &,
-      code {
+      pre {
         background-color: #222;
         font-size: 14px;
       }
