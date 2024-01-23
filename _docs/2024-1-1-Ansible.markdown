@@ -24,7 +24,6 @@ Check this files in _/opt/playbooks_ to see if there's any info leakage.
 I.E.
 &nbsp;
 ```YAML
----
 - name: Write a file as offsec
   hosts: all
   gather_facts: true
