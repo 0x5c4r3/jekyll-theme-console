@@ -6,13 +6,6 @@ permalink: Ansible
 ---
 
 # Ansible
-
-<pre>
-  <code>
-    puts "helloz"
-  </code>
-</pre>
-
 #### Commands
 _Ansible_ is an infrastructure configuration engine that enables IT personnel to dynamically and automatically configure IT infrastructure and computing resources through Python scripts.
 Config in `/etc/ansible/hosts`.
