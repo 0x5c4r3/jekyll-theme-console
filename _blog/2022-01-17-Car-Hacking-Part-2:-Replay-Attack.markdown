@@ -32,7 +32,7 @@ The doorbell has a remote to stick outside the door that, when clicked, sends a 
 &nbsp;
   
 <ins style="color:red;">Recording the signal</ins>
-As explained in the <a href="https://scare.rocks/2022-01-14-Car-Hacking-Part-1-Intro.html" style="color:red;">Introduction</a>, devices that implement single code are very easy to hack, since we only need to intercept, store and replay the signal.
+As explained in the <a href="https://scare.rocks/blog/2022-01-14-Car-Hacking-Part-1-Intro.html" style="color:red;">Introduction</a>, devices that implement single code are very easy to hack, since we only need to intercept, store and replay the signal.
 
 &nbsp;
   
@@ -53,7 +53,7 @@ Once done, we don't really need to do anything else but send it from our interfa
 &nbsp;
   
 Now, imagine a car implementing that algorithm. That's definitely less fun (if the car is yours).Anyone might be able to perform such attack, so yeah, think about it next time you leave your purse in your old car. Also, I actually found out during my random car testing, that some of the modern cars (I'm talking 2020/2021) are still implementing such algorithm... and that's scary honestly.   
-Anyways, easy-peasy, not really worth spending more time talking about this, so let's go straight to <a href="https://scare.rocks/2022-01-27-Car-Hacking-Part-3-Rolljam-Attack.html" style="color:red;">Rolljam Attacks</a>.
+Anyways, easy-peasy, not really worth spending more time talking about this, so let's go straight to <a href="https://scare.rocks/blog/2022-01-27-Car-Hacking-Part-3-Rolljam-Attack.html" style="color:red;">Rolljam Attacks</a>.
   
 
 
