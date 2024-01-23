@@ -7,13 +7,16 @@ permalink: Ansible
 
 # <span style="fint-size: 35px; color:red">Ansible</span>
 #### Commands
+&nbsp;
+<code> ansible victims -a "whoami" </code>
+&nbsp;
 Ansible is an infrastructure configuration engine that enables IT personnel to dynamically and automatically configure IT infrastructure and computing resources through Python scripts.
 Config in <span style="color:red">/etc/ansible/hosts</span>.
 The _ansibleadm_ user on the controller issues commands.
 From the command machine:
 &nbsp;
 {% highlight shell linenos %}
-<code> ansible victims -a "whoami" </code>
+ansible victims -a "whoami"
 {% endhighlight %}
 &nbsp;
 This will run _whoami_ on all members of the Ansible group. To run it as root <span style="color:red">ansible victims -a "whoami" --become</span> or specify the user <span style="color:red">ansible victims -a "whoami" --become user2</span>.
