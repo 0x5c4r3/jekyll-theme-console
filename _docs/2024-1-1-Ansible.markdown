@@ -12,7 +12,7 @@ Config in <span style="color:red">/etc/ansible/hosts</span>.
 The _ansibleadm_ user on the controller issues commands.
 From the command machine:
 &nbsp;
-{% highlight shell linenos & include codeHeader.html %}
+{% highlight shell linenos %}{% include codeHeader.html %}
 ansible victims -a "whoami"
 {% endhighlight %}
 &nbsp;
