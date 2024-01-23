@@ -107,7 +107,7 @@ pre { background-color: var(--code-color-1); background-color: #252525; padding:
 .highlight .ni { color: var(--code-color-17); font-weight: bold } /* Name.Entity */
 .highlight .nf { color: var(--code-color-9); } /* Name.Function */
 .highlight .nn { color: white; text-decoration: underline } /* Name.Namespace */
-.highlight .nt { color: var(--code-color-16); font-weight: bold } /* Name.Tag */
+.highlight .nt { color: red; } /* Name.Tag */
 .highlight .nv { color: var(--code-color-7); } /* Name.Variable */
 .highlight .ow { color: var(--code-color-5); } /* Operator.Word */
 .highlight .w { color: var(--code-color-18); } /* Text.Whitespace */
