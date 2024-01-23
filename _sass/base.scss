@@ -99,7 +99,7 @@ pre { background-color: var(--code-color-1); background-color: #252525; padding:
 .highlight .kt { color: var(--text-color); } /* Keyword.Type */
 .highlight .m { color: red; } /* Literal.Number */
 .highlight .s { color: var(--text-color); } /* Literal.String */
-.highlight .na { color: var(--code-color-16); } /* Name.Attribute */
+.highlight .na { color: red; } /* Name.Attribute */
 .highlight .nb { color: var(--text-color); } /* Name.Builtin */
 .highlight .nc { color: var(--code-color-9); text-decoration: underline } /* Name.Class */
 .highlight .no { color: var(--code-color-7); } /* Name.Constant */
