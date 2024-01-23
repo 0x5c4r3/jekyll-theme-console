@@ -27,6 +27,7 @@ This will run `whoami` on all members of the Ansible group. To run it as root `a
 Sets of tasks written in YAML to be scripted so that they can be run in a routine.
 Check this files in _/opt/playbooks_ to see if there's any info leakage.
 I.E.
+
 ```YAML
 ---
 - name: Write a file as offsec
