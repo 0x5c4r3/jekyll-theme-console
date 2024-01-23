@@ -132,14 +132,12 @@ pre { background-color: var(--code-color-1); background-color: #252525; padding:
 .highlight .vi { color: red; } /* Name.Variable.Instance */
 .highlight .il { color: red; } /* Literal.Number.Integer.Long */
 
-
-/* code for copy button */
 pre.highlight {
     padding: 8px 12px;
     position: relative;
 
     // override skeleton styles
-    > pre {
+    > code {
       border: 0;
       overflow-x: auto;
       padding-right: 0;
@@ -154,7 +152,7 @@ pre.highlight {
       word-wrap: normal;
 
       &,
-      pre {
+      code {
         background-color: #222;
         font-size: 14px;
       }
