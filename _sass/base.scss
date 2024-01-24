@@ -72,8 +72,8 @@ textarea { vertical-align: top; }
  */
 .lineno { color: var(--code-color-1); margin-right: 15px; }
 figure.highlight { margin: 5px 0; }
-pre { background-color: var(--code-color-1); background-color: #252525; padding: 10; border-radius: 6px; overflow:auto; font-size: $base-font-size;  color: var(--text-color);  line-height: 1.7 !important;  font-family: $base-font-family !important; }
-.highlight .hll { background-color: #252525; padding: 10;}
+pre { background-color: var(--code-color-1); background-color: #252525; padding: 20; border-radius: 6px; overflow:auto; font-size: $base-font-size;  color: var(--text-color);  line-height: 1.7 !important;  font-family: $base-font-family !important; }
+.highlight .hll { background-color: #252525; }
 .highlight .c { color: var(--code-color-1); font-style: italic } /* Comment */
 .highlight .err { color: var(--code-color-3); background-color: var(--code-color-4); } /* Error */
 .highlight .k { color: var(--code-color-5); } /* Keyword */
