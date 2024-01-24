@@ -131,6 +131,7 @@ pre { background-color: var(--code-color-1); background-color: #252525; padding:
 .highlight .vg { color: red; } /* Name.Variable.Global */
 .highlight .vi { color: red; } /* Name.Variable.Instance */
 .highlight .il { color: red; } /* Literal.Number.Integer.Long */
-pre.highlight > button:focus {
-  opacity: 1;
+
+.copy-code-button {
+  display: block;
 }
