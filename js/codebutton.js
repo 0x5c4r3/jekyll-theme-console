@@ -10,8 +10,8 @@ codeBlocks.forEach(function (codeBlock) {
   codeBlock.append(copyButton);
 
   copyButton.addEventListener('click', function () {
-    var code = codeBlock.querySelector('pre').innerText.trim();
-    window.navigator.clipboard.writeText(pre);
+    var code = codeBlock.querySelector('code').innerText.trim();
+    window.navigator.clipboard.writeText(code);
 
     copyButton.innerText = 'Copied';
     var fourSeconds = 4000;
