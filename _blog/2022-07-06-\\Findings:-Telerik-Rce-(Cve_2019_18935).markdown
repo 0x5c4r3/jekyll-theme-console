@@ -29,15 +29,9 @@ The pic clearly showed that _default.aspx_ had something to deal with Telerik, s
 &nbsp;
 
 Ok, at this point I was sure Telerik was actually implemented, but I was not that sure about the version - I could't only rely on an html comment - so I researched online and I found out that you can figure out the version implemented running the following very simple bash script against different endpoints: 
-
-&nbsp;
-
-{% highlight shell linenos %}
+{% highlight shell %}
 curl -skL <HOST> | grep -oE '20[0-9]{2}(\.[0-9]*)+'
 {% endhighlight %}
- 
-&nbsp; 
-
 I ended up running it against 3 different endpoints related to Telerik that reported the same version: v2017.1.228.45.
 
 &nbsp;
