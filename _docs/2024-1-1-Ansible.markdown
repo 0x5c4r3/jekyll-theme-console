@@ -56,13 +56,13 @@ border-color: #252525;
       //mouseover
       copyCodeButton.addEventListener('mouseover', () => {
       copyCodeButton.style.borderColor = 'white';
-      copyCodeButton.style.fontColor = 'white';
+      copyCodeButton.style.color = 'white';
       });
 
       //mouseout
       copyCodeButton.addEventListener('mouseout', () => {
       copyCodeButton.style.borderColor = '#252525';
-      copyCodeButton.style.fontColor = '#DBDBDB';
+      copyCodeButton.style.color = '#DBDBDB';
       });
       
       //onclick
