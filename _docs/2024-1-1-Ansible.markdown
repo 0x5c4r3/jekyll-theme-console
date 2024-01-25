@@ -21,10 +21,10 @@ permalink: Ansible
     border-radius: 3px;
     color: #fff;
     background: #000;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 6px;
+    font-weight: 300;
     line-height: 28px;
-    padding: 12px 20px;
+    padding: 10px 5px;
     text-align:center;
     transition-duration: .15s;
     transition-property: all;
@@ -34,7 +34,7 @@ permalink: Ansible
         background: red;
            }
     position: absolute;
-    top: 0rem;
+    top: 3px;
     left: 800px;
   }
 </style>
