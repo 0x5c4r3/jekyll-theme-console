@@ -1,6 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700');
-  
+
 /**
  * Style variables
  */
@@ -129,6 +129,31 @@ pre { background-color: var(--code-color-1); background-color: #252525; padding:
 .highlight .bp { color: var(--text-color); } /* Name.Builtin.Pseudo */
 .highlight .vc { color: red; } /* Name.Variable.Class */
 .highlight .vg { color: red; } /* Name.Variable.Global */
+
+// COPY BUTTON
+  div.highlighter-rouge {
+    position: relative;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+  }
+
+  div.highlighter-rouge button {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #252525;
+    border: 2px solid #252525;
+    border-radius: 8px;
+    color: var(--text-color);
+    line-height: 1.5px;
+    padding: 10px 10px;
+    text-align:center;
+    transition-duration: .10s;
+    transition-property: all;
+    position: absolute;
+    top: 7px;;
+    left: 953px;
+  }
+
 .highlight .vi { color: red; } /* Name.Variable.Instance */
 .highlight .il { color: red; } /* Literal.Number.Integer.Long */
 
