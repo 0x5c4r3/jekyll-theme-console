@@ -19,10 +19,9 @@ permalink: Ansible
     display: inline-block;
     outline: 0;
     cursor: pointer;
-    border: 2px solid #000;
     background-color:#252525;
     color: var(--text-color);
-    border-radius: 6px;
+    border-radius: 8px;
     line-height: 1.5px;
     padding: 15px 10px;
     text-align:center;
