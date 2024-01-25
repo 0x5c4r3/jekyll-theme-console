@@ -6,7 +6,6 @@ permalink: Ansible
 ---
 
 # <span style="fint-size: 35px; color:red">Ansible</span>
-
                 
                 
 <style media="screen">
@@ -36,12 +35,12 @@ permalink: Ansible
            }
     position: absolute;
     top: 2.3rem;
-
+    left: 60px;
   }
 </style>
 
 <!--     
-    left: 10px;
+    
 -->
 
 <script type="text/javascript">
