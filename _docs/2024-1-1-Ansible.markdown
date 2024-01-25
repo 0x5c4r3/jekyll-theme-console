@@ -34,11 +34,15 @@ permalink: Ansible
         color: #000;
         background: rgb(255, 218, 87);
            }
-    position: absolute;
-    top: 2.3rem;
-    left: 10px;
+
   }
 </style>
+
+<!--     
+position: absolute;
+top: 2.3rem;
+left: 10px;
+-->
 
 <script type="text/javascript">
   function InitCopyPaste(){
