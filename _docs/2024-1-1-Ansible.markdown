@@ -15,7 +15,7 @@ permalink: Ansible
   }
 
   div.highlighter-rouge button {
-    display: inline-block;
+    display: inline;
     outline: 0;
     cursor: pointer;
     border: 2px solid #000;
@@ -34,12 +34,11 @@ permalink: Ansible
         color: #000;
         background: rgb(255, 218, 87);
            }
-
+    position: absolute;
   }
 </style>
 
 <!--     
-position: absolute;
 top: 2.3rem;
 left: 10px;
 -->
