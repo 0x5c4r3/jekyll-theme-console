@@ -6,6 +6,17 @@ permalink: Ansible
 ---
 
 # <span style="fint-size: 35px; color:red">Ansible</span>
+<style media="screen">
+  div.highlighter-rouge {
+    position: relative;
+  }
+
+  div.highlighter-rouge button {
+    position: absolute;
+    top: 2.3rem;
+    left: 10px;
+  }
+</style>
 
 <script type="text/javascript">
   function InitCopyPaste(){
