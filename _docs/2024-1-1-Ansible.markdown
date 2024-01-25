@@ -21,14 +21,14 @@ permalink: Ansible
     border-radius: 3px;
     color: #fff;
     background: #000;
-    line-height: 4px;
+    line-height: 1.5px;
     padding: 15px 10px;
     text-align:center;
     transition-duration: .15s;
     transition-property: all;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
-    font-family: $base-font-family;
-    font-size: $base-font-size;
+    font-family: 'Source Code Pro', monospace !default;
+    font-size: 14px;
     :hover{
         color: #000;
         background: red;
