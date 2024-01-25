@@ -35,12 +35,13 @@ permalink: Ansible
         background: red;
            }
     position: absolute;
+    top: 2.3rem;
+    left: 10px;
   }
 </style>
 
 <!--     
-top: 2.3rem;
-left: 10px;
+
 -->
 
 <script type="text/javascript">
