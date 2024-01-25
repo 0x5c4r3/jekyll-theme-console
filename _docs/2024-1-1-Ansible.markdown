@@ -7,16 +7,6 @@ permalink: Ansible
 
 # <span style="fint-size: 35px; color:red">Ansible</span>
 
-<!--     
-font-weight: 300;
-transition-timing-function: cubic-bezier(.4,0,.2,1);
-color: #fff;
-outline: 0;
-background: #000;
-border-radius: 8px;
-border-color: #252525;
--->
-
 #### Commands
 
 Ansible is an infrastructure configuration engine that enables IT personnel to dynamically and automatically configure IT infrastructure and computing resources through Python scripts.
