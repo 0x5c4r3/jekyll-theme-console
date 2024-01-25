@@ -21,14 +21,14 @@ permalink: Ansible
     border-radius: 3px;
     color: #fff;
     background: #000;
-    font-size: 6px;
-    font-weight: 300;
-    line-height: 28px;
-    padding: 10px 5px;
+    line-height: 18px;
+    padding: 15px 10px;
     text-align:center;
     transition-duration: .15s;
     transition-property: all;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
+    font-family: $base-font-family;
+    font-size: $base-font-size;
     :hover{
         color: #000;
         background: red;
@@ -40,7 +40,7 @@ permalink: Ansible
 </style>
 
 <!--     
-    
+font-weight: 300;
 -->
 
 <script type="text/javascript">
