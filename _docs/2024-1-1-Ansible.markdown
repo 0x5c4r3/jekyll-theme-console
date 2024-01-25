@@ -7,7 +7,7 @@ permalink: Ansible
 
 <span style="font-size: 35px; color:red">Ansible</span>
 
-#### Commands
+## Commands
 
 Ansible is an infrastructure configuration engine that enables IT personnel to dynamically and automatically configure IT infrastructure and computing resources through Python scripts.
 Config in <span style="color:red">/etc/ansible/hosts</span>.
@@ -18,7 +18,7 @@ ansible victims -a "whoami"
 ```
 This will run _whoami_ on all members of the Ansible group. To run it as root <span style="color:red">ansible victims -a "whoami" --become</span> or specify the user <span style="color:red">ansible victims -a "whoami" --become user2</span>.
 
-#### Playbooks
+## Playbooks
 Sets of tasks written in YAML to be scripted so that they can be run in a routine.
 Check this files in <span style="color:red">/opt/playbooks</span> to see if there's any info leakage.
 I.E.
