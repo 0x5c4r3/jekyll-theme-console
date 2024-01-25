@@ -15,7 +15,7 @@ permalink: Ansible
   }
 
   div.highlighter-rouge button {
-    display: inline;
+    display: inline-block;
     outline: 0;
     cursor: pointer;
     border: 2px solid #000;
@@ -32,7 +32,7 @@ permalink: Ansible
     transition-timing-function: cubic-bezier(.4,0,.2,1);
     :hover{
         color: #000;
-        background: rgb(255, 218, 87);
+        background: red;
            }
     position: absolute;
   }
