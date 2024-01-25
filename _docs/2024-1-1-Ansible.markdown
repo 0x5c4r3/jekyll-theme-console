@@ -7,8 +7,8 @@ permalink: Ansible
 
 # <span style="fint-size: 35px; color:red">Ansible</span>
                 
-                
-<style media="screen">
+<!-- media="screen" -->         
+<style>
   div.highlighter-rouge {
     position: relative;
     font-family: 'Source Code Pro', monospace;
@@ -17,7 +17,6 @@ permalink: Ansible
 
   div.highlighter-rouge button {
     display: inline-block;
-    outline: 0;
     cursor: pointer;
     background-color: #252525;
     color: var(--text-color);
@@ -38,6 +37,7 @@ permalink: Ansible
 font-weight: 300;
 transition-timing-function: cubic-bezier(.4,0,.2,1);
 color: #fff;
+outline: 0;
 background: #000;
 -->
 
