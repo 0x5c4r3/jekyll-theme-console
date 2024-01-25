@@ -1,5 +1,4 @@
-<script type="text/javascript">
-  function InitCopyPaste(){
+ function InitCopyPaste(){
     const codeBlocks = document.querySelectorAll("div.highlighter-rouge");
 
     codeBlocks.forEach((codeblock, index) => {
@@ -47,4 +46,3 @@
   }
 
   document.addEventListener("DOMContentLoaded", InitCopyPaste);
-</script>
