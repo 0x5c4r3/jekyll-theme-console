@@ -70,8 +70,9 @@ I really <i class="fa fa-clone" aria-hidden="true"></i>
       //onclick
       copyCodeButton.onclick = function () {
         window.navigator.clipboard.writeText(code);
-        copyCodeButton.innerHTML = "Copy";
+        copyCodeButton.innerHTML = '<i class="fa fa-clone" aria-hidden="true"></i>';
         copyCodeButton.style.borderColor = 'red';
+        copyCodeButton.style.color = 'red';
         //copyCodeButton.classList.add("btn-success");
         //copyCodeButton.classList.remove("btn-outline-primary");
 
