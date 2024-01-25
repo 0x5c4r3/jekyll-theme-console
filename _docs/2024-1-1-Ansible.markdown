@@ -33,10 +33,9 @@ permalink: Ansible
         color: #000;
         background: red;
            }
-    top: 3.5px;
     position: absolute;
-    top: 0rem;
-    left: 900px;
+    top: 2rem;
+    left: 950px;
   }
 </style>
 
