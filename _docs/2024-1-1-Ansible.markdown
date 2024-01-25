@@ -19,10 +19,10 @@ permalink: Ansible
     cursor: pointer;
     background-color: #252525;
     border: 2px solid #252525;
-    border-radius: 8px solid #000;
+    border-radius: 25px;
     color: var(--text-color);
     line-height: 1.5px;
-    padding: 15px 10px;
+    padding: 10px 10px;
     text-align:center;
     transition-duration: .10s;
     transition-property: all;
@@ -75,9 +75,10 @@ border-color: #252525;
         //copyCodeButton.classList.remove("btn-outline-primary");
 
         setTimeout(() => {
-          copyCodeButton.innerHTML = "Copy";
+          copyCodeButton.innerHTML = "<i class="fa fa-clone" aria-hidden="true"></i>";
           copyCodeButton.classList.remove("btn-success");
           copyCodeButton.style.backgroundColor = '#252525';
+          copyCodeButton.style.color = '#DBDBDB';
           copyCodeButton.classList.add("btn-outline-primary");
         }, 500);
       };
