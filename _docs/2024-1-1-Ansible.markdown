@@ -57,8 +57,8 @@ border-color: #252525;
       
       //mouseover
       copyCodeButton.addEventListener('mouseover', () => {
-      copyCodeButton.style.borderColor = 'white';
-      copyCodeButton.style.color = 'white';
+      copyCodeButton.style.borderColor = '#DBDBDB';
+      copyCodeButton.style.color = '#DBDBDB';
       });
 
       //mouseout
