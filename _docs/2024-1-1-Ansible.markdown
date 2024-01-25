@@ -19,10 +19,10 @@ permalink: Ansible
     cursor: pointer;
     background-color: #252525;
     border: 2px solid #252525;
-    border-radius: 25px;
+    border-radius: 8px;
     color: var(--text-color);
     line-height: 1.5px;
-    padding: 10px 10px;
+    padding: 15px 10px;
     text-align:center;
     transition-duration: .10s;
     transition-property: all;
