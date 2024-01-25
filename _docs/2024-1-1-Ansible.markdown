@@ -42,6 +42,7 @@ border-radius: 8px;
 border-color: #252525;
 -->
 
+I really <i class="nf nf-fa-heart"></i> <i class="nf nf-custom-vim"></i>
 
 <script type="text/javascript">
   function InitCopyPaste(){
