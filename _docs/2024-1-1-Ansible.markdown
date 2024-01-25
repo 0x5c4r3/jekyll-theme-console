@@ -49,7 +49,7 @@ background: #000;
       const code = codeBlocks[index].innerText;
       const copyCodeButton = document.createElement("button");
       copyCodeButton.innerHTML = "Copy";
-      copyCodeButton.classList = "btn"; //btn-sm btn-outline-primary";
+      //copyCodeButton.classList = "btn btn-sm btn-outline-primary";
       copyCodeButton.style.fontColor = '#DBDBDB';
       
       //mouseover
@@ -67,7 +67,7 @@ background: #000;
         window.navigator.clipboard.writeText(code);
         copyCodeButton.innerHTML = "Copy";
         copyCodeButton.style.backgroundColor = 'red';
-        copyCodeButton.classList.add("btn-success");
+        //copyCodeButton.classList.add("btn-success");
         //copyCodeButton.classList.remove("btn-outline-primary");
 
         setTimeout(() => {
