@@ -11,6 +11,8 @@ permalink: Ansible
 <style media="screen">
   div.highlighter-rouge {
     position: relative;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
   }
 
   div.highlighter-rouge button {
@@ -27,8 +29,6 @@ permalink: Ansible
     transition-duration: .15s;
     transition-property: all;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
-    font-family: 'Source Code Pro', monospace !default;
-    font-size: 14px;
     :hover{
         color: #000;
         background: red;
