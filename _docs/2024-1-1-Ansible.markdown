@@ -50,7 +50,7 @@ border-color: #252525;
     codeBlocks.forEach((codeblock, index) => {
       const code = codeBlocks[index].innerText;
       const copyCodeButton = document.createElement("button");
-      copyCodeButton.innerHTML = '<i class="fa-regular fa-copy"></i>';
+      copyCodeButton.innerHTML = '<i class="nf-oct-copy"></i>';
       //copyCodeButton.classList = "btn btn-sm btn-outline-primary";
       
       
