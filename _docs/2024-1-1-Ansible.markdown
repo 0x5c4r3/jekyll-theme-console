@@ -42,7 +42,7 @@ border-radius: 8px;
 border-color: #252525;
 -->
 
-I really <i class="nf nf-fa-heart"></i> <i class="nf nf-custom-vim"></i>
+I really <i class="fa fa-clone" aria-hidden="true"></i>
 
 <script type="text/javascript">
   function InitCopyPaste(){
@@ -51,7 +51,7 @@ I really <i class="nf nf-fa-heart"></i> <i class="nf nf-custom-vim"></i>
     codeBlocks.forEach((codeblock, index) => {
       const code = codeBlocks[index].innerText;
       const copyCodeButton = document.createElement("button");
-      copyCodeButton.innerHTML = '<i class="nf nf-oct-copy"></i>';
+      copyCodeButton.innerHTML = '<i class="fa fa-clone" aria-hidden="true"></i>';
       //copyCodeButton.classList = "btn btn-sm btn-outline-primary";
       
       
