@@ -129,6 +129,8 @@ pre { background-color: var(--code-color-1); background-color: #252525; padding:
 .highlight .bp { color: var(--text-color); } /* Name.Builtin.Pseudo */
 .highlight .vc { color: red; } /* Name.Variable.Class */
 .highlight .vg { color: red; } /* Name.Variable.Global */
+.highlight .vi { color: red; } /* Name.Variable.Instance */
+.highlight .il { color: red; } /* Literal.Number.Integer.Long */
 
 // COPY BUTTON
   div.highlighter-rouge {
@@ -153,7 +155,4 @@ pre { background-color: var(--code-color-1); background-color: #252525; padding:
     top: 7px;;
     left: 953px;
   }
-
-.highlight .vi { color: red; } /* Name.Variable.Instance */
-.highlight .il { color: red; } /* Literal.Number.Integer.Long */
 
