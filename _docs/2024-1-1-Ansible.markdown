@@ -33,7 +33,7 @@ permalink: Ansible
            }
     position: absolute;
     top: 4px;;
-    left: 965px;
+    left: 955px;
   }
 </style>
 
