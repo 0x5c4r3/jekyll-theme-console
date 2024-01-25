@@ -61,7 +61,7 @@ border-color: #252525;
       copyCodeButton.style.color = 'white';
       });
 
-      mouseout
+      //mouseout
       copyCodeButton.addEventListener('mouseout', () => {
       copyCodeButton.style.borderColor = '#252525';
       copyCodeButton.style.color = '#DBDBDB';
