@@ -7,10 +7,10 @@ permalink: Ansible
 
 <span style="font-size: 35px; color:red"><b>Ansible</b></span>
 
-<span style="font-size: 25px; color:red"><b>Commands</b></span>
+<span style="font-size: 25px; color:white"><b>Commands</b></span>
 
 Ansible is an infrastructure configuration engine that enables IT personnel to dynamically and automatically configure IT infrastructure and computing resources through Python scripts.
-Config in <span style="color:white">/etc/ansible/hosts</span>.
+Config in <span style="color:red">/etc/ansible/hosts</span>.
 The _ansibleadm_ user on the controller issues commands.
 From the command machine:
 ```shell
