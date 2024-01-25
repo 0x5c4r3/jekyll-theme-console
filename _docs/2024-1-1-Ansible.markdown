@@ -77,7 +77,7 @@ border-color: #252525;
         //copyCodeButton.classList.remove("btn-outline-primary");
 
         setTimeout(() => {
-          copyCodeButton.innerHTML = "<i class="fa fa-clone" aria-hidden="true"></i>";
+          copyCodeButton.innerHTML = '<i class="fa fa-clone" aria-hidden="true"></i>';
           copyCodeButton.classList.remove("btn-success");
           copyCodeButton.style.backgroundColor = '#252525';
           copyCodeButton.style.fontColor = '#DBDBDB';
