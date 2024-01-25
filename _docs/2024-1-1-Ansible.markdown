@@ -53,7 +53,7 @@ font-weight: 300;
       copyCodeButton.onclick = function () {
         window.navigator.clipboard.writeText(code);
         copyCodeButton.innerHTML = "Copied";
-        copyCodeButton.body.style.backgroundColor = 'red'; //not sure
+        copyCodeButton.style.backgroundColor = 'red'; //not sure
         copyCodeButton.classList.add("btn-success");
         copyCodeButton.classList.remove("btn-outline-primary");
 
