@@ -28,9 +28,8 @@ permalink: Ansible
     transition-duration: .15s;
     transition-property: all;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
-    :hover{
-        color: #000;
-        background: red;
+    :active{
+        background-color: red;
            }
     position: absolute;
     top: 7px;;
