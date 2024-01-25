@@ -28,7 +28,7 @@ permalink: Ansible
     transition-property: all;
     position: absolute;
     top: 7px;;
-    left: 940px;
+    left: 953px;
   }
 </style>
 
@@ -80,6 +80,7 @@ border-color: #252525;
           copyCodeButton.innerHTML = '<i class="fa fa-clone" aria-hidden="true"></i>';
           copyCodeButton.classList.remove("btn-success");
           copyCodeButton.style.backgroundColor = '#252525';
+          copyCodeButton.style.borderColor = '#252525';
           copyCodeButton.style.color = '#DBDBDB';
           copyCodeButton.classList.add("btn-outline-primary");
         }, 500);
