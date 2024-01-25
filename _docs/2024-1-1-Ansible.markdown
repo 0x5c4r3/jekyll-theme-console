@@ -6,31 +6,6 @@ permalink: Ansible
 ---
 
 # <span style="fint-size: 35px; color:red">Ansible</span>
-                
-<style>
-  div.highlighter-rouge {
-    position: relative;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 14px;
-  }
-
-  div.highlighter-rouge button {
-    display: inline-block;
-    cursor: pointer;
-    background-color: #252525;
-    border: 2px solid #252525;
-    border-radius: 8px;
-    color: var(--text-color);
-    line-height: 1.5px;
-    padding: 10px 10px;
-    text-align:center;
-    transition-duration: .10s;
-    transition-property: all;
-    position: absolute;
-    top: 7px;;
-    left: 953px;
-  }
-</style>
 
 <!--     
 font-weight: 300;
