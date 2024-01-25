@@ -22,6 +22,7 @@ permalink: Ansible
     background-color:#252525;
     color: var(--text-color);
     border-radius: 8px;
+    border-color: #DBDBDB;
     line-height: 1.5px;
     padding: 15px 10px;
     text-align:center;
