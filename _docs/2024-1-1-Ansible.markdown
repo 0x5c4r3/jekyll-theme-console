@@ -21,6 +21,7 @@ permalink: Ansible
     cursor: pointer;
     border: 2px solid #000;
     background-color:#252525;
+    color: var(--text-color);
     border-radius: 6px;
     line-height: 1.5px;
     padding: 15px 10px;
@@ -49,11 +50,18 @@ font-weight: 300;
       const copyCodeButton = document.createElement("button");
       copyCodeButton.innerHTML = "Copy";
       copyCodeButton.classList = "btn btn-sm btn-outline-primary";
-      // insert a copy button
+      copyCodeButton.style.fontColor = '#DBDBDB;';
+      
+      //mouseover
+      copyCodeButton.addEventListener('mouseover', () => {
+      copyCodeButton.style.borderColor = 'red';
+      });
+      
+      //onclick
       copyCodeButton.onclick = function () {
         window.navigator.clipboard.writeText(code);
         copyCodeButton.innerHTML = "Copy";
-        copyCodeButton.style.backgroundColor = 'red'; //not sure
+        copyCodeButton.style.backgroundColor = 'red';
         copyCodeButton.classList.add("btn-success");
         copyCodeButton.classList.remove("btn-outline-primary");
 
@@ -62,7 +70,7 @@ font-weight: 300;
           copyCodeButton.classList.remove("btn-success");
           copyCodeButton.style.backgroundColor = '#252525';
           copyCodeButton.classList.add("btn-outline-primary");
-        }, 2000);
+        }, 1500);
       };
       // make the button
       codeblock.appendChild(copyCodeButton);
