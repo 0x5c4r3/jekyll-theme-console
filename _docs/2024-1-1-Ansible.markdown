@@ -50,19 +50,21 @@ border-color: #252525;
       const code = codeBlocks[index].innerText;
       const copyCodeButton = document.createElement("button");
       copyCodeButton.innerHTML = '<i class="fa fa-clone" aria-hidden="true"></i>';
+      copyCodeButton.style.color = '#DBDBDB';
+      copyCodeButton.style.borderColor = '#252525';
       //copyCodeButton.classList = "btn btn-sm btn-outline-primary";
       
       
       //mouseover
       copyCodeButton.addEventListener('mouseover', () => {
       copyCodeButton.style.borderColor = 'white';
-      copyCodeButton.style.color = 'white';
+      copyCodeButton.style.fontColor = 'white';
       });
 
       //mouseout
       copyCodeButton.addEventListener('mouseout', () => {
       copyCodeButton.style.borderColor = '#252525';
-      copyCodeButton.style.color = '#DBDBDB';
+      copyCodeButton.style.fontColor = '#DBDBDB';
       });
       
       //onclick
@@ -70,7 +72,7 @@ border-color: #252525;
         window.navigator.clipboard.writeText(code);
         copyCodeButton.innerHTML = '<i class="fa fa-clone" aria-hidden="true"></i>';
         copyCodeButton.style.borderColor = 'red';
-        copyCodeButton.style.color = 'red';
+        copyCodeButton.style.fontColor = 'red';
         //copyCodeButton.classList.add("btn-success");
         //copyCodeButton.classList.remove("btn-outline-primary");
 
@@ -78,7 +80,7 @@ border-color: #252525;
           copyCodeButton.innerHTML = "<i class="fa fa-clone" aria-hidden="true"></i>";
           copyCodeButton.classList.remove("btn-success");
           copyCodeButton.style.backgroundColor = '#252525';
-          copyCodeButton.style.color = '#DBDBDB';
+          copyCodeButton.style.fontColor = '#DBDBDB';
           copyCodeButton.classList.add("btn-outline-primary");
         }, 500);
       };
