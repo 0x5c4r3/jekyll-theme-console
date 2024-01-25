@@ -51,7 +51,7 @@ I really <i class="nf nf-fa-heart"></i> <i class="nf nf-custom-vim"></i>
     codeBlocks.forEach((codeblock, index) => {
       const code = codeBlocks[index].innerText;
       const copyCodeButton = document.createElement("button");
-      copyCodeButton.innerHTML = '<i class="nf-oct-copy"></i>';
+      copyCodeButton.innerHTML = '<i class="nf nf-oct-copy"></i>';
       //copyCodeButton.classList = "btn btn-sm btn-outline-primary";
       
       
