@@ -19,16 +19,15 @@ permalink: Ansible
     display: inline-block;
     outline: 0;
     cursor: pointer;
-    background-color:#252525;
+    background-color: #252525;
     color: var(--text-color);
     border-radius: 8px;
     border-color: #DBDBDB;
     line-height: 1.5px;
     padding: 15px 10px;
     text-align:center;
-    transition-duration: .15s;
+    transition-duration: .10s;
     transition-property: all;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
     position: absolute;
     top: 7px;;
     left: 940px;
@@ -37,6 +36,7 @@ permalink: Ansible
 
 <!--     
 font-weight: 300;
+transition-timing-function: cubic-bezier(.4,0,.2,1);
     color: #fff;
     background: #000;
 -->
@@ -75,7 +75,7 @@ font-weight: 300;
           copyCodeButton.classList.remove("btn-success");
           copyCodeButton.style.backgroundColor = '#252525';
           //copyCodeButton.classList.add("btn-outline-primary");
-        }, 1500);
+        }, 500);
       };
       // make the button
       codeblock.appendChild(copyCodeButton);
