@@ -70,9 +70,9 @@ border-color: #252525;
       //onclick
       copyCodeButton.onclick = function () {
         window.navigator.clipboard.writeText(code);
-        copyCodeButton.innerHTML = '<i class="fa fa-clone" aria-hidden="true"></i>';
-        copyCodeButton.style.borderColor = 'red';
-        copyCodeButton.style.color = 'red';
+        copyCodeButton.innerHTML = '<i class="fa fa-check" aria-hidden="true"></i>';
+        copyCodeButton.style.borderColor = 'green';
+        copyCodeButton.style.color = '#DBDBDB';
         //copyCodeButton.classList.add("btn-success");
         //copyCodeButton.classList.remove("btn-outline-primary");
 
