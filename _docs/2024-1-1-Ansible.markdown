@@ -50,8 +50,8 @@ border-color: #252525;
       const code = codeBlocks[index].innerText;
       const copyCodeButton = document.createElement("button");
       copyCodeButton.innerHTML = '<i class="fa fa-clone" aria-hidden="true"></i>';
-      copyCodeButton.style.color = '#DBDBDB';
-      copyCodeButton.style.borderColor = '#252525';
+      //copyCodeButton.style.color = '#DBDBDB';
+      //copyCodeButton.style.borderColor = '#252525';
       //copyCodeButton.classList = "btn btn-sm btn-outline-primary";
       
       
@@ -61,11 +61,11 @@ border-color: #252525;
       copyCodeButton.style.color = 'white';
       });
 
-      //mouseout
-      //copyCodeButton.addEventListener('mouseout', () => {
-      //copyCodeButton.style.borderColor = '#252525';
-      //copyCodeButton.style.color = '#DBDBDB';
-      //});
+      mouseout
+      copyCodeButton.addEventListener('mouseout', () => {
+      copyCodeButton.style.borderColor = '#252525';
+      copyCodeButton.style.color = '#DBDBDB';
+      });
       
       //onclick
       copyCodeButton.onclick = function () {
@@ -83,7 +83,7 @@ border-color: #252525;
           copyCodeButton.style.borderColor = '#252525';
           copyCodeButton.style.color = '#DBDBDB';
           copyCodeButton.classList.add("btn-outline-primary");
-        }, 1000);
+        }, 500);
       };
       // make the button
       codeblock.appendChild(copyCodeButton);
