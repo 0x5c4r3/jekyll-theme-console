@@ -79,7 +79,7 @@ background: #000;
        // }, 500);
      // };
       // make the button
-      //codeblock.appendChild(copyCodeButton);
+      codeblock.appendChild(copyCodeButton);
     });
   }
 
