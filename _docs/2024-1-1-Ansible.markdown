@@ -21,8 +21,6 @@ permalink: Ansible
     cursor: pointer;
     border: 2px solid #000;
     border-radius: 3px;
-    color: #fff;
-    background: #000;
     line-height: 1.5px;
     padding: 15px 10px;
     text-align:center;
@@ -41,6 +39,8 @@ permalink: Ansible
 
 <!--     
 font-weight: 300;
+    color: #fff;
+    background: #000;
 -->
 
 <script type="text/javascript">
