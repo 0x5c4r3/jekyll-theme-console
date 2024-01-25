@@ -21,7 +21,7 @@ permalink: Ansible
     border-radius: 3px;
     color: #fff;
     background: #000;
-    line-height: 18px;
+    line-height: 12px;
     padding: 15px 10px;
     text-align:center;
     transition-duration: .15s;
@@ -34,7 +34,7 @@ permalink: Ansible
         background: red;
            }
     position: absolute;
-    top: 3px;
+    top: 0rem;
     left: 800px;
   }
 </style>
@@ -50,17 +50,17 @@ font-weight: 300;
     codeBlocks.forEach((codeblock, index) => {
       const code = codeBlocks[index].innerText;
       const copyCodeButton = document.createElement("button");
-      copyCodeButton.innerHTML = "COPY";
+      copyCodeButton.innerHTML = "Copy";
       copyCodeButton.classList = "btn btn-sm btn-outline-primary";
       // insert a copy button
       copyCodeButton.onclick = function () {
         window.navigator.clipboard.writeText(code);
-        copyCodeButton.innerHTML = "COPIED";
+        copyCodeButton.innerHTML = "Copied";
         copyCodeButton.classList.add("btn-success");
         copyCodeButton.classList.remove("btn-outline-primary");
 
         setTimeout(() => {
-          copyCodeButton.innerHTML = "COPY";
+          copyCodeButton.innerHTML = "Copy";
           copyCodeButton.classList.remove("btn-success");
           copyCodeButton.classList.add("btn-outline-primary");
         }, 2000);
