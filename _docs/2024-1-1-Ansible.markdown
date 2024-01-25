@@ -29,7 +29,6 @@ permalink: Ansible
     position: absolute;
     top: 7px;;
     left: 953px;
-    pointer-events: 'none';
   }
 </style>
 
@@ -50,7 +49,7 @@ border-color: #252525;
     codeBlocks.forEach((codeblock, index) => {
       const code = codeBlocks[index].innerText;
       const copyCodeButton = document.createElement("button");
-      copyCodeButton.innerHTML = '<i class="fa fa-clone" aria-hidden="true"></i>';
+      copyCodeButton.innerHTML = '<i style="pointer-events:none" class="fa fa-clone" aria-hidden="true"></i>';
       //copyCodeButton.style.color = '#DBDBDB';
       //copyCodeButton.style.borderColor = '#252525';
       //copyCodeButton.classList = "btn btn-sm btn-outline-primary";
@@ -71,14 +70,14 @@ border-color: #252525;
       //onclick
       copyCodeButton.onclick = function () {
         window.navigator.clipboard.writeText(code);
-        copyCodeButton.innerHTML = '<i class="fa fa-check" aria-hidden="true"></i>';
+        copyCodeButton.innerHTML = '<i style="pointer-events:none" class="fa fa-check" aria-hidden="true"></i>';
         copyCodeButton.style.borderColor = 'red';
         copyCodeButton.style.color = '#DBDBDB';
         //copyCodeButton.classList.add("btn-success");
         //copyCodeButton.classList.remove("btn-outline-primary");
 
         setTimeout(() => {
-          copyCodeButton.innerHTML = '<i class="fa fa-clone" aria-hidden="true"></i>';
+          copyCodeButton.innerHTML = '<i style="pointer-events:none" class="fa fa-clone" aria-hidden="true"></i>';
           copyCodeButton.classList.remove("btn-success");
           copyCodeButton.style.backgroundColor = '#252525';
           copyCodeButton.style.borderColor = '#252525';
