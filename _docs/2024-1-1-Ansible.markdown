@@ -50,7 +50,7 @@ font-weight: 300;
       const copyCodeButton = document.createElement("button");
       copyCodeButton.innerHTML = "Copy";
       copyCodeButton.classList = "btn btn-sm btn-outline-primary";
-      copyCodeButton.style.fontColor = '#DBDBDB;';
+      copyCodeButton.style.fontColor = '#DBDBDB';
       
       //mouseover
       copyCodeButton.addEventListener('mouseover', () => {
