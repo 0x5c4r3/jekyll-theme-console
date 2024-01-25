@@ -29,6 +29,7 @@ permalink: Ansible
     position: absolute;
     top: 7px;;
     left: 953px;
+    pointer-events: 'none';
   }
 </style>
 
