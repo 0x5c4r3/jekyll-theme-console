@@ -22,7 +22,7 @@ permalink: Ansible
     border-radius: 8px;
     color: var(--text-color);
     line-height: 1.5px;
-    padding: 15px 10px;
+    padding: 10px 10px;
     text-align:center;
     transition-duration: .10s;
     transition-property: all;
@@ -58,13 +58,13 @@ border-color: #252525;
       //mouseover
       copyCodeButton.addEventListener('mouseover', () => {
       copyCodeButton.style.borderColor = 'white';
-      copyCodeButton.style.fontColor = 'white';
+      copyCodeButton.style.color = 'white';
       });
 
       //mouseout
       copyCodeButton.addEventListener('mouseout', () => {
       copyCodeButton.style.borderColor = '#252525';
-      copyCodeButton.style.fontColor = '#DBDBDB';
+      copyCodeButton.style.color = '#DBDBDB';
       });
       
       //onclick
@@ -72,7 +72,7 @@ border-color: #252525;
         window.navigator.clipboard.writeText(code);
         copyCodeButton.innerHTML = '<i class="fa fa-clone" aria-hidden="true"></i>';
         copyCodeButton.style.borderColor = 'red';
-        copyCodeButton.style.fontColor = 'red';
+        copyCodeButton.style.color = 'red';
         //copyCodeButton.classList.add("btn-success");
         //copyCodeButton.classList.remove("btn-outline-primary");
 
@@ -80,7 +80,7 @@ border-color: #252525;
           copyCodeButton.innerHTML = '<i class="fa fa-clone" aria-hidden="true"></i>';
           copyCodeButton.classList.remove("btn-success");
           copyCodeButton.style.backgroundColor = '#252525';
-          copyCodeButton.style.fontColor = '#DBDBDB';
+          copyCodeButton.style.color = '#DBDBDB';
           copyCodeButton.classList.add("btn-outline-primary");
         }, 500);
       };
