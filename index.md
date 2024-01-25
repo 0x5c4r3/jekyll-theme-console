@@ -15,19 +15,7 @@ permalink: /
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
   // MOBILE
 
-document.write('<div style:"text-align:center; white-space: pre;"><div class="center" style="color:red;display:inline;">       ...**                * **,        **\n')
-document.write('        ..* .**.         ****  * *       *,\n')
-document.write('        ...*  **...  ** *,** * * ** *  . *\n')
-document.write('        ...**  .....,*****,*.**  * ****.**\n')
-document.write('        .. </div><div style="color:white;display:inline;">@</div><div style="color:red;display:inline;"> .... .... **   ***.**  .,****\n')
-document.write('         ..</div><div style="color:white;display:inline;">@@</div><div style="color:red;display:inline;"> . </div><div style="color:white;display:inline;">@@@@@</div><div style="color:red;display:inline;"> .,**,**.*****..</div><div style="color:white;display:inline;">@@%@#</div><div style="color:red;display:inline;">\n')
-document.write('          . </div><div style="color:white;display:inline;">@@@ @@@(   </div><div style="color:red;display:inline;">.</div><div style="color:white;display:inline;">@@@@@@@@@@  @@@@/</div><div style="color:red;display:inline;">\n')
-document.write('            .</div><div style="color:white;display:inline;">@@@@@@,@               @@@@</div><div style="color:red;display:inline;">\n')
-document.write('             **.</div><div style="color:white;display:inline;">@@@   @@@@@@@@@@@</div><div style="color:red;display:inline;">  * </div><div style="color:white;display:inline;">@@@</div><div style="color:red;display:inline;">\n')
-document.write('               *</div><div style="color:white;display:inline;">@@</div><div style="color:red;display:inline;">.. ...*******...,  </div><div style="color:white;display:inline;">@@</div><div style="color:red;display:inline;">\n')
-document.write('                </div><div style="color:white;display:inline;">@</div><div style="color:red;display:inline;">****** *..** .*     </div><div style="color:white;display:inline;">*\n')          
-document.write('                    </div><div style="color:red;display:inline;">..*** * ,**\n')
-document.write('                        ** *,\n</div></div style="white-space: pre;"></br>')    
+document.write('<div style="white-space: pre;"><div class="center" style="color:red;display:inline;"> Nah G you browsing from a mobile? fuck that, grab a laptop...</div></div>\n')
   
 }else{
   // DESKTOP
