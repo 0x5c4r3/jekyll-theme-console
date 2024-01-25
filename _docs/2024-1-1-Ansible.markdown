@@ -62,16 +62,16 @@ border-color: #252525;
       });
 
       //mouseout
-      copyCodeButton.addEventListener('mouseout', () => {
-      copyCodeButton.style.borderColor = '#252525';
-      copyCodeButton.style.color = '#DBDBDB';
-      });
+      //copyCodeButton.addEventListener('mouseout', () => {
+      //copyCodeButton.style.borderColor = '#252525';
+      //copyCodeButton.style.color = '#DBDBDB';
+      //});
       
       //onclick
       copyCodeButton.onclick = function () {
         window.navigator.clipboard.writeText(code);
         copyCodeButton.innerHTML = '<i class="fa fa-check" aria-hidden="true"></i>';
-        copyCodeButton.style.borderColor = 'green';
+        copyCodeButton.style.borderColor = 'red';
         copyCodeButton.style.color = '#DBDBDB';
         //copyCodeButton.classList.add("btn-success");
         //copyCodeButton.classList.remove("btn-outline-primary");
@@ -83,7 +83,7 @@ border-color: #252525;
           copyCodeButton.style.borderColor = '#252525';
           copyCodeButton.style.color = '#DBDBDB';
           copyCodeButton.classList.add("btn-outline-primary");
-        }, 500);
+        }, 1000);
       };
       // make the button
       codeblock.appendChild(copyCodeButton);
