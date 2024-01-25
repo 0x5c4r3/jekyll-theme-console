@@ -21,7 +21,7 @@ permalink: Ansible
     border-radius: 3px;
     color: #fff;
     background: #000;
-    line-height: 12px;
+    line-height: 4px;
     padding: 15px 10px;
     text-align:center;
     transition-duration: .15s;
