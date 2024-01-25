@@ -41,6 +41,7 @@ color: #fff;
 background: #000;
 -->
 
+<!--
 <script type="text/javascript">
   function InitCopyPaste(){
     const codeBlocks = document.querySelectorAll("div.highlighter-rouge");
@@ -84,7 +85,7 @@ background: #000;
 
   document.addEventListener("DOMContentLoaded", InitCopyPaste);
 </script>
-
+-->
 #### Commands
 
 ```shell
