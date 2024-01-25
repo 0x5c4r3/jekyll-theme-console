@@ -51,33 +51,36 @@ background: #000;
       const copyCodeButton = document.createElement("button");
       copyCodeButton.innerHTML = "Copy";
       //copyCodeButton.classList = "btn btn-sm btn-outline-primary";
-      copyCodeButton.style.fontColor = '#DBDBDB';
+      
       
       //mouseover
-      //copyCodeButton.addEventListener('mouseover', () => {
-      //copyCodeButton.style.borderColor = 'red';
-      //});
+      copyCodeButton.addEventListener('mouseover', () => {
+      copyCodeButton.style.borderColor = 'white';
+      copyCodeButton.style.fontColor = 'white';
+      });
 
       //mouseout
-      //copyCodeButton.addEventListener('mouseout', () => {
-      //copyCodeButton.style.borderColor = '#DBDBDB';
-      //});
+      copyCodeButton.addEventListener('mouseout', () => {
+      copyCodeButton.style.borderColor = '#252525';
+      copyCodeButton.style.fontColor = '#DBDBDB';
+      });
       
       //onclick
-      //copyCodeButton.onclick = function () {
-      //  window.navigator.clipboard.writeText(code);
-      //  copyCodeButton.innerHTML = "Copy";
-      //  copyCodeButton.style.backgroundColor = 'red';
+      copyCodeButton.onclick = function () {
+        window.navigator.clipboard.writeText(code);
+        copyCodeButton.innerHTML = "Copy";
+        copyCodeButton.style.borderColor = 'red';
+        copyCodeButton.style.fontColor = 'red';
         //copyCodeButton.classList.add("btn-success");
         //copyCodeButton.classList.remove("btn-outline-primary");
 
-        //setTimeout(() => {
-         // copyCodeButton.innerHTML = "Copy";
-         // copyCodeButton.classList.remove("btn-success");
-        //  copyCodeButton.style.backgroundColor = '#252525';
-          //copyCodeButton.classList.add("btn-outline-primary");
-       // }, 500);
-     // };
+        setTimeout(() => {
+          copyCodeButton.innerHTML = "Copy";
+          copyCodeButton.classList.remove("btn-success");
+          copyCodeButton.style.backgroundColor = '#252525';
+          copyCodeButton.classList.add("btn-outline-primary");
+        }, 500);
+      };
       // make the button
       codeblock.appendChild(copyCodeButton);
     });
