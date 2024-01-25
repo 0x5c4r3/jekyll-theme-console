@@ -37,8 +37,8 @@ permalink: Ansible
 <!--     
 font-weight: 300;
 transition-timing-function: cubic-bezier(.4,0,.2,1);
-    color: #fff;
-    background: #000;
+color: #fff;
+background: #000;
 -->
 
 <script type="text/javascript">
@@ -49,7 +49,7 @@ transition-timing-function: cubic-bezier(.4,0,.2,1);
       const code = codeBlocks[index].innerText;
       const copyCodeButton = document.createElement("button");
       copyCodeButton.innerHTML = "Copy";
-      copyCodeButton.classList = "btn btn-sm btn-outline-primary";
+      copyCodeButton.classList = "btn"; //btn-sm btn-outline-primary";
       copyCodeButton.style.fontColor = '#DBDBDB';
       
       //mouseover
@@ -68,7 +68,7 @@ transition-timing-function: cubic-bezier(.4,0,.2,1);
         copyCodeButton.innerHTML = "Copy";
         copyCodeButton.style.backgroundColor = 'red';
         copyCodeButton.classList.add("btn-success");
-        copyCodeButton.classList.remove("btn-outline-primary");
+        //copyCodeButton.classList.remove("btn-outline-primary");
 
         setTimeout(() => {
           copyCodeButton.innerHTML = "Copy";
