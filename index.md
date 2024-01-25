@@ -15,7 +15,7 @@ permalink: /
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
   // MOBILE
 
-document.write('<div style="white-space: pre;"><div class="center" style="color:red;display:inline;"> Nah G you browsing from a mobile? fuck that, grab a laptop...</div></div>\n')
+document.write('<div style="white-space: pre;"><div class="center" style="color:red;display:inline;"> Nah G you browsing from a mobile?</div>\n<div class="center" style="color:red;display:inline;"> fuck that, grab a laptop...</div></div>\n')
   
 }else{
   // DESKTOP
