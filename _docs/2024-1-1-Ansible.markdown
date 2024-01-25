@@ -20,7 +20,7 @@ permalink: Ansible
     cursor: pointer;
     background-color: #252525;
     border: 2px solid #252525;
-    border-radios: 8px solid #000;
+    border-radius: 8px solid #000;
     color: var(--text-color);
     line-height: 1.5px;
     padding: 15px 10px;
@@ -72,7 +72,6 @@ border-color: #252525;
         window.navigator.clipboard.writeText(code);
         copyCodeButton.innerHTML = "Copy";
         copyCodeButton.style.borderColor = 'red';
-        copyCodeButton.style.fontColor = 'red';
         //copyCodeButton.classList.add("btn-success");
         //copyCodeButton.classList.remove("btn-outline-primary");
 
