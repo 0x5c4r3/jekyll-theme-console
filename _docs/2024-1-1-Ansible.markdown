@@ -55,6 +55,11 @@ font-weight: 300;
       copyCodeButton.addEventListener('mouseover', () => {
       copyCodeButton.style.borderColor = 'red';
       });
+
+      //mouseout
+      copyCodeButton.addEventListener('mouseover', () => {
+      copyCodeButton.style.borderColor = '#DBDBDB';
+      });
       
       //onclick
       copyCodeButton.onclick = function () {
@@ -68,7 +73,7 @@ font-weight: 300;
           copyCodeButton.innerHTML = "Copy";
           copyCodeButton.classList.remove("btn-success");
           copyCodeButton.style.backgroundColor = '#252525';
-          copyCodeButton.classList.add("btn-outline-primary");
+          //copyCodeButton.classList.add("btn-outline-primary");
         }, 1500);
       };
       // make the button
