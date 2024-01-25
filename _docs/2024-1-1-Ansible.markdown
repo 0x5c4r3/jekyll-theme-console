@@ -20,8 +20,6 @@ permalink: Ansible
     cursor: pointer;
     background-color: #252525;
     color: var(--text-color);
-    border-radius: 8px;
-    border-color: #252525;
     line-height: 1.5px;
     padding: 15px 10px;
     text-align:center;
@@ -39,6 +37,8 @@ transition-timing-function: cubic-bezier(.4,0,.2,1);
 color: #fff;
 outline: 0;
 background: #000;
+border-radius: 8px;
+border-color: #252525;
 -->
 
 
