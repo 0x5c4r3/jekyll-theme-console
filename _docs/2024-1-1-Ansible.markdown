@@ -20,6 +20,7 @@ permalink: Ansible
     cursor: pointer;
     background-color: #252525;
     border: 2px solid #000;
+    border-radios: 8px solid #000;
     color: var(--text-color);
     line-height: 1.5px;
     padding: 15px 10px;
