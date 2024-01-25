@@ -57,7 +57,7 @@ font-weight: 300;
       });
 
       //mouseout
-      copyCodeButton.addEventListener('mouseover', () => {
+      copyCodeButton.addEventListener('mouseout', () => {
       copyCodeButton.style.borderColor = '#DBDBDB';
       });
       
