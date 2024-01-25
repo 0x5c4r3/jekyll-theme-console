@@ -34,8 +34,8 @@ permalink: Ansible
         background: red;
            }
     position: absolute;
-    top: 2.3rem;
-    left: 60px;
+    top: 5.3rem;
+    left: 550px;
   }
 </style>
 
