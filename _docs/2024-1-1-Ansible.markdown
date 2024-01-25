@@ -20,7 +20,8 @@ permalink: Ansible
     outline: 0;
     cursor: pointer;
     border: 2px solid #000;
-    border-radius: 3px;
+    background-color: var(--code-color-1);
+    border-radius: 6px;
     line-height: 1.5px;
     padding: 15px 10px;
     text-align:center;
@@ -32,8 +33,8 @@ permalink: Ansible
         background: red;
            }
     position: absolute;
-    top: 4px;;
-    left: 955px;
+    top: 7px;;
+    left: 940px;
   }
 </style>
 
