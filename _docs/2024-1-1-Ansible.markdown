@@ -42,8 +42,6 @@ border-radius: 8px;
 border-color: #252525;
 -->
 
-I really <i class="fa fa-clone" aria-hidden="true"></i>
-
 <script type="text/javascript">
   function InitCopyPaste(){
     const codeBlocks = document.querySelectorAll("div.highlighter-rouge");
