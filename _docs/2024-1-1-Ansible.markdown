@@ -41,7 +41,7 @@ color: #fff;
 background: #000;
 -->
 
-<!--
+
 <script type="text/javascript">
   function InitCopyPaste(){
     const codeBlocks = document.querySelectorAll("div.highlighter-rouge");
@@ -54,38 +54,38 @@ background: #000;
       copyCodeButton.style.fontColor = '#DBDBDB';
       
       //mouseover
-      copyCodeButton.addEventListener('mouseover', () => {
-      copyCodeButton.style.borderColor = 'red';
-      });
+      //copyCodeButton.addEventListener('mouseover', () => {
+      //copyCodeButton.style.borderColor = 'red';
+      //});
 
       //mouseout
-      copyCodeButton.addEventListener('mouseout', () => {
-      copyCodeButton.style.borderColor = '#DBDBDB';
-      });
+      //copyCodeButton.addEventListener('mouseout', () => {
+      //copyCodeButton.style.borderColor = '#DBDBDB';
+      //});
       
       //onclick
-      copyCodeButton.onclick = function () {
-        window.navigator.clipboard.writeText(code);
-        copyCodeButton.innerHTML = "Copy";
-        copyCodeButton.style.backgroundColor = 'red';
+      //copyCodeButton.onclick = function () {
+      //  window.navigator.clipboard.writeText(code);
+      //  copyCodeButton.innerHTML = "Copy";
+      //  copyCodeButton.style.backgroundColor = 'red';
         //copyCodeButton.classList.add("btn-success");
         //copyCodeButton.classList.remove("btn-outline-primary");
 
-        setTimeout(() => {
-          copyCodeButton.innerHTML = "Copy";
-          copyCodeButton.classList.remove("btn-success");
-          copyCodeButton.style.backgroundColor = '#252525';
+        //setTimeout(() => {
+         // copyCodeButton.innerHTML = "Copy";
+         // copyCodeButton.classList.remove("btn-success");
+        //  copyCodeButton.style.backgroundColor = '#252525';
           //copyCodeButton.classList.add("btn-outline-primary");
-        }, 500);
-      };
+       // }, 500);
+     // };
       // make the button
-      codeblock.appendChild(copyCodeButton);
+      //codeblock.appendChild(copyCodeButton);
     });
   }
 
   document.addEventListener("DOMContentLoaded", InitCopyPaste);
 </script>
--->
+
 #### Commands
 
 ```shell
