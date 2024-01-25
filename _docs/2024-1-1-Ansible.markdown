@@ -20,7 +20,7 @@ permalink: Ansible
     outline: 0;
     cursor: pointer;
     border: 2px solid #000;
-    background-color: #252525;
+    background-color:#252525;
     border-radius: 6px;
     line-height: 1.5px;
     padding: 15px 10px;
@@ -60,7 +60,7 @@ font-weight: 300;
         setTimeout(() => {
           copyCodeButton.innerHTML = "Copy";
           copyCodeButton.classList.remove("btn-success");
-          copyCodeButton.style.backgroundColor = #252525;
+          copyCodeButton.style.backgroundColor = '#252525';
           copyCodeButton.classList.add("btn-outline-primary");
         }, 2000);
       };
