@@ -28,9 +28,6 @@ permalink: Ansible
     transition-duration: .15s;
     transition-property: all;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
-    :active{
-        background-color: red;
-           }
     position: absolute;
     top: 7px;;
     left: 940px;
@@ -56,6 +53,7 @@ font-weight: 300;
       copyCodeButton.onclick = function () {
         window.navigator.clipboard.writeText(code);
         copyCodeButton.innerHTML = "Copied";
+        copyCodeButton.body.style.backgroundColor = 'red'; //not sure
         copyCodeButton.classList.add("btn-success");
         copyCodeButton.classList.remove("btn-outline-primary");
 
