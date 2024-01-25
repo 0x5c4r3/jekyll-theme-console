@@ -7,7 +7,6 @@ permalink: Ansible
 
 # <span style="fint-size: 35px; color:red">Ansible</span>
                 
-<!-- media="screen" -->         
 <style>
   div.highlighter-rouge {
     position: relative;
@@ -51,7 +50,7 @@ border-color: #252525;
     codeBlocks.forEach((codeblock, index) => {
       const code = codeBlocks[index].innerText;
       const copyCodeButton = document.createElement("button");
-      copyCodeButton.innerHTML = "Copy";
+      copyCodeButton.innerHTML = '<i class="fa-regular fa-copy"></i>';
       //copyCodeButton.classList = "btn btn-sm btn-outline-primary";
       
       
