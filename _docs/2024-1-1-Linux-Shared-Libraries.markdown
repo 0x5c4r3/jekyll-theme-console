@@ -99,7 +99,7 @@ gcc -shared -Wl,--version-script gpg.map -o libgpg-error.so.0 hax.o
 ---
 &nbsp;
 
-<span style="font-size: 25px; color:white"><b>LD_LIBRARY_PATH</b></span>
+<span style="font-size: 25px; color:white"><b>Shared Libraries - LD_PRELOAD</b></span>
 
 I.E Let's attack <span style="color:red">cp</span>.
 
