@@ -104,7 +104,7 @@ gcc -shared -Wl,--version-script gpg.map -o libgpg-error.so.0 hax.o
 I.E Let's attack <span style="color:red">cp</span>.
 
 1) <span style="color:red">ltrace cp</span> to see the various functions used by cp and find one that is used only once and possibly without input parameters. We'll redefine that function.
-2) If the function that we found is - for instance - _geteuid()_, the .c exploit is the following:
+2) If the function that we found is - for instance - <span style="color:red">geteuid()</span>, the .c exploit is the following:
 ```c
 #define _GNU_SOURCE
 #include <sys/mman.h> // for mprotect
