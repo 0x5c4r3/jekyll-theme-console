@@ -17,6 +17,8 @@ From the command machine:
 ansible victims -a "whoami"
 ```
 This will run _whoami_ on all members of the Ansible group. To run it as root <span style="color:red">ansible victims -a "whoami" --become</span> or specify the user <span style="color:red">ansible victims -a "whoami" --become user2</span>.
+&nbsp;
+
 ---
 &nbsp;
 <span style="font-size: 25px; color:white"><b>Playbooks</b></span>
