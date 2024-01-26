@@ -4,7 +4,7 @@ author:     0x5c4r3
 type: docs
 permalink: Windows_Linux_Comms
 ---
-<span style="font-size: 35px; color:red"><b>Windows\Linux Communications: SAMBA</b></span>
+<span style="font-size: 35px; color:red"><b>Windows & Linux Communications: SAMBA</b></span>
 
 ```shell
 sudo apt install samba
