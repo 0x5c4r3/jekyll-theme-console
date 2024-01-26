@@ -20,15 +20,18 @@ ps aux | grep artifactory
 ```
 
 Login page at <span style="color:red">http://<domain>:8082/</span>.
----
 &nbsp;
 
+---
+&nbsp;
 <span style="font-size: 25px; color:white"><b>Credentials</b></span>
 The open-source version of Artifactory creates database backups for the user accounts at /<Artifactory_Folder>/var/backup/access in JSON format.
 The password is in bcrypt format and can be cracked as follows:
 ```shell
 sudo john derbyhash.txt --wordlist=/usr/share/wordlists/rockyou.txt
 ```
+&nbsp;
+
 ---
 &nbsp;
 
@@ -50,6 +53,8 @@ From there:
 select * from access_users;
 ```
 and you'll see the passwords.
+&nbsp;
+
 ---
 &nbsp;
 
