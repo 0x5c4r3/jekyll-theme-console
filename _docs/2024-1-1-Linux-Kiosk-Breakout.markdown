@@ -25,7 +25,7 @@ Interesting ones to exploit: <span style="color:red">gtkdialog</span>, <span sty
 If you can access the tools, search <span style="color:red">Web Developer </span> > <span style="color:red">Scratchpad</span>.
 
 You can create the following script and save it as <span style="color:red">terminal.txt</span> to get Local Code Execution:
-```js
+```html
 <window>
   <vbox>
     <vbox scrollable="true" width="500" height="400">
