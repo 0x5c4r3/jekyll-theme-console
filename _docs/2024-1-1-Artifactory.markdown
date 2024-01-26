@@ -2,7 +2,7 @@
 layout:     post
 author:     0x5c4r3
 type: docs
-permalink: test
+permalink: Artifactory
 ---
 <span style="font-size: 35px; color:red"><b>Artifactory</b></span>
 
