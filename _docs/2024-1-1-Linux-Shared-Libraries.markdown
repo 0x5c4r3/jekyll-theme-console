@@ -13,8 +13,8 @@ This shared libs are in the following folders (ordered by importance):
 - RPATH
 - LD_LIBRARY_PATH
 - RUNPATH
-- /etc/ld.so.conf
-- /lib, /lib64, /usr/lib, /usr/lib64, /usr/local/lib, /usr/local/lib64, and potentially others.
+- <span style="color:red">/etc/ld.so.conf
+- <span style="color:red">/lib, <span style="color:red">/lib64</span>, <span style="color:red">/usr/lib</span>, <span style="color:red">/usr/lib64</span>, <span style="color:red">/usr/local/lib</span>, <span style="color:red">/usr/local/lib64</span>, and potentially others.
 
 &nbsp;
 
