@@ -20,15 +20,18 @@ ps aux | grep artifactory
 ```
 
 Login page at <span style="color:red">http://<domain>:8082/</span>.
-
+---
 &nbsp;
+
 <span style="font-size: 25px; color:white"><b>Credentials</b></span>
 The open-source version of Artifactory creates database backups for the user accounts at /<Artifactory_Folder>/var/backup/access in JSON format.
 The password is in bcrypt format and can be cracked as follows:
 ```shell
 sudo john derbyhash.txt --wordlist=/usr/share/wordlists/rockyou.txt
 ```
+---
 &nbsp;
+
 <span style="font-size: 25px; color:white"><b>Compromising Artifactory Database</b></span>
 If there are no backup files available, we can access the database itself or attempt to copy it and extract the hashes manually.
 Copy the database to a temporary location and unlock it:
@@ -47,7 +50,9 @@ From there:
 select * from access_users;
 ```
 and you'll see the passwords.
+---
 &nbsp;
+
 <span style="font-size: 25px; color:white"><b>Adding a Secondary Artifactory Admin Account</b></span>
 This method requires write access to the /opt/jfrog/artifactory/var/etc/access folder and the ability to change permissions on the newly-created file, which usually requires _root_ or _sudo_ access.
 In there, create a `bootstrap.creds` like so:
