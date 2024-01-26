@@ -15,7 +15,6 @@ You can add bash commands to these file to execute them:
 &nbsp;
 
 ---
-&nbsp;
 <span style="font-size: 25px; color:white"><b>Vim Configuration Backdoor</b></span>
 
 Opening VIM, you can run commands (after the <span style="color:red">:</span>) like <span style="color:red">! touch /tmp/test.txt</span>
