@@ -157,7 +157,7 @@ export LD_PRELOAD=/home/offsec/evil_geteuid.so
 cp /etc/passwd /tmp/testpasswd
 ```
 
-4) To run as root:
+5) To run as root:
 ```shell
 unset LD_PRELOAD
 ```
