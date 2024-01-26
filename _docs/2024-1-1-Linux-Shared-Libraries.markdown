@@ -21,9 +21,9 @@ This shared libs are in the following folders (ordered by importance):
 
 Code to insert in .bashrc or .bash_profile to define the LD_LIBRARY_PATH
 
-I.E. the target system is running `top` each 3 minutes. `top` uses shared libraries. We can trick the system into loading a fake shared library containing an exploit developed by us.
+I.E. the target system is running <span style="color:red">top</span> each 3 minutes. <span style="color:red">top</span> uses shared libraries. We can trick the system into loading a fake shared library containing an exploit developed by us.
 
-0) (<font style="color:red">On most modern systems, user environment variables are not passed on when using sudo. This setting is configured in the /etc/sudoers file by using the _env_reset_ keyword as a default. Some systems are configured to allow a user's environment to be passed on to sudo. These will have _env_keep_ set instead.</font> To solve this, set an alias in .bashrc  alias sudo="sudo LD_LIBRARY_PATH=/home/offsec/ldlib" and remember to use source. Also try alias sudo = 'sudo -E' if not working.)
+0) <span style="color:red">On most modern systems, user environment variables are not passed on when using sudo. This setting is configured in the /etc/sudoers file by using the _env_reset_ keyword as a default. Some systems are configured to allow a user's environment to be passed on to sudo. These will have _env_keep_ set instead.</span> To solve this, set an alias in .bashrc  alias sudo="sudo LD_LIBRARY_PATH=/home/offsec/ldlib" and remember to use source. Also try alias sudo = 'sudo -E' if not working.
 
 1) Exploit to build to create shared library with payload:
 ```C
