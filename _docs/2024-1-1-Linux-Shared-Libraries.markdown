@@ -16,7 +16,10 @@ This shared libs are in the following folders (ordered by importance):
 - /etc/ld.so.conf
 - /lib, /lib64, /usr/lib, /usr/lib64, /usr/local/lib, /usr/local/lib64, and potentially others.
 
+&nbsp;
 
+---
+&nbsp;
 <span style="font-size: 25px; color:white"><b>LD_LIBRARY_PATH</b></span>
 
 Code to insert in .bashrc or .bash_profile to define the LD_LIBRARY_PATH
