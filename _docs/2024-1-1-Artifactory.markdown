@@ -4,7 +4,7 @@ author:     0x5c4r3
 type: docs
 permalink: test
 ---
-<span style="font-size: 35px; color:red"><b>Ansible</b></span>
+<span style="font-size: 35px; color:red"><b>Artifactory</b></span>
 
 Binary repository manager that stores software packages and other binaries installed in _/opt/jfrog_. If it's running, it will run as webserver on port 8082 locally or port 8081 remotely.
 To prevents developers from getting untrusted or unstable binaries directly from the Internet.
