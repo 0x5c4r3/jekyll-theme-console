@@ -11,10 +11,10 @@ You can add bash commands to these file to execute them:
 - <span style="color:red">.bash_profile</span>: run when the system boots.
 - <span style="color:red">.bashrc</span>: run when a new terminal window is open.
 
----
 &nbsp;
 
 ---
+&nbsp;
 <span style="font-size: 25px; color:white"><b>Vim Configuration Backdoor</b></span>
 
 Opening VIM, you can run commands (after the <span style="color:red">:</span>) like <span style="color:red">! touch /tmp/test.txt</span>
