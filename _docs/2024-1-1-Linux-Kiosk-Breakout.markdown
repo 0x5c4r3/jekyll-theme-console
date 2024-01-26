@@ -17,7 +17,7 @@ Use <span style="color:red">xtigervncviewer</span> to connect.
 If the kiosk presents a browser page, try:
 - <span style="color:red">file:///var/www/localhost/ </span>
 - <span style="color:red">file:///var/www/localhost/index.html </span>
-- <span style="color:red">chrome://, ftp://, mailto:, smb://, irc:// </span>
+- <span style="color:red">chrome://</span><span style="color:red">, </span><span style="color:red">ftp://</span><span style="color:red">, </span><span style="color:red">mailto:</span><span style="color:red">, </span><span style="color:red">smb://</span><span style="color:red">, </span><span style="color:red">irc://</span>
 
 Some of these might open a pop-up window that allows you to <span style="color:red">browse</span> and choose the program you want to use to open the link.
 Interesting ones to exploit: <span style="color:red">gtkdialog</span>, <span style="color:red">firefox</span> (to open another firefox window with another profile, unlocking new functions on upper right corner)
