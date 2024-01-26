@@ -20,7 +20,7 @@ sudo john --wordlist=/usr/share/wordlists/rockyou.txt ./id_rsa.hash
 If cracked, add your id_rsa to the authoryzed_keys after you get the SSH shell.
 
 Also, check the <span style="color:red">~/.bash_history_ file</span> or the <span style="color:red">~/.ssh/known_hosts</span> to see who connected recently (might be hashed, if so, nothing to do here).
-&nbsp;
+
 ---
 &nbsp;
 <span style="font-size: 30px; color:white"><b>SSH Hijacking</b></span>
@@ -33,7 +33,7 @@ If so, you can use it like:
 ssh -S /home/user/.ssh/controlmaster/user\@domain\:22 user@domain
 ```
 no password required!
-&nbsp;
+
 ---
 &nbsp;
 <span style="font-size: 25px; color:white"><b>With SSH-Agent</b></span>
@@ -47,7 +47,7 @@ Both Intermediate and Final Host need to have the same public key (<span style="
 - Start SSH_Agent: _eval <span style="color:red">ssh-agent</span>
 - Add key to SSH-Agent: <span style="color:red">ssh-add</span>
 Done, you can now connect to Intermediate Host and then from there to Final Host.
-&nbsp;
+
 ---
 &nbsp;
 <span style="font-size: 25px; color:white"><b>Exploitation</b></span>
