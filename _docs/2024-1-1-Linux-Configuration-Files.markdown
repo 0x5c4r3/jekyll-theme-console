@@ -2,7 +2,7 @@
 layout:     post
 author:     0x5c4r3
 type: docs
-permalink: Linux_Config_files
+permalink: Linux_Config_Files
 ---
 
 <span style="font-size: 35px; color:red"><b>Linux Configuration Files</b></span>
