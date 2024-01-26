@@ -2,7 +2,7 @@
 layout:     post
 author:     0x5c4r3
 type: docs
-permalink: Ansible
+permalink: Port_Forward
 ---
 
 <span style="font-size: 35px; color:red"><b>Port Forward</b></span>
