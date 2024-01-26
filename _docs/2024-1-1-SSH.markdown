@@ -19,7 +19,7 @@ sudo john --wordlist=/usr/share/wordlists/rockyou.txt ./id_rsa.hash
 ```
 If cracked, add your id_rsa to the authoryzed_keys after you get the SSH shell.
 
-Also, check the <span style="color:red">~/.bash_history_ file</span> or the <span style="color:red">~/.ssh/known_hosts</span> to see who connected recently (might be hashed, if so, nothing to do here).
+Also, check <span style="color:red">~/.bash_history</span> or <span style="color:red">~/.ssh/known_hosts</span> to see who connected recently (might be hashed, if so, nothing to do here).
 
 ---
 &nbsp;
