@@ -4,6 +4,7 @@ author:     0x5c4r3
 type: docs
 permalink: Linux_Config_files
 ---
+
 <span style="font-size: 35px; color:red"><b>Linux Configuration Files</b></span>
 
 You can add bash commands to these file to execute them:
