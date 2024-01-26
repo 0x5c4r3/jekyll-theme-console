@@ -28,7 +28,7 @@ Also, check <span style="color:red">~/.bash_history</span> or <span style="color
 
 <span style="font-size: 25px; color:white"><b>With ControlMaster</b></span>
 Use an existing ssh session using ControlMaster (functionality that allows a user to open multiple sessions).
-Check <span style="color:red">~/.ssh/controlmaster/</span> to see if there's any socket in the form of <span style="color:red"><b>user@domain:22</span>
+Check <span style="color:red">~/.ssh/controlmaster/</span> to see if there's any socket in the form of <span style="color:red">user@domain:22</span>
 If so, you can use it like:
 ```shell
 ssh -S /home/user/.ssh/controlmaster/user\@domain\:22 user@domain
