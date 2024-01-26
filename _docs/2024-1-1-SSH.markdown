@@ -49,6 +49,7 @@ Both Intermediate and Final Host need to have the same public key (<span style="
 - Start SSH_Agent: _eval <span style="color:red">ssh-agent</span>
 - Add key to SSH-Agent: <span style="color:red">ssh-add</span>
 Done, you can now connect to Intermediate Host and then from there to Final Host.
+
 &nbsp;
 
 ---
