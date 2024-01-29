@@ -2,7 +2,7 @@
 layout:     post
 author:     0x5c4r3
 type: docs
-permalink: Linux_Kiosk_Breakout
+permalink: Linux_Kiosk_Break
 ---
 
 
