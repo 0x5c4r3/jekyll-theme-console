@@ -45,7 +45,4 @@ If you have working credentials but no shell, you can use bloodhound-python from
 ```shell
 bloodhound-python -u <user> -p <password> -ns <IP> -d <DOMAIN> -c all
 ```
-
----
-
 <span style="color:red">Give a try to rusthound, maybe it's faster and less detectable!</span>
