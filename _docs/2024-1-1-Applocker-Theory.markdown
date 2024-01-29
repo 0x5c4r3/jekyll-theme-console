@@ -38,6 +38,6 @@ Applocker blocks:
 <span style="font-size: 25px; color:white"><b>Applocker Bypass</b></span>
 
 - [Trusted Folders, Alternate Data Streams and Third Party Executables](https://scare.rocks/Alternate_Data_Streams)
-- [Bypass with Powershell](https://scare.rocks/)
-- [Bypass with Csharp](https://scare.rocks/)
-- [Bypass with JScript](https://scare.rocks/)
+- [Bypass with Powershell](https://scare.rocks/Applocker_Bypass_Powershell)
+- [Bypass with Csharp](https://scare.rocks/Applocker_Bypass_CSharp)
+- [Bypass with JScript](https://scare.rocks/Applocker_Bypass_JScript)
