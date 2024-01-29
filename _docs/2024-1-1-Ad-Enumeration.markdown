@@ -2,13 +2,12 @@
 layout:     post
 author:     0x5c4r3
 type: docs
-permalink: AD_Enum
+permalink: Ad_Enumeration
 ---
 
-
-<span style="font-size: 35px; color:red"><b>AD Enumeration</b></span>
+<span style="font-size: 35px; color:red"><b>Active Directory Enumeration</b></span>
 &nbsp;
-### <span style="font-size: 25px; color:white"><b>Enumerate the forest</b></span>
+<span style="font-size: 25px; color:white"><b>Enumerate the forest</b></span>
 ```
 nltest /trusted_domains
 ```
