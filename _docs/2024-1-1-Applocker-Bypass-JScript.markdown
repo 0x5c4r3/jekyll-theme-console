@@ -5,7 +5,6 @@ type: docs
 permalink: Applocker_Bypass_JScript
 ---
 
-
 <span style="font-size: 35px; color:red"><b>Applocker Bypass with JScript</b></span>
 &nbsp;
 <span style="font-size: 25px; color:white"><b>MSHTA</b></span>
