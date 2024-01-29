@@ -33,11 +33,11 @@
 
         setTimeout(() => {
           copyCodeButton.innerHTML = '<i style="pointer-events:none" class="fa fa-clone" aria-hidden="true"></i>';
-          copyCodeButton.classList.remove("btn-success");
+          //copyCodeButton.classList.remove("btn-success");
           copyCodeButton.style.backgroundColor = '#252525';
           copyCodeButton.style.borderColor = '#252525';
           copyCodeButton.style.color = '#DBDBDB';
-          copyCodeButton.classList.add("btn-outline-primary");
+          //copyCodeButton.classList.add("btn-outline-primary");
         }, 500);
       };
       // make the button
