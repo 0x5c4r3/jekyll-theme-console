@@ -5,6 +5,7 @@ type: docs
 permalink: Ansible
 ---
 
+
 <span style="font-size: 35px; color:red"><b>Ansible</b></span>
 &nbsp;
 <span style="font-size: 25px; color:white"><b>Commands</b></span>
