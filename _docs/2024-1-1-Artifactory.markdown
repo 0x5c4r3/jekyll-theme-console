@@ -4,6 +4,7 @@ author:     0x5c4r3
 type: docs
 permalink: Artifactory
 ---
+
 <span style="font-size: 35px; color:red"><b>Artifactory</b></span>
 
 <span style="color:red">Binary Repository Manager</span> that stores software packages and other binaries installed in <span style="color:red">/opt/jfrog</span>. If it's running, it will run as webserver on port 8082 locally or port 8081 remotely.
