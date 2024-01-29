@@ -5,6 +5,7 @@ type: docs
 permalink: Karspersky
 ---
 
+
 <span style="font-size: 35px; color:red"><b>Karspersky</b></span>
 &nbsp;
 <span style="font-size: 25px; color:white"><b>Karspersky Evasion</b></span>
