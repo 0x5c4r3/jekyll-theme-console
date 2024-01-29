@@ -1,7 +1,22 @@
+---
+layout:     post
+author:     0x5c4r3
+type: docs
+permalink: Applocker_Theory
+---
+
+
+<span style="font-size: 35px; color:red"><b>Applocker Theory</b></span>
+&nbsp;
+<span style="font-size: 25px; color:white"><b>Commands</b></span>
+
 Prior to Windows 7, Microsoft introduced the _Software Restriction Policies_ (_SRP_) whitelisting solution. It is still available but has been superseded by <font style="color:#981f3a">AppLocker </font>(APPID.SYS and APPIDSVC service), which was introduced with Windows 7 and is still available in current versions of Windows 10.
 The most recent solution is _Windows Defender Application Control_ (_WDAC_), rarely deployed since it needs strict hardware requirements.
+&nbsp;
 
-## AppLocker Rules
+---
+&nbsp;
+<span style="font-size: 25px; color:white"><b>Applocker Rules</b></span>
 Whitelisting based on:
 - File Path/File Name
 - File Hash (SHA256 Authenticode hash)
@@ -15,3 +30,4 @@ Applocker blocks:
 - Scripts
 - Packaged Apps
 - DLLs
+
