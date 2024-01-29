@@ -31,3 +31,13 @@ Applocker blocks:
 - Packaged Apps
 - DLLs
 
+&nbsp;
+
+---
+&nbsp;
+<span style="font-size: 25px; color:white"><b>Applocker Bypass</b></span>
+
+- [Trusted Folders, Alternate Data Streams and Third Party Executables](https://scare.rocks/Alternate_Data_Streams)
+- [Bypass with Powershell](https://scare.rocks/)
+- [Bypass with Csharp](https://scare.rocks/)
+- [Bypass with JScript](https://scare.rocks/)
