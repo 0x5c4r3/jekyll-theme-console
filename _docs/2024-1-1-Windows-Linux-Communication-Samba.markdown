@@ -5,6 +5,7 @@ type: docs
 permalink: Windows_Linux_Comms
 ---
 
+
 <span style="font-size: 35px; color:red"><b>Windows - Linux Communications: Samba</b></span>
 
 ```shell
