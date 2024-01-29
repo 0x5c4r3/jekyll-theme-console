@@ -5,6 +5,7 @@ type: docs
 permalink: Linux_Kiosk_Breakout
 ---
 
+
 <span style="font-size: 35px; color:red"><b>Linux Kiosk Breakout</b></span>
 &nbsp;
 
