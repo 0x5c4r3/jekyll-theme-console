@@ -34,10 +34,11 @@ mshta C:\Tools\test.hta
 ```
 
 To deliver it, you can createa shortcut. To create the shortcut file, we'll right-click the desktop on the Windows 10 victim machine and navigate to _New_ -> _Shortcut_. In the new window, we'll enter the MSHTA executable path <span style="color:red">(C:\Windows\System32\mshta.exe)</span> followed by the URL of the .hta file on our Kali machine
+&nbsp;
 
 ---
-
-### XSL Transform
+&nbsp;
+<span style="font-size: 25px; color:white"><b>XSL Transform</b></span>
 The process of XSLT uses <span style="color:red">Extensible Stylesheet Language</span> (.xsl) documents to transform an XML document into a different format such as <span style="color:red">XHTML</span>.
 XSL file (test.xsl):
 ```xml
