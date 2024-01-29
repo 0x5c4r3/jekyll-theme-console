@@ -5,6 +5,7 @@ type: docs
 permalink: Linux_Shared_Libraries
 ---
 
+
 <span style="font-size: 35px; color:red"><b>Shared Libraries - LD_LIBRARY_PATH</b></span>
 &nbsp;
 
