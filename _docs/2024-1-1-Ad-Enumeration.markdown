@@ -35,6 +35,14 @@ Get-DomainUser -Domain <domain>
 ---
 &nbsp;
 <span style="font-size: 25px; color:white"><b>Enumerate Users</b></span>
+Domain Users:
+```powershell
+net user /domain
+```
+Local Users:
+```powershell
+net user
+```
 <span style="color:red"><b>From Linux:</b></span>
 Queries target domain for users and users data.
 ```shell
@@ -86,15 +94,6 @@ In this case, you can change the password of the testService1 account:
 net user <CN_NAME> <PASSWORD> /domain
 ```
 You can do the same using <span style="color:red">ForceChangePassword</span> and <span style="color:red">AllExtendedRights</span> access rights.
-
-Domain Users:
-```powershell
-net user /domain
-```
-Local Users:
-```powershell
-net user
-```
 &nbsp;
 
 ---
