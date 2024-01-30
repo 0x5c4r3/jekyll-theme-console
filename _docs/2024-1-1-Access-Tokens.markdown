@@ -175,7 +175,6 @@ And from another cmd.exe (3rd one open):
 echo hello > \\localhost\pipe\test
 ```
 
----
 &nbsp;
 
 ---
