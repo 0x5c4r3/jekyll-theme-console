@@ -160,7 +160,6 @@ You can reduce detection even more if you open the file withn a tool like FlexHE
 - Close and reopen
 - Open NewMacros and do the same for the block from "Attribute VB_Name=.........." to the very last byte.
 
----
 &nbsp;
 
 ---
@@ -242,8 +241,6 @@ Sub AutoOpen()
     MyMacro
 End Sub
 ```
-
----
 &nbsp;
 
 ---
