@@ -61,3 +61,14 @@ Get-Service | where {$_.Status -eq "Running"}
 ```
 [Environment]::Is64BitOperatingSystem
 ```
+&nbsp;
+
+---
+&nbsp;
+<span style="font-size: 25px; color:white"><b>Migrate With Metasploit</b></span>
+Within meterpreter:
+```shell
+ps | grep <program.exe>
+migrate <PID>
+```
+(good example of process to migrate to is `explorer.exe`)
