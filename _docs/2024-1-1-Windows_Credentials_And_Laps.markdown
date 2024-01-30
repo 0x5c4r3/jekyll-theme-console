@@ -73,6 +73,10 @@ Get groups and then memebers that can fully enumerate the LAPS data (if showing 
 Find-LAPSDelegatedGroups
 Get-NetGroupMember -GroupName "<Name_of_the_readers_group>"
 ```
+If the user is in LAPS group, you can read the administrator password with:
+```powershell
+Get-ADComputer DC01 -property 'ms-mcs-admpwd'
+```
 
 
 
