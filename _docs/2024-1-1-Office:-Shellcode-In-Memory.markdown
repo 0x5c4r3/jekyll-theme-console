@@ -2,7 +2,7 @@
 layout:     post
 author:     0x5c4r3
 type: docs
-permalink: Windows_Creds_And_LAPS
+permalink: Office_Shellcode_In_Memory
 ---
 
 
