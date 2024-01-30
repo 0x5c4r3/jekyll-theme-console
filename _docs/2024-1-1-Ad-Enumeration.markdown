@@ -113,6 +113,18 @@ Specific Domain Group:
 ```
 Get-NetGroup <group_name>
 ```
+Get Group Current User is part of:
+```
+Get-ADPrincipalGroupMembership username | select name
+```
+OR
+```
+whoami /groups
+```
+Add user to a group
+```shell
+net group "<Name of the group>" /add <user_name>
+```
 Enumerate all domain groups that our current user has explicit access rights to:
 ```powershell
 Get-DomainGroup | Get-ObjectAcl -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_} | Foreach-Object {if ($_.Identity -eq $("$env:UserDomain\$env:Username")) {$_}}
