@@ -2,11 +2,11 @@
 layout:     post
 author:     0x5c4r3
 type: docs
-permalink: Office_Csharp
+permalink: CSharp_Shellcode_Runner
 ---
 
 
-<span style="font-size: 35px; color:red"><b>Office: CSharp Shellcode Runner</b></span>
+<span style="font-size: 35px; color:red"><b>CSharp Shellcode Runner</b></span>
 &nbsp;
 Code for the reverrse_shell:
 ```shell
