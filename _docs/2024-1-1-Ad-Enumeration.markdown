@@ -85,13 +85,35 @@ In this case, you can change the password of the testService1 account:
 ```powershell
 net user <CN_NAME> <PASSWORD> /domain
 ```
-You can do the same using _ForceChangePassword_ and <span style="color:red">AllExtendedRights</span> access rights.
+You can do the same using <span style="color:red">ForceChangePassword</span> and <span style="color:red">AllExtendedRights</span> access rights.
+
+Domain Users:
+```powershell
+net user /domain
+```
+Local Users:
+```powershell
+net user
+```
 &nbsp;
 
 ---
 &nbsp;
 <span style="font-size: 25px; color:white"><b>Enumerate Groups</b></span>
 
+All Local Groups:
+```
+net localgroup
+```
+Specific Local Group:
+```powershell
+net localgroup <group_name>
+```
+
+Specific Domain Group:
+```
+Get-NetGroup <group_name>
+```
 Enumerate all domain groups that our current user has explicit access rights to:
 ```powershell
 Get-DomainGroup | Get-ObjectAcl -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_} | Foreach-Object {if ($_.Identity -eq $("$env:UserDomain\$env:Username")) {$_}}
@@ -101,4 +123,3 @@ Add yourself to the group:
 ```powershell
 net group testgroup <user> /add /domain
 ```
-
