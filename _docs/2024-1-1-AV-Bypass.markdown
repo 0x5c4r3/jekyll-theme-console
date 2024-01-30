@@ -20,6 +20,8 @@ There are several ways of bypassing AV detection:
   -  [Bypassing Behaviour Analisys](https://scare.rocks/AV_Bypassing_BA)
   -  [Encrypted Exploit with Sandbox Bypass](https://scare.rocks/AV_Sandbox_Bypass)
   -  [Encrypting Custom C sharp Exploit](https://scare.rocks/Encrypted_Custom_CS)
+
 &nbsp;
+
 - <span style="color:red">ADVANCED</span>:
   -  [Bypassing AMSI](https://scare.rocks/Bypass_AMSI)
