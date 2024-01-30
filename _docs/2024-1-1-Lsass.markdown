@@ -5,7 +5,6 @@ type: docs
 permalink: Lsass
 ---
 
-
 <span style="font-size: 35px; color:red"><b>LSASS</b></span>
 &nbsp;
 <span style="font-size: 25px; color:white"><b>Memory Dump</b></span>
