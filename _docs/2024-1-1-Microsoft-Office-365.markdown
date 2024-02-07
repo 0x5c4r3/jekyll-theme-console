@@ -21,7 +21,7 @@ import-module ./MailSniper.ps1
 ```
 Enumerate the NETBios Domain Name:
 ```powershell
-Invoke-DomainHarvestOWA -ExchHostname mail.cyberbotic.io
+Invoke-DomainHarvestOWA -ExchHostname <hostname_OWA_without_https://>
 ```
 Starting from a list of "Name Surname" (names.txt), create a list of permutations with [namemash.py](https://gist.github.com/superkojiman/11076951):
 ```powershell
