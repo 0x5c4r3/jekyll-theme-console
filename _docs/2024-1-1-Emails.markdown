@@ -12,6 +12,9 @@ permalink: Emails
 Here are some [Templates](https://github.com/ZeroPointSecurity/PhishingTemplates/tree/master/Office365) that you can use for phishing.
 For instance, change lines 160, 183, 192, 197, 207 on the Word Template. Then open the file on a browser, copy the whole thing with ctrl-A and paste it onto outlook. It should keep the whole format.
 &nbsp;
+
+---
+&nbsp;
 <span style="font-size: 25px; color:white"><b>Email Spoofing</b></span>
 Use [Spoofy](https://github.com/MattKeeley/Spoofy):
 ```shell
