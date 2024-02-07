@@ -8,6 +8,9 @@ permalink: Emails
 
 <span style="font-size: 35px; color:red"><b>Emails</b></span>
 &nbsp;
+<span style="font-size: 25px; color:white"><b>Email Templates</b></span>
+Here are some [Templates](https://github.com/ZeroPointSecurity/PhishingTemplates/tree/master/Office365) that you can use for phishing.
+&nbsp;
 <span style="font-size: 25px; color:white"><b>Email Spoofing</b></span>
 Use [Spoofy](https://github.com/MattKeeley/Spoofy):
 ```shell
