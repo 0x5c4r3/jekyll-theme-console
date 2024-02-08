@@ -17,3 +17,4 @@ permalink: Cobalt_Strike
 - <span style="color:red">execute-assembly</span>: to execute C# executables like
   - [SharPersist](https://github.com/mandiant/SharPersist): persistent toolkit for Windows.
   - [Seatbelt](https://github.com/GhostPack/Seatbelt): AV and Security Enumeration.
+  - [SharpUp](https://github.com/GhostPack/SharpUp): tool to enumerate OS misconfigurations and missing Patches that might lead to privesc.
