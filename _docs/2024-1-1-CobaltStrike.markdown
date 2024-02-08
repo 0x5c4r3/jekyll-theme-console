@@ -14,6 +14,6 @@ permalink: Cobalt_Strike
 - <span style="color:red">keylogger</span>: to capture keystrokes (it's a job, so run <span style="color:red">jobs</span> to list them all and <span style="color:red">jobkill <id></span> to kill one).
 - <span style="color:red">clipboard</span>: to dump clipboard contents.
 - <span style="color:red">net-logons</span>: to list the logon sessions.
-- <span style="color:red">execute-assembly</span>: to execute .exe tools like
+- <span style="color:red">execute-assembly</span>: to execute C# executables like
   - [SharPersist](https://github.com/mandiant/SharPersist): persistent toolkit for Windows.
   - [Seatbelt](https://github.com/GhostPack/Seatbelt): AV and Security Enumeration.
