@@ -39,7 +39,6 @@ execute-assembly C:\Tools\SharPersist\SharPersist\bin\Release\SharPersist.exe -t
 ---
 &nbsp;
 <span style="font-size: 25px; color:white"><b>Registry Autorun</b></span>
-<span style="color:red">HKCU and HKLM</span>
 AutoRun values in HKCU and HKLM allow applications to start on boot. 
 From Cobalt Strike:
 ```powershell
@@ -53,6 +52,7 @@ execute-assembly C:\Tools\SharPersist\SharPersist\bin\Release\SharPersist.exe -t
 ---
 &nbsp;
 <span style="font-size: 25px; color:white"><b>COM Hijacks</b></span>
+<span style="color:red">HKCU and HKLM</span>
 Finding instances of applications loading objects that for some reason don't exist anymore.
 Using [ProcessMonitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon) from Sysinternals, look for <span style="color:red">RegOpenKey</span> operations where the Result is <span style="color:red">NAME NOT FOUND</span> and the Path ends with <span style="color:red">InprocServer32</span>.
 Look for someone that's loaded semi-frequently (i.e. something that loads when a common application is started - Excel, Word, Outlook...).
