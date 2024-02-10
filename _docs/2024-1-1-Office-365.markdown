@@ -25,7 +25,7 @@ Invoke-DomainHarvestOWA -ExchHostname <hostname_OWA_without_https://>
 ```
 Starting from a list of "Name Surname" (names.txt), create a list of permutations with [namemash.py](https://gist.github.com/superkojiman/11076951):
 ```powershell
-namemash.py <names.txt> > <possible.txt>
+namemash.py <names.txt> \> <possible.txt>
 ```
 Validate usernames through a time-based enumeration:
 ```powershell
