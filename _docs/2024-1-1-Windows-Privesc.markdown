@@ -18,8 +18,10 @@ OR
 Get-Service | fl
 ```
 <span style="font-size: 25px; color:white"><b>Unquoted Service Paths</b></span>
+Check with CobaltStrike:
+```powershell
 execute-assembly C:\Tools\SharpUp\SharpUp\bin\Release\SharpUp.exe audit UnquotedServicePath
-
+```
 List services and their paths (looking for <span style="color: red">Unquoted Service Paths</span>:
 ```shell
 wmic service get name, pathname
