@@ -17,6 +17,10 @@ OR
 ```powershell
 Get-Service | fl
 ```
+&nbsp;
+
+---
+&nbsp;
 <span style="font-size: 25px; color:white"><b>Unquoted Service Paths</b></span>
 Check with CobaltStrike:
 ```powershell
