@@ -70,9 +70,15 @@ run sc qc <VulnService>
 run sc stop VulnService
 run sc start VulnService
 ```
-Rec-hange the binary path at the end to avoid detection.
+Re-change the binary path at the end to avoid detection.
 &nbsp;
 
 ---
 &nbsp;
 <span style="font-size: 25px; color:white"><b>Weak Service Binary Permissions</b></span>
+When the vulnerability is on the service binary itself:
+```powershel
+powershell Get-Acl -Path "C:\Program Files\Vulnerable Services\Service.exe" | fl
+```
+If you get something like <span style="color:red">Access: BUILTIN\Users Allow Modify</span>, then the service is vulnerable and you can overwrite it with your payload.
+<span style="color:red">You might need to stop the service first before replacing the .exe</span>.
