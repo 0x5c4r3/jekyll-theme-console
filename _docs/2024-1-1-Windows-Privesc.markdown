@@ -17,7 +17,7 @@ OR
 ```powershell
 Get-Service | fl
 ```
-<span style="font-size: 25px; color:red">Unquoted Service Paths</b></span>
+<span style="font-size: 25px; color:white"><b>Unquoted Service Paths</b></span>
 execute-assembly C:\Tools\SharpUp\SharpUp\bin\Release\SharpUp.exe audit UnquotedServicePath
 
 List services and their paths (looking for <span style="color: red">Unquoted Service Paths</span>:
