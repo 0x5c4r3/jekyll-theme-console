@@ -40,3 +40,19 @@ Check permissions on Folders and Files:
 Get-Acl -Path "C:\Program Files\Vulnerable Services" | fl
 ```
 and check for <span style="color: red">BUILTIN\Users Allow  CreateFiles</span>.
+&nbsp;
+
+---
+&nbsp;
+<span style="font-size: 25px; color:white"><b>Modifiable Services</b></span>
+Check with CobaltStrike:
+```powershell
+execute-assembly C:\Tools\SharpUp\SharpUp\bin\Release\SharpUp.exe audit ModifiableServices
+```
+After that, use [this](https://rohnspowershellblog.wordpress.com/2013/03/19/viewing-service-acls/) powershell script to enumerate the service further:
+```powershell
+powershell-import C:\Tools\Get-ServiceAcl.ps1
+powershell Get-ServiceAcl -Name <VulnService2> | select -expand Access
+```
+
+
