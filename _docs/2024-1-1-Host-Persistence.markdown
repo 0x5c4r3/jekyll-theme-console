@@ -5,7 +5,9 @@ type: docs
 permalink: Persistence
 ---
 
-<span style="font-size: 35px; color:red"><b>Host Persistence</b></span>
+<span style="color:red">Host Persistence changes based on User or SYSTEM shells.</span>
+&nbsp;
+<span style="font-size: 35px; color:red"><b>Host Persistence (User)</b></span>
 &nbsp;
 <span style="font-size: 25px; color:white"><b>Task Scheduler</b></span>
 Like cronojobs in Linux.
@@ -102,3 +104,10 @@ Get-Item -Path "HKLM:Software\Classes\CLSID\{01575CFE-9A55-4003-A5E1-F38D1EBDCBE
 Get-Item -Path "HKCU:Software\Classes\CLSID\{01575CFE-9A55-4003-A5E1-F38D1EBDCBE1}"  <-- this should return "Cannot find path..."
 ```
 Add a duplicate entry into HKCU pointing to our DLL (as above), and this will be loaded once every time a user logs in.
+&nbsp;
+
+---
+&nbsp;
+<span style="font-size: 35px; color:red"><b>Host Persistence (SYSTEM)</b></span>
+&nbsp;
+
