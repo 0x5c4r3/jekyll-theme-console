@@ -22,3 +22,4 @@ permalink: Cobalt_Strike
 - <span style="color:red">mimikatz</span>: it spawns a new temporary process that is later on destroyed.
   - use <span style="color:red">!</span> to elevate beacon to SYSTEM (i.e. mimikatz !lsadump::sam).
   - use <span style="color:red">@</span> to impersonate beacon's thread token before running the given command (which is useful when mimikatz needs to interact with remote systems, i.e. mimikatz @lsadump::dcsync /user:DEV\krbtgt).
+- <span style="color:red">dcsync</span>: to dump all username and credential data from the DC (i.e. <span style="color:red">dcsync dev.cyberbotic.io DEV\krbtgt </span>)
