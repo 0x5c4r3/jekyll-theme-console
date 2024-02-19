@@ -20,6 +20,7 @@ permalink: Cobalt_Strike
     - [Seatbelt](https://github.com/GhostPack/Seatbelt): AV and Security Enumeration.
     - [SharpUp](https://github.com/GhostPack/SharpUp): tool to enumerate OS misconfigurations and missing Patches that might lead to privesc.
     - [Rubeus](https://github.com/GhostPack/Rubeus): to play with Kerberos.
+    - [ADSearch](https://github.com/tomcarver16/ADSearch): enumeration through custom Lightweight Directory Access Protocol (LDAP) searches
 - <span style="color:red">mimikatz</span>: it spawns a new temporary process that is later on destroyed.
   - use <span style="color:red">!</span> to elevate beacon to SYSTEM (i.e. mimikatz !lsadump::sam).
   - use <span style="color:red">@</span> to impersonate beacon's thread token before running the given command (which is useful when mimikatz needs to interact with remote systems, i.e. mimikatz @lsadump::dcsync /user:DEV\krbtgt).
