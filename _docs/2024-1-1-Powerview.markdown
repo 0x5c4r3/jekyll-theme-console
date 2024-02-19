@@ -18,7 +18,7 @@ powershell Get-Domain
 ```
 &nbsp;
 
-<span style="color:red">Eventual alternatives can be ADSearch [PUT LINK TO ADSEARCH] or SharpView (C# porting of PowerView).</span>
+<span style="color:red">Eventual alternatives can be [ADSearch](https://scare.rocks/ADSearch) or SharpView (C# porting of PowerView).</span>
 ---
 &nbsp;
 <span style="font-size: 25px; color:white"><b>Quick Reference</b></span>
