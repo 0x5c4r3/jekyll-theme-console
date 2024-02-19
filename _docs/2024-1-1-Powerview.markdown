@@ -5,7 +5,6 @@ type: docs
 permalink: PowerView
 ---
 
-
 <span style="font-size: 35px; color:red"><b>PowerView</b></span>
 &nbsp;
 If from CobaltStrike:
