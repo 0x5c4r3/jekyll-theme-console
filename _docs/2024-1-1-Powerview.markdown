@@ -18,6 +18,7 @@ powershell Get-Domain
 ```
 &nbsp;
 
+<span style="color:red">Eventual alternatives can be ADSearch or SharpView.</span>
 ---
 &nbsp;
 <span style="font-size: 25px; color:white"><b>Quick Reference</b></span>
