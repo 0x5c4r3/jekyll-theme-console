@@ -15,10 +15,11 @@ permalink: Cobalt_Strike
 - <span style="color:red">clipboard</span>: to dump clipboard contents.
 - <span style="color:red">net-logons</span>: to list the logon sessions.
 - <span style="color:red">execute-assembly</span>: to execute C# executables like
-  - [SharPersist](https://github.com/mandiant/SharPersist): persistent toolkit for Windows.
-  - [Seatbelt](https://github.com/GhostPack/Seatbelt): AV and Security Enumeration.
-  - [SharpUp](https://github.com/GhostPack/SharpUp): tool to enumerate OS misconfigurations and missing Patches that might lead to privesc.
-  - [Rubeus](https://github.com/GhostPack/Rubeus): to play with Kerberos.
+    - [SharpView](https://github.com/tevora-threat/SharpView): C# port of PowerView.
+    - [SharPersist](https://github.com/mandiant/SharPersist): persistent toolkit for Windows.
+    - [Seatbelt](https://github.com/GhostPack/Seatbelt): AV and Security Enumeration.
+    - [SharpUp](https://github.com/GhostPack/SharpUp): tool to enumerate OS misconfigurations and missing Patches that might lead to privesc.
+    - [Rubeus](https://github.com/GhostPack/Rubeus): to play with Kerberos.
 - <span style="color:red">mimikatz</span>: it spawns a new temporary process that is later on destroyed.
   - use <span style="color:red">!</span> to elevate beacon to SYSTEM (i.e. mimikatz !lsadump::sam).
   - use <span style="color:red">@</span> to impersonate beacon's thread token before running the given command (which is useful when mimikatz needs to interact with remote systems, i.e. mimikatz @lsadump::dcsync /user:DEV\krbtgt).
