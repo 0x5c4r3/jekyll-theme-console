@@ -11,7 +11,7 @@ permalink: Applocker_Bypass_JScript
 We'll abuse <span style="color:red">Microsoft HTML Applications</span> (MSHTA) running an .hta file.
 
 Simple hta file:
-```hta
+```html
 <html> 
 <head> 
 <script language="JScript">
