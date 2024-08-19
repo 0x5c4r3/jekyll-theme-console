@@ -7,9 +7,8 @@ url: "https://scare.rocks"
 header_pages:
   - index.md
   - whoami.md
-  - doc_list.md
   - blog_list.md
-
+  #- doc_list.md
 collections:
   blog:
     output: true
