@@ -15,7 +15,7 @@ collections:
   docs:
     output: true
   
-footer: 'follow me on <a style="color:red;" href="https://twitter.com/iamscarecrow1">X</a>'
+footer: 'follow me on <a style="color:#f07b07;" href="https://twitter.com/iamscarecrow1">X</a>'
 
 style: dark # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
