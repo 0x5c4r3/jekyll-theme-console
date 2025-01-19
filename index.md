@@ -21,9 +21,7 @@ document.write('<div style="white-space: pre; text-align: center;"><div class="c
   // DESKTOP
   
   
-document.write('
-<div>asdasd</div>
-')                                                                                                  
+document.write('<div>asdasd</div>')                                                                                                  
                                                                                                     
 
                                                             
