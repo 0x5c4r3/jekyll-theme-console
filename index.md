@@ -20,7 +20,7 @@ document.write('<div style="white-space: pre; text-align: center;"><div class="c
 }else{
   // DESKTOP
                                                                                                               
-document.write('<img src="/img/main_skull.jpg" style="width:50%"alt="5ku11">')
+document.write('<img src="/img/main_skull.jpg" style="width:50%;text-align:center"alt="5ku11">')
     
 //document.write('</br><pre><div class="center">  ██████  ▄████▄   ▄▄▄       ██▀███  ▓█████  ▄████▄   ██▀███   ▒█████   █     █\n');
 //document.write('▒██    ▒ ▒██▀ ▀█  ▒████▄    ▓██   ██▒▓█   ▀ ▒██▀ ▀█  ▓██ ▒ ██▒▒██▒  ██▒▓█░ █ ░█\n');
